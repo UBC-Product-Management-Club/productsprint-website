@@ -178,6 +178,10 @@ body {
   }
 }
 
+.logo {
+  width: 575px;
+}
+
 .hero-button {
   border-radius: 100%;
   padding: 4px 24px;
