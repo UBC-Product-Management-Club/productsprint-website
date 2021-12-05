@@ -1,16 +1,524 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Sprint</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <title>UBC PMC: Product Sprint</title> -->
+    <title>Product Sprint | UBC Product Management Club</title>
+    <meta
+      name="description"
+      content="A two-week program for aspiring product managers based at UBC Vancouver."
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
-</head>
-<body>
-    Lorem ipsum.
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="assets/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <script>
+      function onLoad() {
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+          // var card = acc[i];
+          // var heading = card.getElementsByTagName("h3")[0];
+          // var paragraph = card.getElementsByTagName("p")[0];
+          acc[i]
+            .getElementsByClassName("accordion-title")[0]
+            .addEventListener("click", function () {
+              /* Toggle between adding and removing the "active" class, to highlight the button that controls the paragraph */
+              this.parentElement.classList.toggle("active");
+
+              /* Toggle between hiding and showing the active paragraph */
+
+              var paragraph = this.nextElementSibling;
+              if (paragraph.style.display === "block") {
+                paragraph.style.display = "none";
+              } else {
+                paragraph.style.display = "block";
+              }
+            });
+        }
+
+        document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+          anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute("href")).scrollIntoView({
+              behavior: "smooth",
+            });
+          });
+        });
+      }
+    </script>
+  </head>
+  <body onload="onLoad()">
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <div class="navbar-left">
+        <img class="pmc-logo" src="assets/icons/pmc_logo_white.svg" />
+        <div class="pmc-text">UBC Product Management Club</div>
+      </div>
+
+      <div class="navbar-right">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#timeline" class="nav-link">Timeline</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+        <a
+          href="https://forms.gle/B6XvxV9vfTrfMyT28"
+          class="nav-button button-secondary"
+          >Apply</a
+        >
+      </div>
+    </div>
+    <!-- HERO -->
+    <div class="hero" viewBox="0 0 vw 800" preserveAspectRatio="none">
+      <div class="hero-content">
+        <!-- background -->
+        <div class="background"></div>
+        <img class="logo" src="assets/productsprint.png" />
+        <!-- logo -->
+        <h2>
+          <span class="line">Early Applications are&nbsp;</span
+          ><span class="line">now open</span>
+        </h2>
+        <div class="hero-detail">
+          <p>
+            <span class="line">Hybrid event based in&nbsp;</span
+            ><span class="line">Vancouver, BC</span>
+          </p>
+          <p>Jan 22 – Feb 6, 2022</p>
+        </div>
+        <a
+          href="https://forms.gle/B6XvxV9vfTrfMyT28"
+          class="hero-button button-main"
+          >Apply Now</a
+        >
+        <a
+          href="https://forms.gle/eoiNwnXHbGrraYjN8"
+          class="hero-button button-secondary"
+          >Be a Mentor</a
+        >
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <div id="about" class="about section">
+      <div class="info">
+        <h2>Ignite Your Future</h2>
+        <p>
+          In this new, 2-week competition, you steer the direction of a
+          company’s software product. You’ll be ready to take on future roles in
+          product teams.
+        </p>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <img src="assets/icons/fa-cheque.svg" class="card-icon" />
+          <h3>Work on a Case to Win Prizes</h3>
+          <p>
+            Teams are given the opportunity to work on real cases in hopes of
+            earning prize money. Plus, this new addition to your portfolio might
+            help you find your next internship.
+          </p>
+        </div>
+        <div class="card">
+          <img src="assets/icons/fa-user-friends.svg" class="card-icon" />
+          <h3>Build with Friends</h3>
+          <p>
+            Beginners and experienced participants can match their skills and
+            interests to settle into roles on teams of 4. Optionally, trade
+            feedback with others in team exchanges.
+          </p>
+        </div>
+        <div class="card">
+          <img src="assets/icons/fa-hands-helping.svg" class="card-icon" />
+          <h3>Learn from Mentors and Workshops</h3>
+          <p>
+            The 4-phase curriculum guides the process from problem discovery to
+            presenting a prototype. Mentors with PM experience share their
+            feedback along the way.
+          </p>
+        </div>
+        <div class="card">
+          <img src="assets/icons/fa-suitcase.svg" class="card-icon" />
+          <h3>Attend the Hybrid Conference</h3>
+          <p>
+            The competition will culminate with an in-person + online conference
+            on Feb 6. Travel to UBC Vancouver campus or join online to pitch
+            your product, meet recruiters, and enjoy food.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- COMPANIES -->
+    <div id="companies" class="companies section-secondary">
+      <p>Previous UBC PMC events featured mentors, judges, and speakers from</p>
+      <div class="companies-logos">
+        <img class="companies-logo" src="assets/logos/google.png" />
+        <img class="companies-logo" src="assets/logos/microsoft.png" />
+        <img class="companies-logo" src="assets/logos/intuit.png" />
+        <img class="companies-logo" src="assets/logos/ibm.png" />
+        <img class="companies-logo" src="assets/logos/hootsuite.png" />
+        <img class="companies-logo" src="assets/logos/paypal.png" />
+        <img class="companies-logo" src="assets/logos/shopify.png" />
+        <img class="companies-logo" src="assets/logos/facebook.png" />
+        <img class="companies-logo" src="assets/logos/grammarly.png" />
+        <img class="companies-logo" src="assets/logos/sap.png" />
+        <img class="companies-logo" src="assets/logos/telus.png" />
+        <img class="companies-logo" src="assets/logos/dapperlabs.png" />
+      </div>
+    </div>
+
+    <!-- TIMELINE -->
+    <div id="timeline" class="timeline section">
+      <div class="info">
+        <h2>Get Ready to Sprint</h2>
+      </div>
+      <div class="float-image float-left" style="margin-top: 120px">
+        <img src="assets/undraw-interview.svg" />
+      </div>
+      <div class="float-image float-right" style="margin-top: 415px">
+        <img src="assets/undraw-thought-process.svg" />
+      </div>
+      <div class="float-image float-left" style="margin-top: 710px">
+        <img src="assets/undraw-prototyping-process.svg" />
+      </div>
+      <div class="float-image float-right" style="margin-top: 1000px">
+        <img src="assets/undraw-presentation.svg" />
+      </div>
+      <div class="phase" id="team-up">
+        <div class="phase-left">
+          <div class="phase-icon"><img src="assets/icons/fa-users.svg" /></div>
+          <div class="phase-arrow">
+            <img src="assets/icons/down-arrow.svg" />
+          </div>
+        </div>
+        <div class="phase-text">
+          <div class="phase-title"><h3>Team Up</h3></div>
+          <div class="phase-date">Before you start</div>
+          <div class="phase-description">
+            <p>
+              Assemble your team before choosing from a selection of software
+              cases, then meet the mentors who will guide you along the way.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="phase" id="discovery">
+        <div class="phase-left">
+          <div class="phase-icon"><img src="assets/icons/fa-search.svg" /></div>
+          <div class="phase-arrow">
+            <img src="assets/icons/down-arrow.svg" />
+          </div>
+        </div>
+        <div class="phase-text">
+          <div class="phase-title"><h3>Discovery</h3></div>
+          <div class="phase-date">Phase 1: Sat, Jan 22 → Wed, Jan 26</div>
+          <div class="phase-description">
+            <p>
+              Research the company, its market, and the problem the market
+              faces, then validate the problem through customer discovery.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="phase" id="solution">
+        <div class="phase-left">
+          <div class="phase-icon">
+            <img src="assets/icons/fa-lightbulb.svg" />
+          </div>
+          <div class="phase-arrow">
+            <img src="assets/icons/down-arrow.svg" />
+          </div>
+        </div>
+        <div class="phase-text">
+          <div class="phase-title"><h3>Solution</h3></div>
+          <div class="phase-date">Phase 2: Thu, Jan 27 → Sat, Jan 29</div>
+          <div class="phase-description">
+            <p>
+              Brainstorm and prioritize features using different product
+              management frameworks, then define a minimum viable product.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="phase" id="construction">
+        <div class="phase-left">
+          <div class="phase-icon"><img src="assets/icons/fa-wrench.svg" /></div>
+          <div class="phase-arrow">
+            <img src="assets/icons/down-arrow.svg" />
+          </div>
+        </div>
+        <div class="phase-text">
+          <div class="phase-title"><h3>Construction</h3></div>
+          <div class="phase-date">Phase 3: Sun, Jan 30 → Thu, Feb 3</div>
+          <div class="phase-description">
+            <p>
+              Create your solution by designing mockups or developing prototypes
+              then iterate on it after testing it with potential users.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="phase" id="presentation">
+        <div class="phase-left">
+          <div class="phase-icon">
+            <img src="assets/icons/fa-presentation.svg" />
+          </div>
+          <div class="phase-arrow">
+            <img src="assets/icons/down-arrow.svg" style="opacity: 0" />
+          </div>
+        </div>
+        <div class="phase-text">
+          <div class="phase-title"><h3>Presentation</h3></div>
+          <div class="phase-date">Phase 4: Fri, Feb 4 → Sun, Feb 6</div>
+          <div class="phase-description">
+            <p>
+              Summarize your findings then pitch your product in front of judges
+              at the live conference, explaining why it will achieve market
+              success.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CTA -->
+    <div id="cta" class="cta section-secondary">
+      <p>Get started now</p>
+      <a
+        href="https://forms.gle/B6XvxV9vfTrfMyT28"
+        class="hero-button button-secondary cta-button"
+        >Participate</a
+      >
+      <a
+        href="https://forms.gle/eoiNwnXHbGrraYjN8"
+        class="hero-button button-secondary cta-button"
+        >Volunteer</a
+      >
+      <a
+        href="mailto:productsprint@ubcpm.club"
+        class="hero-button button-secondary cta-button"
+        >Sponsor</a
+      >
+    </div>
+
+    <!-- FAQ -->
+    <div id="faq" class="faq section">
+      <div class="info">
+        <h2>Questions You'll Probably Ask</h2>
+      </div>
+      <div class="faq-cards">
+        <div class="cards">
+          <div class="card accordion">
+            <div class="accordion-title">
+              <h3>Why does Product Sprint exist?</h3>
+              <img
+                src="assets/icons/fa-chevron-down.svg"
+                class="chevron"
+                alt="chevron"
+              />
+            </div>
+            <p>
+              UBC PMC is committed to creating a path for university students to
+              learn about and acquire roles on product teams by connecting them
+              with companies to gain real experience.
+            </p>
+          </div>
+          <div class="card accordion">
+            <div class="accordion-title">
+              <h3>Who is this program for?</h3>
+              <img
+                src="assets/icons/fa-chevron-down.svg"
+                class="chevron"
+                alt="chevron"
+              />
+            </div>
+            <p>
+              This competition is focused around software product management.
+              Product Sprint is the ideal event to learn how to think like a PM
+              and work in an environment similar to a product team, particularly
+              if you are planning to pursue a career in product management,
+              engineering, or design.
+            </p>
+          </div>
+
+          <div class="card accordion">
+            <div class="accordion-title">
+              <h3>What skills will I need to attend?</h3>
+              <img
+                src="assets/icons/fa-chevron-down.svg"
+                class="chevron"
+                alt="chevron"
+              />
+            </div>
+            <p>
+              No prior training is required! The program is designed to walk
+              teams through the product design process with designated timelines
+              and interactive workshops. However, experience in design or
+              development will be an asset to your team.
+            </p>
+          </div>
+          <div class="card accordion">
+            <div class="accordion-title">
+              <h3>What is the time commitment?</h3>
+              <img
+                src="assets/icons/fa-chevron-down.svg"
+                class="chevron"
+                alt="chevron"
+              />
+            </div>
+            <p>
+              Everyone is expected to attend the kick-off on Jan 22 and
+              competition on Feb 6 and teams should be available for the
+              workshops and check-ins during each phase. Otherwise, how you
+              spend your time is up to you, but we recommend committing an
+              average of 2 hours per day across 16 days (which includes 3
+              weekends).
+            </p>
+          </div>
+          <div class="card accordion">
+            <div class="accordion-title">
+              <h3>How much does it cost to attend?</h3>
+              <img
+                src="assets/icons/fa-chevron-down.svg"
+                class="chevron"
+                alt="chevron"
+              />
+            </div>
+            <p>
+              The Product Sprint is completely free to attend! Mentorship,
+              workshops, resources, and conference attendance will be provided
+              to all competing teams.
+            </p>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="card accordion">
+            <div class="accordion-title">
+              <h3>Will the events be online or in-person?</h3>
+              <img
+                src="assets/icons/fa-chevron-down.svg"
+                class="chevron"
+                alt="chevron"
+              />
+            </div>
+            <p>
+              We’re taking a hybrid approach, so you can attend fully online if
+              you prefer. The final conference and one or two other events will
+              have in-person aspects.
+            </p>
+          </div>
+          <div class="card accordion">
+            <div class="accordion-title">
+              <h3>What kinds of activities will there be?</h3>
+              <img
+                src="assets/icons/fa-chevron-down.svg"
+                class="chevron"
+                alt="chevron"
+              />
+            </div>
+            <p>
+              Each of the 4 phases contains a workshop and check-in pitch with
+              mentors, plus a team exchange to trade feedback and conduct user
+              interviews with other teams. There may also be an optional
+              in-person collaboration session in the middle of the 2-week
+              sprint, plus the half-day conference at the end!
+            </p>
+          </div>
+          <div class="card accordion">
+            <div class="accordion-title">
+              <h3>How do I form a team?</h3>
+              <img
+                src="assets/icons/fa-chevron-down.svg"
+                class="chevron"
+                alt="chevron"
+              />
+            </div>
+            <p>
+              Attendees can form teams of 3 prior to the start of the program.
+              We will provide a platform for forming teams leading up to the
+              kick-off.
+            </p>
+          </div>
+          <div class="card accordion">
+            <div class="accordion-title">
+              <h3>When will you share prize or case info?</h3>
+              <img
+                src="assets/icons/fa-chevron-down.svg"
+                class="chevron"
+                alt="chevron"
+              />
+            </div>
+            <p>
+              Right now we’re assessing how many sponsors we will have and where
+              the cases will come from before we release these details. Follow
+              us on social media to stay up-to-date!
+            </p>
+          </div>
+          <div class="card accordion">
+            <div class="accordion-title">
+              <h3>I have a different question.</h3>
+              <img
+                src="assets/icons/fa-chevron-down.svg"
+                class="chevron"
+                alt="chevron"
+              />
+            </div>
+            <p>Send us an email: productsprint@ubcpm.club</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <div class="footer-left">
+        <div class="footer-logo-container">
+          <img class="footer-logo" src="assets/icons/pmc_logo_blue.svg" />
+          <h2 class="footer-logo-text">ubc pmc</h2>
+        </div>
+        <div class="footer-icons">
+          <a class="social-icon" href="mailto:productsprint@ubcpm.club"
+            ><img src="assets/icons/footer/fa-mail.svg" alt="mail"
+          /></a>
+          <a class="social-icon" href="https://www.facebook.com/ubcpmc/"
+            ><img src="assets/icons/footer/fa-facebook.svg" alt="facebook"
+          /></a>
+          <a class="social-icon" href="https://www.instagram.com/ubcpmc/?hl=en"
+            ><img src="assets/icons/footer/fa-instagram.svg" alt="instagram"
+          /></a>
+          <a
+            class="social-icon"
+            href="https://www.linkedin.com/company/ubc-product-management-club/?originalSubdomain=ca"
+            ><img src="assets/icons/footer/fa-linkedin.svg" alt="linkedin"
+          /></a>
+          <a
+            class="social-icon"
+            href="https://join.slack.com/t/ubcpmc/shared_invite/zt-fse1h9kw-m4bynYenry7JsRvYI6Kl4A"
+            ><img src="assets/icons/footer/fa-slack.svg" alt="slack"
+          /></a>
+          <a
+            class="social-icon"
+            href="https://www.youtube.com/channel/UCkcrUv-e7GndWtFdihI9FGQ"
+            ><img src="assets/icons/footer/fa-youtube.svg" alt="youtube"
+          /></a>
+        </div>
+      </div>
+      <div class="footer-right">
+        <p style="font-weight: 600">Funding Provided By</p>
+        <img class="footer-sponsor" src="assets/logos/ubc.png" />
+        <img class="footer-sponsor" src="assets/logos/ams.png" />
+      </div>
+    </div>
+  </body>
 </html>
