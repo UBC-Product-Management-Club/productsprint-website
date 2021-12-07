@@ -399,6 +399,8 @@ body {
 
 .float-image {
   position: absolute;
+  width: 400px;
+  text-align: center;
 
   transition: ease-in-out opacity 0.3s;
   img {
@@ -422,10 +424,11 @@ body {
 }
 
 .float-left {
-  margin-right: 62vw;
-  margin-right: -webkit-calc(300px + 47vw);
-  margin-right: -moz-calc(300px + 47vw);
-  margin-right: calc(300px + 47vw);
+  // margin-right: 62vw;
+  // margin-right: -webkit-calc(300px + 47vw);
+  // margin-right: -moz-calc(300px + 47vw);
+  // margin-right: calc(300px + 47vw);
+  right: 71vw;
 
   @media only screen and (max-width: 768px) {
     margin-right: 0;
@@ -433,10 +436,11 @@ body {
 }
 
 .float-right {
-  margin-left: 62vw;
-  margin-left: -webkit-calc(300px + 47vw);
-  margin-left: -moz-calc(300px + 47vw);
-  margin-left: calc(300px + 47vw);
+  // margin-left: 62vw;
+  // margin-left: -webkit-calc(300px + 47vw);
+  // margin-left: -moz-calc(300px + 47vw);
+  // margin-left: calc(300px + 47vw);
+  left: 71vw;
 
   @media only screen and (max-width: 768px) {
     margin-left: 0;

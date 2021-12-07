@@ -353,6 +353,8 @@ body {
 
 .float-image {
   position: absolute;
+  width: 400px;
+  text-align: center;
   -webkit-transition: ease-in-out opacity 0.3s;
   transition: ease-in-out opacity 0.3s;
 }
@@ -379,8 +381,7 @@ body {
 }
 
 .float-left {
-  margin-right: 62vw;
-  margin-right: calc(300px + 47vw);
+  right: 71vw;
 }
 
 @media only screen and (max-width: 768px) {
@@ -390,8 +391,7 @@ body {
 }
 
 .float-right {
-  margin-left: 62vw;
-  margin-left: calc(300px + 47vw);
+  left: 71vw;
 }
 
 @media only screen and (max-width: 768px) {
