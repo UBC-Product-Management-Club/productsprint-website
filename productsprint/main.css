@@ -379,6 +379,7 @@ body {
 }
 
 .float-left {
+  margin-right: 62vw;
   margin-right: calc(300px + 47vw);
 }
 
@@ -389,6 +390,7 @@ body {
 }
 
 .float-right {
+  margin-left: 62vw;
   margin-left: calc(300px + 47vw);
 }
 

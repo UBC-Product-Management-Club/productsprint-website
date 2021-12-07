@@ -422,6 +422,9 @@ body {
 }
 
 .float-left {
+  margin-right: 62vw;
+  margin-right: -webkit-calc(300px + 47vw);
+  margin-right: -moz-calc(300px + 47vw);
   margin-right: calc(300px + 47vw);
 
   @media only screen and (max-width: 768px) {
@@ -430,6 +433,9 @@ body {
 }
 
 .float-right {
+  margin-left: 62vw;
+  margin-left: -webkit-calc(300px + 47vw);
+  margin-left: -moz-calc(300px + 47vw);
   margin-left: calc(300px + 47vw);
 
   @media only screen and (max-width: 768px) {
