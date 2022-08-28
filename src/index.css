@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 * {
   padding: 0;
@@ -21,4 +21,10 @@
   padding: 20px 0px 40px 0px;
   color: #fd2a36;
   text-align: center;
+}
+
+.subtitle {
+  font-size: larger;
+  font-weight: 600;
+  padding-bottom: 20px;
 }
