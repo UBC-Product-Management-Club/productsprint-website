@@ -2,6 +2,7 @@ import React from 'react';
 import './hero.css';
 import PrimaryButton from '../buttons/PrimaryButton';
 import SecondaryButton from '../buttons/SecondaryButton';
+import HeroImg from '../../assets/hero.png';
 
 function Hero() {
   return (
@@ -14,6 +15,7 @@ function Hero() {
           <SecondaryButton>Volunteer as a PM</SecondaryButton>
         </div>
       </div>
+      <img src={HeroImg} alt='hero' />
     </div>
   );
 }
