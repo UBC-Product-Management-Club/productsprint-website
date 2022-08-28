@@ -1,10 +1,16 @@
 .about_container {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+}
+.about_text {
+  padding: 20px 0px;
+  text-align: center;
+  width: 600px;
+}
+.about_link {
+  color: #80bdff;
 }
 
 .about_img {
-  display: flex;
-  vertical-align: middle;
+  width: 600px;
 }
