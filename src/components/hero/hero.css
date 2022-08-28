@@ -1,0 +1,7 @@
+.hero_container {
+  min-height: 40vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 100px;
+}

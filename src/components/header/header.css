@@ -2,7 +2,7 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 30px;
+  padding: 30px 100px;
 }
 
 .logo_container {
@@ -32,4 +32,9 @@ header {
 
 .navbar_links li a:hover {
   color: #fd2a36;
+}
+
+.button_container {
+  display: flex;
+  gap: 10px;
 }
