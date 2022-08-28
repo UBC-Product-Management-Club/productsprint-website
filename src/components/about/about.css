@@ -1,0 +1,10 @@
+.about_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about_img {
+  display: flex;
+  vertical-align: middle;
+}

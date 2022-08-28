@@ -1,11 +1,15 @@
 .hero_container {
-  min-height: 40vh;
-  width: 100%;
   display: flex;
+  justify-content: flex-end;
   align-items: center;
-  padding: 20px 100px;
+}
+
+.hero_text {
+  display: inline-block;
+  margin-right: auto;
 }
 
 img.hero_img {
   width: 50%;
+  display: inline-block;
 }
