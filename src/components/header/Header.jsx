@@ -1,5 +1,4 @@
 import React from 'react';
-import HeaderButton from './HeaderButton';
 import './header.css';
 import Logo from '../../assets/logo.png';
 
@@ -13,16 +12,16 @@ function Header() {
       <nav>
         <ul className='navbar_links'>
           <li>
-            <a href=''>ABOUT</a>
+            <a href='#'>ABOUT</a>
           </li>
           <li>
-            <a href=''>PROGRAMS</a>
+            <a href='#'>PROGRAMS</a>
           </li>
           <li>
-            <a href=''>HIGHLIGHTS</a>
+            <a href='#'>HIGHLIGHTS</a>
           </li>
           <li>
-            <a href=''>JOIN US</a>
+            <a href='#'>JOIN US</a>
           </li>
         </ul>
       </nav>

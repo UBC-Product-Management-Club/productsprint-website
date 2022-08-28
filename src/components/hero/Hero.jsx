@@ -15,7 +15,7 @@ function Hero() {
           <SecondaryButton>Volunteer as a PM</SecondaryButton>
         </div>
       </div>
-      <img src={HeroImg} alt='hero' />
+      <img className='hero_img' src={HeroImg} alt='hero' />
     </div>
   );
 }

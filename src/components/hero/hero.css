@@ -5,3 +5,7 @@
   align-items: center;
   padding: 20px 100px;
 }
+
+img.hero_img {
+  width: 50%;
+}
