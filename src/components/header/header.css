@@ -1,0 +1,35 @@
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px;
+}
+
+.logo_container {
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.logo_text {
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 500;
+}
+
+.navbar_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.navbar_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.navbar_links li a:hover {
+  color: #fd2a36;
+}
