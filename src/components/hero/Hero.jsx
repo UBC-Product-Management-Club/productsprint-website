@@ -1,7 +1,7 @@
 import React from 'react';
 import './hero.css';
-import PrimaryButton from '../buttons/PrimaryButton';
-import SecondaryButton from '../buttons/SecondaryButton';
+import PrimaryButton from '../shared/PrimaryButton';
+import SecondaryButton from '../shared/SecondaryButton';
 import HeroImg from '../../assets/hero.png';
 
 function Hero() {
