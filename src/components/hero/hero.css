@@ -2,6 +2,8 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .hero_text {
@@ -10,6 +12,6 @@
 }
 
 img.hero_img {
-  width: 50%;
+  width: 55%;
   display: inline-block;
 }
