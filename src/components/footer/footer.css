@@ -1,0 +1,46 @@
+footer * {
+  background-color: #383b46;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 100px;
+  background-color: #383b46;
+}
+
+.logo_container {
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.logo_text {
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 500;
+}
+
+.footer_links li {
+  margin-right: 20px;
+}
+
+.contacts a {
+  transition: all 0.3s ease 0s;
+  width: 100px;
+}
+
+.contacts a:hover {
+  color: #fd2a36;
+}
+
+.footer_links {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
