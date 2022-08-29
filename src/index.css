@@ -9,14 +9,6 @@
   text-decoration: none;
 }
 
-.container {
-  min-height: 40vh;
-  padding: 40px 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .title {
   padding: 20px 0px 40px 0px;
   color: #fd2a36;
@@ -27,4 +19,17 @@
   font-size: larger;
   font-weight: 600;
   padding-bottom: 20px;
+}
+
+.container {
+  min-height: 40vh;
+  padding: 40px 100px;
+}
+
+.information_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 40px;
 }

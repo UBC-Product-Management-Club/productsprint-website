@@ -3,14 +3,6 @@
   flex-direction: column;
 }
 
-.information_container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  padding-bottom: 40px;
-}
-
 .text_container {
   flex-direction: column;
   width: 500px;
