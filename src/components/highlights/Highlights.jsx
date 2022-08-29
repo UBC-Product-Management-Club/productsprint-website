@@ -4,7 +4,7 @@ import './highlights.css';
 function Highlights() {
   return (
     <div className='container'>
-      <div>
+      <div className='highlights_container'>
         <p className='title'>CLUB HIGHLIGHTS</p>
         <div>
           <p className='subtitle'>BUILDING A COMMUNITY</p>
