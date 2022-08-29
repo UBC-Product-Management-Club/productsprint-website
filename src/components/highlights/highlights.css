@@ -21,3 +21,20 @@
 .learn_more_link {
   color: #80bdff;
 }
+
+.highlights_information_container {
+  margin-bottom: 40px;
+}
+
+.company_logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.company_logos > img {
+  width: 20%;
+  cursor: pointer;
+}
