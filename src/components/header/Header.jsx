@@ -1,6 +1,7 @@
 import React from 'react';
 import './header.css';
 import Logo from '../../assets/logo.png';
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
@@ -12,13 +13,13 @@ function Header() {
       <nav>
         <ul className='navbar_links'>
           <li>
-            <a href='#'>HOME</a>
+            <Link to='/'>HOME</Link>
           </li>
           <li>
-            <a href='#'>ABOUT</a>
+            <Link to='/about'>ABOUT</Link>
           </li>
           <li>
-            <a href='#'>PROGRAMS</a>
+            <Link to='/mentorship'>PROGRAM</Link>
           </li>
           <li>
             <a href='#'>JOIN US</a>

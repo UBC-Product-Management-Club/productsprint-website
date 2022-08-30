@@ -1,3 +1,5 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 import Header from './components/header/Header';
 import Hero from './components/hero/Hero';
 import About from './components/about/About';
@@ -9,11 +11,44 @@ function App() {
   return (
     <>
       <Header />
-      <Hero />
-      <About />
-      <Program />
-      <Highlights />
-      <Footer />
+      <Routes>
+        <Route
+          path='/'
+          element={
+            <>
+              <Hero />
+              <About />
+              <Program />
+              <Highlights />
+              <Footer />
+            </>
+          }
+        />
+        <Route
+          path='about'
+          element={
+            <>
+              <About />
+            </>
+          }
+        />
+        <Route
+          path='mentorship'
+          element={
+            <>
+              <Program />
+            </>
+          }
+        />
+        <Route
+          path='fellowship'
+          element={
+            <>
+              <Highlights />
+            </>
+          }
+        />
+      </Routes>
     </>
   );
 }
