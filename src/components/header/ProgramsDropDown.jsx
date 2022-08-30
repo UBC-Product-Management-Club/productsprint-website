@@ -8,7 +8,7 @@ function ProgramsDropDown() {
     <div className='dropdown'>
       <span>
         <p className='header_text'>
-          PROGRAM{' '}
+          PROGRAMS{' '}
           <img className='dropdown_img' src={DropDown} alt='drop down' />
         </p>
       </span>

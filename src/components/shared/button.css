@@ -6,9 +6,10 @@
   width: fit-content;
   height: 40px;
   border: 0;
-  border-radius: 8px;
+  border-radius: 20px;
   cursor: pointer;
   padding: 0px 7px 0px 7px;
+  font-weight: 700;
 }
 
 .primary {
