@@ -12,13 +12,13 @@ function Header() {
       <nav>
         <ul className='navbar_links'>
           <li>
+            <a href='#'>HOME</a>
+          </li>
+          <li>
             <a href='#'>ABOUT</a>
           </li>
           <li>
             <a href='#'>PROGRAMS</a>
-          </li>
-          <li>
-            <a href='#'>HIGHLIGHTS</a>
           </li>
           <li>
             <a href='#'>JOIN US</a>
