@@ -1,6 +1,7 @@
 import React from 'react';
 import './header.css';
 import Logo from '../../assets/logo.png';
+import ProgramsDropDown from './ProgramsDropDown';
 import { Link } from 'react-router-dom';
 
 function Header() {
@@ -19,7 +20,7 @@ function Header() {
             <Link to='/about'>ABOUT</Link>
           </li>
           <li>
-            <Link to='/mentorship'>PROGRAM</Link>
+            <ProgramsDropDown />
           </li>
           <li>
             <a href='#'>JOIN US</a>
