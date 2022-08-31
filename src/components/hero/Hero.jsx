@@ -10,8 +10,8 @@ function Hero() {
     <div className='container'>
       <div className='hero_container'>
         <div className='hero_text'>
-          <h1>Explore product</h1>
-          <h1>management with us.</h1>
+          <p className='hero_title'>Explore product</p>
+          <p className='hero_title'>management with us.</p>
           <div className='button_container'>
             <PrimaryButton>Join the club</PrimaryButton>
             <SecondaryButton>Volunteer as a PM</SecondaryButton>

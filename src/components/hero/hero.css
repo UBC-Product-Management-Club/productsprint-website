@@ -24,3 +24,8 @@ img.hero_img {
   margin-top: 2vh;
   height: 30px;
 }
+
+.hero_title {
+  font-size: 45px;
+  font-weight: 500;
+}
