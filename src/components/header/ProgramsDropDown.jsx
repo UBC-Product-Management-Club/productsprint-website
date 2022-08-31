@@ -15,6 +15,9 @@ function ProgramsDropDown() {
       <div className='dropdown_content'>
         <Link to='mentorship'>Mentorship</Link>
         <Link to='fellowship'>Fellowship</Link>
+        <a href='https://www.ubcpm.club/productsprint/' target='_blank'>
+          Product Sprint
+        </a>
       </div>
     </div>
   );
