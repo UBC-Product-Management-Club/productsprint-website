@@ -54,6 +54,7 @@ header {
   padding: 12px 16px;
   z-index: 1;
   border-radius: 8px;
+  gap: 2vh;
 }
 
 .header_text {
