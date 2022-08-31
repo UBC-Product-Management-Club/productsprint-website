@@ -18,3 +18,7 @@
   width: 500px;
   display: inline-block;
 }
+
+.button_container {
+  padding-top: 6vh;
+}
