@@ -13,7 +13,7 @@ function Hero() {
           <p className='hero_title'>Explore product</p>
           <p className='hero_title'>management with us.</p>
           <div className='button_container'>
-            <PrimaryButton>Join the club</PrimaryButton>
+            <PrimaryButton className='primary'>Join the club</PrimaryButton>
             <SecondaryButton>Volunteer as a PM</SecondaryButton>
           </div>
           <div className='scroll_down'>

@@ -24,7 +24,7 @@ function Program() {
               Look forward to workshops, bi-weekly product chats with industry,
               exclusive networking opportunities and more!
             </p>
-            <PrimaryButton>Become a Member</PrimaryButton>
+            <PrimaryButton className='primary'>Become a Member</PrimaryButton>
           </div>
           <img
             className='membership_photo'
@@ -46,7 +46,7 @@ function Program() {
               fellows, learn the basics of product management, and create an
               end-of-term project with the help of industry mentors. Interested?
             </p>
-            <PrimaryButton>Apply to Join</PrimaryButton>
+            <PrimaryButton className='primary'>Apply to Join</PrimaryButton>
           </div>
         </div>
       </div>

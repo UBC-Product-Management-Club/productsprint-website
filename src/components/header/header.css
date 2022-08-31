@@ -13,6 +13,8 @@ header {
 .logo {
   display: inline-block;
   vertical-align: middle;
+  width: 25px;
+  padding-right: 1vh;
 }
 
 .logo_text {
