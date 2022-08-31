@@ -2,13 +2,13 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding-top: 50px;
   padding-bottom: 50px;
 }
 
 .hero_text {
   display: inline-block;
   margin-right: auto;
+  margin-top: 14vh;
 }
 
 img.hero_img {
@@ -17,7 +17,7 @@ img.hero_img {
 }
 
 .scroll_down {
-  margin-top: 10vh;
+  margin-top: 16vh;
 }
 
 .scroll_down_img {
@@ -27,5 +27,9 @@ img.hero_img {
 
 .hero_title {
   font-size: 45px;
-  font-weight: 500;
+  font-weight: 600;
+}
+
+.button_container {
+  padding-top: 6vh;
 }

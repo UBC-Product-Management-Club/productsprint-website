@@ -2,6 +2,7 @@ import React from 'react';
 import './header.css';
 import Logo from '../../assets/logo.png';
 import ProgramsDropDown from './ProgramsDropDown';
+import PrimaryButton from '../shared/PrimaryButton';
 import { Link } from 'react-router-dom';
 
 function Header() {
@@ -23,7 +24,7 @@ function Header() {
             <ProgramsDropDown />
           </li>
           <li>
-            <a href='#'>JOIN US</a>
+            <PrimaryButton className='header_btn'>JOIN US</PrimaryButton>
           </li>
         </ul>
       </nav>
