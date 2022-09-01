@@ -25,7 +25,7 @@ function Highlights() {
           </div>
           <div className='achievements'>
             <p>
-              <span className='achievement_statistics'>10+ </span> workshop
+              <span className='achievement_statistics'>10+ </span> workshops
               <br />
               led by industry PM’s
             </p>
