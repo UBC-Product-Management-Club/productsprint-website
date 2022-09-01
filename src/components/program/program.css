@@ -22,3 +22,10 @@
 .button_container {
   padding-top: 6vh;
 }
+
+@media screen and (max-width: 967px) {
+  .program_text {
+    font-size: smaller;
+    font-weight: 400;
+  }
+}

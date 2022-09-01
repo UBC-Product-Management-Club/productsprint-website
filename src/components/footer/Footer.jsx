@@ -9,38 +9,42 @@ import { BsYoutube } from 'react-icons/bs';
 
 function Footer() {
   return (
-    <footer>
-      <div className='logo_container'>
-        <img className='logo' src={FooterLogo} alt='pmc-logo' />
-        <p className='logo_text'> UBC PRODUCT MANAGEMENT CLUB</p>
-      </div>
-      <div className='contacts'>
-        <MdEmail />
-        <a href='team@ubcpm.club'>team@ubcpm.club</a>
-        <ul className='footer_links'>
-          <li>
-            <a href='#'>
-              <BsFacebook />
-            </a>
-          </li>
-          <li>
-            <a href='#'>
-              <BsInstagram />
-            </a>
-          </li>
-          <li>
-            <a href='#'>
-              <BsLinkedin />
-            </a>
-          </li>
-          <li>
-            <a href='#'>
-              <BsFacebook />
-            </a>
-          </li>
-        </ul>
-      </div>
-    </footer>
+    <div>
+      <footer>
+        <div className='logo_container'>
+          <img className='logo' src={FooterLogo} alt='pmc-logo' />
+          <p className='logo_text'> UBC PRODUCT MANAGEMENT CLUB</p>
+        </div>
+        <div className='contacts'>
+          <MdEmail />
+          <a className='email_link' href='team@ubcpm.club'>
+            team@ubcpm.club
+          </a>
+          <ul className='footer_links'>
+            <li>
+              <a href='#'>
+                <BsFacebook />
+              </a>
+            </li>
+            <li>
+              <a href='#'>
+                <BsInstagram />
+              </a>
+            </li>
+            <li>
+              <a href='#'>
+                <BsLinkedin />
+              </a>
+            </li>
+            <li>
+              <a href='#'>
+                <BsFacebook />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
   );
 }
 

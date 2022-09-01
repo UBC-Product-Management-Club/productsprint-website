@@ -1,6 +1,6 @@
-.highlights_container {
+/* .highlights_container {
   margin-left: 110px;
-}
+} */
 
 .achievements > p {
   width: 200px;
@@ -38,4 +38,21 @@
 .company_logos > img {
   width: 20%;
   cursor: pointer;
+}
+
+@media screen and (max-width: 967px) {
+  .achievements p {
+    font-weight: 400;
+    font-size: smaller;
+  }
+
+  .learn_more_link {
+    font-weight: 400;
+    font-size: smaller;
+  }
+
+  .highlights_text {
+    font-weight: 400;
+    font-size: smaller;
+  }
 }

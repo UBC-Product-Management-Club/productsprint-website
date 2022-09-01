@@ -24,3 +24,10 @@
   gap: 20px;
   padding-bottom: 40px;
 }
+
+@media screen and (max-width: 967px) {
+  .about_text {
+    font-size: smaller;
+    font-weight: 400;
+  }
+}

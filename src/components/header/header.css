@@ -2,7 +2,6 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 30px 100px;
 }
 
 .logo_container {
@@ -68,4 +67,32 @@ header {
 
 .dropdown_img {
   width: 10px;
+}
+
+@media screen and (max-width: 1920px) {
+  header {
+    margin: 30px 100px;
+  }
+}
+
+@media screen and (max-width: 967px) {
+  .navbar_links li {
+    font-size: smaller;
+  }
+
+  .logo_text {
+    font-size: smaller;
+  }
+
+  .logo {
+    width: 20px;
+  }
+
+  .navbar_links li {
+    padding: 0px 15px;
+  }
+
+  header {
+    margin: 30px 40px;
+  }
 }

@@ -44,3 +44,14 @@ footer {
   flex-wrap: wrap;
   list-style: none;
 }
+
+@media screen and (max-width: 967px) {
+  .email_link {
+    font-size: smaller;
+    font-weight: 400;
+  }
+
+  footer {
+    padding: 30px 40px;
+  }
+}

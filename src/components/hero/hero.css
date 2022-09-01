@@ -33,3 +33,9 @@ img.hero_img {
 .button_container {
   padding-top: 6vh;
 }
+
+@media screen and (max-width: 967px) {
+  .hero_title {
+    font-size: 35px;
+  }
+}

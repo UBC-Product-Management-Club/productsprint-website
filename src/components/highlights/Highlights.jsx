@@ -21,7 +21,9 @@ function Highlights() {
         <div className='highlights_information_container'>
           <div>
             <p className='subtitle'>BUILDING A COMMUNITY</p>
-            <p>What we’ve accomplished since our founding in 2020:</p>
+            <p className='highlights_text'>
+              What we’ve accomplished since our founding in 2020:
+            </p>
           </div>
           <div className='achievements'>
             <p>
@@ -53,7 +55,9 @@ function Highlights() {
         </div>
         <div>
           <p className='subtitle'>ENGAGING WITH INDUSTRY</p>
-          <p>We’ve worked with product managers from companies including:</p>
+          <p className='highlights_text'>
+            We’ve worked with product managers from companies including:
+          </p>
           <div className='company_logos'>
             <img src={Amazon} alt='Amazon' />
             <img src={Google} alt='Google' />

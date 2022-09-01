@@ -15,7 +15,7 @@ function Program() {
         <div className='information_container'>
           <div className='text_container'>
             <p className='subtitle'>MEMBERSHIP</p>
-            <p>
+            <p className='program_text'>
               Be a part of a community of students who are passionate about all
               things tech and product. As a member, you will gain free access to
               our newsletter and admission to all future PMC events.
@@ -39,7 +39,7 @@ function Program() {
           <img className='fellowship_photo' src={Fellowship} alt='fellowship' />
           <div className='text_container'>
             <p className='subtitle'>FELLOWSHIP</p>
-            <p>
+            <p className='program_text'>
               New to product management? Looking for a product management
               internship? This is the right place to start.
               <br />
