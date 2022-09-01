@@ -1,0 +1,54 @@
+.fellowship_vector {
+  width: 50%;
+  margin-right: 10px;
+}
+
+.fellowship_text_container {
+  margin-left: auto;
+}
+
+.fellowship_text {
+  width: 90%;
+}
+
+.information_container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fellowship_title {
+  font-size: 45px;
+  font-weight: 600;
+  padding-bottom: 10%;
+}
+
+.perks_container {
+  padding: 30px 100px;
+  background-color: #1a1d2c;
+}
+
+.perks_display {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.perks_display img {
+  width: 25px;
+}
+
+.perks_display_subcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  text-align: center;
+  gap: 10px;
+}
+
+.perks_text {
+  font-size: smaller;
+}
+
+.perks_container * {
+  background-color: #1a1d2c;
+}
