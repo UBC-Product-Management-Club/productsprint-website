@@ -17,7 +17,6 @@ header {
 }
 
 .logo_text {
-  display: inline-block;
   vertical-align: middle;
   font-weight: 500;
 }
@@ -73,9 +72,13 @@ header {
   header {
     margin: 30px 100px;
   }
+
+  .logo_text {
+    display: inline-block;
+  }
 }
 
-@media screen and (max-width: 967px) {
+@media screen and (max-width: 1060px) {
   .navbar_links li {
     font-size: smaller;
   }
@@ -94,5 +97,15 @@ header {
 
   header {
     margin: 30px 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar_links li {
+    font-size: small;
+  }
+
+  .logo_container p {
+    display: none;
   }
 }

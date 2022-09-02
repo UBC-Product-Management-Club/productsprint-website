@@ -13,6 +13,11 @@ function Program() {
         </div>
 
         <div className='information_container'>
+          <img
+            className='membership_photo'
+            src={ProductSprint}
+            alt='membership'
+          />
           <div className='text_container'>
             <p className='subtitle'>MEMBERSHIP</p>
             <p className='program_text'>
@@ -28,11 +33,6 @@ function Program() {
               <PrimaryButton className='primary'>Become a Member</PrimaryButton>
             </div>
           </div>
-          <img
-            className='membership_photo'
-            src={ProductSprint}
-            alt='membership'
-          />
         </div>
 
         <div className='information_container'>

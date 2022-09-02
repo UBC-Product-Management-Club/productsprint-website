@@ -7,6 +7,7 @@
   font-family: Poppins, sans-serif;
   color: white;
   text-decoration: none;
+  overflow-x: hidden;
 }
 
 .title {
@@ -26,8 +27,18 @@
   padding: 40px 100px;
 }
 
-@media screen and (max-width: 967px) {
+@media screen and (max-width: 1060px) {
   .container {
     padding: 0px 40px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .title {
+    text-align: left;
+  }
+
+  .container {
+    padding: 30px 40px;
   }
 }

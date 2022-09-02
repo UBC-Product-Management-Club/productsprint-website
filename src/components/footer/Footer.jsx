@@ -16,9 +16,8 @@ function Footer() {
           <p className='logo_text'> UBC PRODUCT MANAGEMENT CLUB</p>
         </div>
         <div className='contacts'>
-          <MdEmail />
           <a className='email_link' href='team@ubcpm.club'>
-            team@ubcpm.club
+            <MdEmail /> team@ubcpm.club
           </a>
           <ul className='footer_links'>
             <li>

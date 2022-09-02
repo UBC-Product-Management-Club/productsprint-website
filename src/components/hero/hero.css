@@ -34,8 +34,32 @@ img.hero_img {
   padding-top: 6vh;
 }
 
-@media screen and (max-width: 967px) {
+@media screen and (max-width: 1060px) {
   .hero_title {
     font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .hero_title {
+    font-size: 45px;
+  }
+
+  .hero_container {
+    justify-content: none;
+    flex-direction: column;
+  }
+
+  img.hero_img {
+    display: none;
+  }
+
+  .button_container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .scroll_down {
+    margin-top: 12vh;
   }
 }

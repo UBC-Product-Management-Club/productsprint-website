@@ -40,9 +40,21 @@
   box-shadow: 0 0 10px #fd5f68;
 }
 
-@media screen and (max-width: 967px) {
+@media screen and (max-width: 1060px) {
   .btn {
     font-size: smaller;
     height: 30px;
   }
 }
+
+/* @media screen and (max-width: 768px) {
+  .btn {
+    font-size: x-small;
+  }
+} */
+
+/* @media screen and (max-width: 640px) {
+  .btn {
+    font-size: xx-small;
+  }
+} */

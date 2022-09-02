@@ -45,7 +45,7 @@ footer {
   list-style: none;
 }
 
-@media screen and (max-width: 967px) {
+@media screen and (max-width: 1060px) {
   .email_link {
     font-size: smaller;
     font-weight: 400;
@@ -53,5 +53,35 @@ footer {
 
   footer {
     padding: 30px 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: none;
+    gap: 20px;
+  }
+
+  footer .logo {
+    width: 50px;
+    display: flex;
+    vertical-align: none;
+    text-align: center;
+  }
+
+  .logo_container {
+    display: flex;
+    align-items: center;
+    margin-right: 0%;
+  }
+
+  .footer_links {
+    align-items: center;
+  }
+
+  .contacts {
+    gap: 20px;
   }
 }

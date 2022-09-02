@@ -17,17 +17,33 @@
   width: 600px;
 }
 
-.information_container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  padding-bottom: 40px;
-}
-
-@media screen and (max-width: 967px) {
+@media screen and (max-width: 1060px) {
   .about_text {
     font-size: smaller;
     font-weight: 400;
+  }
+
+  .about_link {
+    font-size: smaller;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .about_text {
+    text-align: left;
+    width: 100%;
+  }
+
+  .about_container {
+    align-items: baseline;
+  }
+
+  .about_img {
+    width: 300px;
+  }
+
+  .about_text_container {
+    gap: 20px;
   }
 }
