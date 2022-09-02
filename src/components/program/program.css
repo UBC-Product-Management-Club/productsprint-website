@@ -13,11 +13,17 @@
 .membership_photo {
   width: 50%;
   display: inline-block;
+  margin-left: auto;
 }
 
 .fellowship_photo {
   width: 50%;
   display: inline-block;
+  margin-right: auto;
+}
+
+#resized_membership {
+  display: none;
 }
 
 .button_container {
@@ -73,5 +79,13 @@
 
   .subtitle {
     font-size: 20px;
+  }
+
+  #normal_screen_membership {
+    display: none;
+  }
+
+  #resized_membership {
+    display: flex;
   }
 }

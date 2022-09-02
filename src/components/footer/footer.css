@@ -71,7 +71,7 @@ footer {
     text-align: center;
   }
 
-  .logo_container {
+  footer .logo_container {
     display: flex;
     align-items: center;
     margin-right: 0%;

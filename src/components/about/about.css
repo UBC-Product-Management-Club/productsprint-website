@@ -9,6 +9,12 @@
   text-align: center;
   width: 600px;
 }
+
+.about_text_container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
 .about_link {
   color: #80bdff;
 }
@@ -45,5 +51,6 @@
 
   .about_text_container {
     gap: 20px;
+    align-items: flex-start;
   }
 }

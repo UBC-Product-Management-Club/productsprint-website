@@ -1,16 +1,15 @@
-header {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
 .logo_container {
   margin-right: auto;
   cursor: pointer;
 }
 
+.header_container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 .logo {
-  display: inline-block;
   vertical-align: middle;
   width: 25px;
   padding-right: 1vh;
@@ -19,6 +18,13 @@ header {
 .logo_text {
   vertical-align: middle;
   font-weight: 500;
+}
+
+.navbar_links {
+  display: flex;
+  text-align: center;
+  vertical-align: middle;
+  align-items: center;
 }
 
 .navbar_links li {
