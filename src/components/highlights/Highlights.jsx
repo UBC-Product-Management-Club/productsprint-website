@@ -49,9 +49,9 @@ function Highlights() {
               <br /> prizes awarded{' '}
             </p>
           </div>
-          <a className='learn_more_link' href=''>
+          {/* <a className='learn_more_link' href=''>
             Learn more →
-          </a>
+          </a> */}
         </div>
         <div>
           <p className='subtitle'>ENGAGING WITH INDUSTRY</p>

@@ -19,7 +19,6 @@
 }
 
 .header_btn {
-  margin-top: 40px;
   background-color: #ffffff;
   color: #15151d;
 }
@@ -59,3 +58,9 @@
     font-size: xx-small;
   }
 } */
+
+@media screen and (max-width: 500px) {
+  .header_btn {
+    margin-top: 40px;
+  }
+}

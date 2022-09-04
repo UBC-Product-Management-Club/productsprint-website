@@ -1,5 +1,5 @@
 .fellowship_vector {
-  width: 50%;
+  width: 40%;
   margin-right: 10px;
 }
 
@@ -9,7 +9,7 @@
 
 .fellowship_text {
   width: 90%;
-  font-size: medium;
+  font-size: 20px;
 }
 
 .information_container {
@@ -18,7 +18,7 @@
 }
 
 .fellowship_title {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 600;
   padding-bottom: 10%;
 }
@@ -41,7 +41,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 20%;
+  width: 17%;
   text-align: center;
   gap: 10px;
   margin-bottom: 10%;
@@ -53,6 +53,10 @@
 
 .perks_container * {
   background-color: #1a1d2c;
+}
+
+.perks_subtitle {
+  font-size: 18px;
 }
 
 @media screen and (max-width: 970px) {
@@ -75,6 +79,16 @@
   }
 }
 
+@media screen and (max-width: 755px) {
+  .fellowship_title {
+    font-size: 45px;
+  }
+
+  .fellowship_vector {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 640px) {
   img.fellowship_vector {
     display: none;
@@ -87,5 +101,15 @@
   .perks_display_subcontainer {
     align-items: flex-start;
     text-align: left;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .perks_display {
+    grid-template-columns: 1fr;
+  }
+
+  .perks_display_subcontainer {
+    width: 300px;
   }
 }
