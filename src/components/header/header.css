@@ -13,6 +13,12 @@
   vertical-align: middle;
   width: 25px;
   padding-right: 1vh;
+  position: relative;
+  z-index: 99;
+}
+
+.burger {
+  display: none;
 }
 
 .logo_text {
@@ -113,5 +119,33 @@
 
   .logo_container p {
     display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navbar_links {
+    display: flex;
+    overflow-y: scroll;
+    list-style: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 0;
+    overflow: hidden;
+    z-index: 9;
+  }
+
+  .navbar_links.showMenu {
+    width: 100%;
+  }
+
+  .burger {
+    z-index: 10;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    display: flex;
   }
 }

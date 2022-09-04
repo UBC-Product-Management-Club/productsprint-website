@@ -3,9 +3,13 @@ import './header.css';
 import Logo from '../../assets/logo.png';
 import ProgramsDropDown from './ProgramsDropDown';
 import PrimaryButton from '../shared/PrimaryButton';
+import { MdClose } from 'react-icons/md';
+import { FiMenu } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
 function Header() {
+  const [isActive, setIsActive] = useState(false);
   return (
     <header>
       <div className='header_container'>
@@ -14,7 +18,26 @@ function Header() {
           <p className='logo_text'> UBC PRODUCT MANAGEMENT CLUB</p>
         </div>
         <nav>
-          <ul className='navbar_links'>
+          <button
+            className='burger'
+            onClick={(e) => {
+              setIsActive(!isActive);
+            }}
+          >
+            {isActive ? (
+              <MdClose
+                style={{ color: '#fff', width: '40px', height: '40px' }}
+              />
+            ) : (
+              <FiMenu
+                style={{ color: '#7b7b7b', width: '40px', height: '40px' }}
+              />
+            )}
+          </button>
+          <ul
+            className={`navbar_links
+          ${isActive ? ' showMenu' : ''}`}
+          >
             <li>
               <Link to='/'>HOME</Link>
             </li>
