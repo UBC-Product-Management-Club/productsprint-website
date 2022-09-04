@@ -13,9 +13,15 @@ function Header() {
   return (
     <header>
       <div className='header_container'>
-        <div className='logo_container'>
+        {/* <div className='logo_container'>
           <img className='logo' src={Logo} alt='pmc-logo' />
           <p className='logo_text'> UBC PRODUCT MANAGEMENT CLUB</p>
+        </div> */}
+        <div className='logo_container' onClick={(e) => setIsActive(false)}>
+          <Link to='/'>
+            <img className='logo' src={Logo} alt='pmc-logo' />
+            <p className='logo_text'> UBC PRODUCT MANAGEMENT CLUB</p>
+          </Link>
         </div>
         <nav>
           <button
@@ -38,16 +44,16 @@ function Header() {
             className={`navbar_links
           ${isActive ? ' showMenu' : ''}`}
           >
-            <li>
+            <li onClick={(e) => setIsActive(false)}>
               <Link to='/'>HOME</Link>
             </li>
-            <li>
+            <li onClick={(e) => setIsActive(false)}>
               <Link to='/about'>ABOUT</Link>
             </li>
-            <li>
+            <li onClick={(e) => setIsActive(false)}>
               <ProgramsDropDown />
             </li>
-            <li>
+            <li onClick={(e) => setIsActive(false)}>
               <PrimaryButton className='header_btn'>JOIN US</PrimaryButton>
             </li>
           </ul>

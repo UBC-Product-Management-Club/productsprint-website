@@ -99,10 +99,6 @@
     font-size: smaller;
   }
 
-  .logo {
-    width: 20px;
-  }
-
   .navbar_links li {
     padding: 0px 15px;
   }
@@ -125,9 +121,10 @@
 @media screen and (max-width: 500px) {
   .navbar_links {
     display: flex;
-    overflow-y: scroll;
+    flex-direction: column;
+    /* overflow-y: scroll; */
     list-style: none;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
@@ -135,10 +132,14 @@
     width: 0;
     overflow: hidden;
     z-index: 9;
+    margin-top: 30%;
+    align-items: flex-start;
+    margin-left: 40px;
   }
 
   .navbar_links.showMenu {
     width: 100%;
+    margin-right: auto;
   }
 
   .burger {
@@ -146,6 +147,16 @@
     cursor: pointer;
     position: relative;
     border: none;
+    display: inline-block;
+    margin-right: auto;
+  }
+
+  .navbar_links li {
+    padding: 5px 0px;
+  }
+
+  .header_container {
     display: flex;
+    justify-content: flex-end;
   }
 }
