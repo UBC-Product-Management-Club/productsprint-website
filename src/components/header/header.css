@@ -13,6 +13,10 @@
   display: none;
 }
 
+.dropdown .header_text {
+  pointer-events: none;
+}
+
 .logo {
   vertical-align: middle;
   width: 25px;
@@ -179,5 +183,8 @@
     display: flex;
     flex-direction: column;
     padding-left: 10px;
+  }
+  .dropdown:hover .dropdown_content {
+    display: none;
   }
 }
