@@ -50,7 +50,11 @@ function Header() {
               <div className='menu_dropdown_content'>
                 <ProgramsDropDown />
                 <div className='burger_content'>
-                  <Link to='fellowship' onClick={(e) => setIsActive(false)}>
+                  <Link
+                    className='fellowship_link'
+                    to='fellowship'
+                    onClick={(e) => setIsActive(false)}
+                  >
                     Fellowship Program
                   </Link>
                   <a
