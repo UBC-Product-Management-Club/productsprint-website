@@ -13,10 +13,6 @@ function Header() {
   return (
     <header>
       <div className='header_container'>
-        {/* <div className='logo_container'>
-          <img className='logo' src={Logo} alt='pmc-logo' />
-          <p className='logo_text'> UBC PRODUCT MANAGEMENT CLUB</p>
-        </div> */}
         <div className='logo_container' onClick={(e) => setIsActive(false)}>
           <Link to='/'>
             <img className='logo' src={Logo} alt='pmc-logo' />

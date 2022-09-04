@@ -16,16 +16,12 @@ function Hero() {
             <PrimaryButton className='primary'>Join the club</PrimaryButton>
             <SecondaryButton>Volunteer as a PM</SecondaryButton>
           </div>
-          <div className='scroll_down'>
-            <p>Scroll to learn more</p>
-            <img
-              className='scroll_down_img'
-              src={ScrollDown}
-              alt='scroll down'
-            />
-          </div>
         </div>
         <img className='hero_img' src={HeroImg} alt='hero' />
+      </div>
+      <div className='scroll_down'>
+        <p>Scroll to learn more</p>
+        <img className='scroll_down_img' src={ScrollDown} alt='scroll down' />
       </div>
     </div>
   );

@@ -2,7 +2,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }
 
 .hero_text {
@@ -14,10 +14,11 @@
 img.hero_img {
   width: 55%;
   display: inline-block;
+  vertical-align: middle;
 }
 
 .scroll_down {
-  margin-top: 16vh;
+  margin-top: 2vh;
 }
 
 .scroll_down_img {
@@ -37,6 +38,10 @@ img.hero_img {
 @media screen and (max-width: 1060px) {
   .hero_title {
     font-size: 35px;
+  }
+  .scroll_down {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
   }
 }
 
@@ -58,8 +63,10 @@ img.hero_img {
     display: flex;
     flex-direction: column;
   }
+}
 
-  .scroll_down {
-    margin-top: 12vh;
+@media screen and (max-width: 584px) {
+  .hero_text {
+    margin-top: 4vh;
   }
 }
