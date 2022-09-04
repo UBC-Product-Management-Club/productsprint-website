@@ -46,8 +46,22 @@ function Header() {
             <li onClick={(e) => setIsActive(false)}>
               <Link to='/about'>ABOUT</Link>
             </li>
-            <li onClick={(e) => setIsActive(false)}>
-              <ProgramsDropDown />
+            <li className='hamburger_content'>
+              <div className='menu_dropdown_content'>
+                <ProgramsDropDown />
+                <div className='burger_content'>
+                  <Link to='fellowship' onClick={(e) => setIsActive(false)}>
+                    Fellowship Program
+                  </Link>
+                  <a
+                    href='https://www.ubcpm.club/productsprint/'
+                    target='_blank'
+                    onClick={(e) => setIsActive(false)}
+                  >
+                    Product Sprint (2021-22)
+                  </a>
+                </div>
+              </div>
             </li>
             <li onClick={(e) => setIsActive(false)}>
               <PrimaryButton className='header_btn'>JOIN US</PrimaryButton>

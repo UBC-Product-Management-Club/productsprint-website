@@ -9,6 +9,10 @@
   align-items: center;
 }
 
+.burger_content {
+  display: none;
+}
+
 .logo {
   vertical-align: middle;
   width: 25px;
@@ -153,10 +157,27 @@
 
   .navbar_links li {
     padding: 5px 0px;
+    font-size: 20px;
   }
 
   .header_container {
     display: flex;
     justify-content: flex-end;
+  }
+
+  .dropdown_img {
+    display: none;
+  }
+
+  .menu_dropdown_content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .burger_content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
   }
 }
