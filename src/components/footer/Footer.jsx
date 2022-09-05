@@ -43,7 +43,7 @@ function Footer() {
                 target='_blank'
                 href='https://www.youtube.com/channel/UCkcrUv-e7GndWtFdihI9FGQ/videos'
               >
-                <BsYoutube />
+                <BsYoutube className='fa_icons' />
               </a>
             </li>
           </ul>

@@ -39,6 +39,10 @@ footer {
   color: #fd2a36;
 }
 
+.footer a:hover {
+  color: #fd2a36;
+}
+
 .footer_links {
   display: flex;
   flex-wrap: wrap;

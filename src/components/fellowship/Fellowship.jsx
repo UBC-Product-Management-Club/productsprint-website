@@ -4,11 +4,22 @@ import Build from '../../assets/build.png';
 import Create from '../../assets/create.png';
 import Learn from '../../assets/learn.png';
 import Connect from '../../assets/connect.png';
+import Google from '../../assets/fellowship_program_logos/google.png';
+import Microsoft from '../../assets/fellowship_program_logos/microsoft.png';
+import Amazon from '../../assets/fellowship_program_logos/amazon.png';
+import Shopify from '../../assets/fellowship_program_logos/shopify.png';
+import Intuit from '../../assets/fellowship_program_logos/intuit.png';
+import Hootsuite from '../../assets/fellowship_program_logos/hootsuite.png';
+import Grammarly from '../../assets/fellowship_program_logos/grammarly.png';
+import Asana from '../../assets/fellowship_program_logos/asana.png';
+import ProductBoard from '../../assets/fellowship_program_logos/productboard.png';
+import Unity from '../../assets/fellowship_program_logos/unity.png';
+
 import './fellowship.css';
 
 function Fellowship() {
   return (
-    <>
+    <div className='fellowship_container'>
       <div className='container'>
         <div className='information_container'>
           <div className='fellowship_text_container'>
@@ -62,7 +73,22 @@ function Fellowship() {
           </div>
         </div>
       </div>
-    </>
+      <div className='past_mentors'>
+        <p className='title'>PAST MENTORS HAVE WORKED AT</p>
+        <div className='fellowship_company_logos'>
+          <img src={Google} alt='' />
+          <img src={Microsoft} alt='' />
+          <img src={Amazon} alt='' />
+          <img src={Shopify} alt='' />
+          <img src={Intuit} alt='' />
+          <img src={Hootsuite} alt='' />
+          <img src={Grammarly} alt='' />
+          <img src={Asana} alt='' />
+          <img src={ProductBoard} alt='' />
+          <img src={Unity} alt='' />
+        </div>
+      </div>
+    </div>
   );
 }
 

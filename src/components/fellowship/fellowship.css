@@ -1,3 +1,7 @@
+.fellowship_container .title {
+  color: white;
+}
+
 .fellowship_vector {
   width: 55%;
   margin-right: 10px;
@@ -24,7 +28,32 @@
 }
 
 .perks_container {
-  padding: 30px 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: #1a1d2c;
+}
+
+.past_mentors {
+  background-color: #1a1d2c;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fellowship_company_logos img {
+  height: 48px;
+  margin: 28px 16px 0 16px;
+}
+
+.fellowship_company_logos {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 90%;
+  justify-content: center;
+}
+
+.past_mentors * {
   background-color: #1a1d2c;
 }
 
@@ -59,6 +88,13 @@
   font-size: 18px;
 }
 
+@media screen and (max-width: 1264px) {
+  .fellowship_company_logos img {
+    height: 32px;
+    margin: 20px 12px 0 12px;
+  }
+}
+
 @media screen and (max-width: 970px) {
   .perks_container {
     padding: 0px 40px;
@@ -76,6 +112,13 @@
 
   .perks_display_subcontainer {
     width: 200px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .fellowship_company_logos img {
+    height: 24px;
+    margin: 20px 7px 0 7px;
   }
 }
 
