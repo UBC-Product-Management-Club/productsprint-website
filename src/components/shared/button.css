@@ -41,10 +41,10 @@
 }
 
 @media screen and (max-width: 1060px) {
-  .btn {
+  /* .btn {
     font-size: smaller;
     height: 30px;
-  }
+  } */
 }
 
 /* @media screen and (max-width: 768px) {

@@ -43,9 +43,9 @@ function Header() {
             <li onClick={(e) => setIsActive(false)}>
               <Link to='/'>HOME</Link>
             </li>
-            <li onClick={(e) => setIsActive(false)}>
+            {/* <li onClick={(e) => setIsActive(false)}>
               <Link to='/about'>ABOUT</Link>
-            </li>
+            </li> */}
             <li className='hamburger_content'>
               <div className='menu_dropdown_content'>
                 <ProgramsDropDown />

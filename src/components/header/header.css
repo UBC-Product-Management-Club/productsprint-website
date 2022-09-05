@@ -73,6 +73,11 @@
   z-index: 1;
   border-radius: 8px;
   gap: 2vh;
+  text-align: left;
+  /* border-color: #eee;
+  border-width: 1px;
+  border-style: solid; */
+  box-shadow: 0px 1px 12px #ffffff35;
 }
 
 .header_text {
