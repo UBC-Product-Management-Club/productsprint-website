@@ -1,0 +1,66 @@
+.btn {
+  width: fit-content;
+  height: 40px;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 0px 20px 0px 20px;
+  font-weight: 700;
+  font-size: medium;
+}
+
+.primary {
+  background-color: #fd2a36;
+}
+
+.secondary {
+  border: 2px solid #fd2a36;
+  color: #fd2a36;
+}
+
+.header_btn {
+  background-color: #ffffff;
+  color: #15151d;
+}
+
+.header_btn:hover {
+  background-color: #fd2a36;
+  color: #ffffff;
+  transition: all 0.3s ease 0s;
+  box-shadow: 0 0 5px #fd5f68;
+}
+
+.primary:hover {
+  transition: all 0.3s ease 0s;
+  box-shadow: 0 0 10px #fd5f68;
+}
+
+.secondary:hover {
+  transition: all 0.3s ease 0s;
+  box-shadow: 0 0 10px #fd5f68;
+}
+
+@media screen and (max-width: 1060px) {
+  .btn {
+    font-size: smaller;
+    height: 30px;
+  }
+}
+
+/* @media screen and (max-width: 768px) {
+  .btn {
+    font-size: x-small;
+  }
+} */
+
+/* @media screen and (max-width: 640px) {
+  .btn {
+    font-size: xx-small;
+  }
+} */
+
+@media screen and (max-width: 500px) {
+  .header_btn {
+    margin-top: 40px;
+  }
+}

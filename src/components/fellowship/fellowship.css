@@ -1,0 +1,174 @@
+.fellowship_container .title {
+  color: white;
+}
+
+.fellowship_vector {
+  width: 55%;
+  margin-right: 10px;
+}
+
+.fellowship_text_container {
+  margin-left: auto;
+}
+
+.fellowship_text {
+  width: 90%;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.information_container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fellowship_title {
+  font-size: 40px;
+  font-weight: 600;
+  padding-bottom: 10%;
+}
+
+.perks_container {
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: #1a1d2c;
+}
+
+.past_mentors {
+  background-color: #1a1d2c;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 70px;
+}
+
+.fellowship_company_logos img {
+  height: 48px;
+  margin: 28px 16px 0 16px;
+}
+
+.fellowship_company_logos {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 90%;
+  justify-content: center;
+}
+
+.past_mentors * {
+  background-color: #1a1d2c;
+}
+
+.perks_display {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.perks_display img {
+  width: 25px;
+}
+
+.perks_display_subcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 17%;
+  text-align: center;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.perks_text {
+  font-size: smaller;
+}
+
+.perks_container * {
+  background-color: #1a1d2c;
+}
+
+.perks_subtitle {
+  font-size: 18px;
+}
+
+.fellowship_footer_signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.fellowship_footer_signup p {
+  text-align: center;
+  width: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1264px) {
+  .fellowship_company_logos img {
+    height: 32px;
+    margin: 20px 12px 0 12px;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .perks_container {
+    padding: 0px 40px;
+  }
+  .perks_text {
+    font-size: smaller;
+  }
+
+  .perks_display {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+  }
+
+  .perks_display_subcontainer {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .fellowship_company_logos img {
+    height: 24px;
+    margin: 20px 7px 0 7px;
+  }
+}
+
+@media screen and (max-width: 755px) {
+  .fellowship_title {
+    font-size: 45px;
+  }
+
+  .fellowship_vector {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  img.fellowship_vector {
+    display: none;
+  }
+
+  .perks_display {
+    justify-items: left;
+  }
+
+  .perks_display_subcontainer {
+    align-items: flex-start;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .perks_display {
+    grid-template-columns: 1fr;
+  }
+
+  .perks_display_subcontainer {
+    width: 300px;
+  }
+}
