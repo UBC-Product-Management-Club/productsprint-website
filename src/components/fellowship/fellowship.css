@@ -14,6 +14,7 @@
 .fellowship_text {
   width: 90%;
   font-size: 18px;
+  margin-bottom: 50px;
 }
 
 .information_container {
@@ -39,6 +40,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 70px;
 }
 
 .fellowship_company_logos img {
@@ -73,7 +75,7 @@
   width: 17%;
   text-align: center;
   gap: 10px;
-  margin-bottom: 10%;
+  margin-bottom: 50px;
 }
 
 .perks_text {
@@ -86,6 +88,20 @@
 
 .perks_subtitle {
   font-size: 18px;
+}
+
+.fellowship_footer_signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.fellowship_footer_signup p {
+  text-align: center;
+  width: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 @media screen and (max-width: 1264px) {

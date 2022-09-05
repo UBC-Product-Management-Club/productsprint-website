@@ -14,6 +14,7 @@ import Grammarly from '../../assets/fellowship_program_logos/grammarly.png';
 import Asana from '../../assets/fellowship_program_logos/asana.png';
 import ProductBoard from '../../assets/fellowship_program_logos/productboard.png';
 import Unity from '../../assets/fellowship_program_logos/unity.png';
+import PrimaryButton from '../shared/PrimaryButton';
 
 import './fellowship.css';
 
@@ -28,10 +29,10 @@ function Fellowship() {
               Prepare for product internships by creating a portfolio of 3
               projects covering product design, strategy, and discovery. By
               immersing yourself in this 4-month program, you will learn the
-              fundamentals of product management and do work similar to product
-              managers at the tech companies all while meeting others on a
+              fundamentals of product management while meeting others on a
               similar path to you.
             </p>
+            <PrimaryButton className='primary'>Apply now</PrimaryButton>
           </div>
           <img
             className='fellowship_vector'
@@ -87,6 +88,15 @@ function Fellowship() {
           <img src={ProductBoard} alt='' />
           <img src={Unity} alt='' />
         </div>
+      </div>
+      <div className='fellowship_footer_signup'>
+        <p>
+          Learn the skills it takes to be a product manager while building your
+          portfolio to break into the industry.
+        </p>
+        <PrimaryButton className='primary'>
+          Start your application
+        </PrimaryButton>
       </div>
     </div>
   );
