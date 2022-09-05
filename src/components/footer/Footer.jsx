@@ -21,23 +21,29 @@ function Footer() {
           </a>
           <ul className='footer_links'>
             <li>
-              <a href='#'>
+              <a target='_blank' href='https://www.facebook.com/ubcpmc'>
                 <BsFacebook />
               </a>
             </li>
             <li>
-              <a href='#'>
+              <a target='_blank' href='https://www.instagram.com/ubcpmc/'>
                 <BsInstagram />
               </a>
             </li>
             <li>
-              <a href='#'>
+              <a
+                target='_blank'
+                href='https://www.linkedin.com/company/ubc-product-management-club/'
+              >
                 <BsLinkedin />
               </a>
             </li>
             <li>
-              <a href='#'>
-                <BsFacebook />
+              <a
+                target='_blank'
+                href='https://www.youtube.com/channel/UCkcrUv-e7GndWtFdihI9FGQ/videos'
+              >
+                <BsYoutube />
               </a>
             </li>
           </ul>
