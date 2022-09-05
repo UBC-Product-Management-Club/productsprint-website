@@ -41,11 +41,11 @@ function Highlights() {
             <p>
               <span className='achievement_statistics'>300+ </span>
               students
-              <br /> in our community
+              <br /> have joined our community
             </p>
             <p>
-              <span className='achievement_statistics'>$4,500+</span>
-              <br /> prizes awarded{' '}
+              <span className='achievement_statistics'>$8,000+</span>
+              <br />competition prizes awarded{' '}
             </p>
           </div>
         </div>

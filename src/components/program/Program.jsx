@@ -3,6 +3,7 @@ import PrimaryButton from '../shared/PrimaryButton';
 import './program.css';
 import ProductSprint from '../../assets/productSprint.png';
 import Fellowship from '../../assets/fellowship.png';
+import { Link } from 'react-router-dom';
 
 function Program() {
   return (
@@ -22,13 +23,10 @@ function Program() {
           <div className='text_container'>
             <p className='subtitle'>MEMBERSHIP</p>
             <p className='program_text'>
-              Be a part of a community of students who are passionate about all
-              things tech and product. As a member, you will gain free access to
-              our newsletter and admission to all future PMC events.
+              Be part of our community, in-person or online. Members gain access to events, programs, newsletters, and our online community.
               <br></br>
               <br></br>
-              Look forward to workshops, bi-weekly product chats with industry,
-              exclusive networking opportunities and more!
+              This fall, you can look forward to bi-weekly chats with dozens of product managers, our fellowship program, and interview preparation opportunities.
             </p>
             <div className='button_container'>
               <PrimaryButton className='primary'>Become a Member</PrimaryButton>
@@ -48,16 +46,14 @@ function Program() {
           <div className='text_container'>
             <p className='subtitle'>FELLOWSHIP</p>
             <p className='program_text'>
-              New to product management? Looking for a product management
-              internship? This is the right place to start.
-              <br />
-              <br />
-              Over the course of two semester, you will work alongside 30
-              fellows, learn the basics of product management, and create an
-              end-of-term project with the help of industry mentors. Interested?
+              Whether you are new to product management or you want to step up your game, the projects you work on over the course of the semester will teach you the core PM skills while preparing you for internships. As a bonus, you'll get insight into the industry during regular mentorship with product managers!
             </p>
             <div className='button_container'>
-              <PrimaryButton className='primary'>Apply to Join</PrimaryButton>
+              <Link to='fellowship'>
+                <PrimaryButton className='primary'>
+                      Learn more
+                </PrimaryButton>
+              </Link>
             </div>
           </div>
         </div>
