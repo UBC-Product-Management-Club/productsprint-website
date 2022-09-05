@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ba092765.css",
+    "main.js": "/static/js/main.c6e7e12f.js",
+    "static/media/fellowship.png": "/static/media/fellowship.8c23dba11e12d4915888.png",
+    "static/media/productSprint.png": "/static/media/productSprint.1eb9a132164038b7fc74.png",
+    "static/media/fellowship_vector.png": "/static/media/fellowship_vector.e7043a172af9ee0906f0.png",
+    "static/media/hero.png": "/static/media/hero.c4cafad7209d0948b38f.png",
+    "static/media/grammarly.png": "/static/media/grammarly.3d06bfeac618783d1bcb.png",
+    "static/media/about_img.png": "/static/media/about_img.b7bad6ca6cee69b8f765.png",
+    "static/media/dapper.png": "/static/media/dapper.2cbcbaee97be8619f826.png",
+    "static/media/google.png": "/static/media/google.f2462ad7cb2afb1db58d.png",
+    "static/media/salesforce.png": "/static/media/salesforce.461e482ea32796323b68.png",
+    "static/media/productboard.png": "/static/media/productboard.10e4fd987464bf00ff10.png",
+    "static/media/shopify.png": "/static/media/shopify.45103f9af8e911d02664.png",
+    "static/media/hootsuite.png": "/static/media/hootsuite.ce682830e6c015f2983e.png",
+    "static/media/amazon.png": "/static/media/amazon.62da9ccf3230ac386b76.png",
+    "static/media/asana.png": "/static/media/asana.a08caab53d91bd4fa280.png",
+    "static/media/microsoft.png": "/static/media/microsoft.975c500047fe38bd4d8d.png",
+    "static/media/unity.png": "/static/media/unity.59c3233dd1cfad6fd5d5.png",
+    "static/media/intuit.png": "/static/media/intuit.495024fcc06502d81a3c.png",
+    "static/media/ey.png": "/static/media/ey.54e5562281d4784550ac.png",
+    "index.html": "/index.html",
+    "main.ba092765.css.map": "/static/css/main.ba092765.css.map",
+    "main.c6e7e12f.js.map": "/static/js/main.c6e7e12f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba092765.css",
+    "static/js/main.c6e7e12f.js"
+  ]
+}
