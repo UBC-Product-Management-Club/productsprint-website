@@ -7,41 +7,44 @@ import Program from './components/program/Program';
 import Highlights from './components/highlights/Highlights';
 import Footer from './components/footer/Footer';
 import Fellowship from './components/fellowship/Fellowship';
+import ScrollToTop from "./components/utils/ScrollToTop";
 
 function App() {
   return (
     <>
       <Header />
-      <Routes>
-        <Route
-          path='/'
-          element={
-            <>
-              <Hero />
-              <About />
-              <Program />
-              <Highlights />
-              <Footer />
-            </>
-          }
-        />
-        <Route
-          path='about'
-          element={
-            <>
-              <About />
-            </>
-          }
-        />
-        <Route
-          path='fellowship'
-          element={
-            <>
-              <Fellowship />
-            </>
-          }
-        />
-      </Routes>
+      <ScrollToTop>
+        <Routes>
+          <Route
+            path='/'
+            element={
+              <>
+                <Hero />
+                <About />
+                <Program />
+                <Highlights />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path='about'
+            element={
+              <>
+                <About />
+              </>
+            }
+          />
+          <Route
+            path='fellowship'
+            element={
+              <>
+                <Fellowship />
+              </>
+            }
+          />
+        </Routes>
+      </ScrollToTop>
     </>
   );
 }
