@@ -20,7 +20,6 @@ function Highlights() {
         <p className='title'>CLUB HIGHLIGHTS</p>
         <div className='highlights_information_container'>
           <div>
-            <p className='subtitle'>BUILDING A COMMUNITY</p>
             <p className='highlights_text'>
               What we’ve accomplished since our founding in 2020:
             </p>
@@ -49,12 +48,8 @@ function Highlights() {
               <br /> prizes awarded{' '}
             </p>
           </div>
-          {/* <a className='learn_more_link' href=''>
-            Learn more →
-          </a> */}
         </div>
         <div>
-          <p className='subtitle'>ENGAGING WITH INDUSTRY</p>
           <p className='highlights_text'>
             We’ve worked with product managers from companies including:
           </p>

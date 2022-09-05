@@ -1,9 +1,6 @@
-/* .highlights_container {
-  margin-left: 110px;
-} */
-
 .achievements > p {
   width: 200px;
+  text-align: center;
 }
 
 .achievements {
@@ -11,6 +8,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   padding-top: 20px;
   padding-bottom: 20px;
+  justify-items: center;
 }
 
 .achievement_statistics {
@@ -25,6 +23,10 @@
 
 .highlights_information_container {
   margin-bottom: 40px;
+}
+
+.highlights_text {
+  text-align: center;
 }
 
 .company_logos {
