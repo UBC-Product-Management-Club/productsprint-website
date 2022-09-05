@@ -16,6 +16,13 @@ import ProductBoard from '../../assets/fellowship_program_logos/productboard.png
 import Unity from '../../assets/fellowship_program_logos/unity.png';
 import PrimaryButton from '../shared/PrimaryButton';
 
+import down_arrow from '../../assets/icons/down-arrow.svg';
+import icon_1 from '../../assets/icons/fa-application.svg';
+import icon_2 from '../../assets/icons/fa-users.svg';
+import icon_3 from '../../assets/icons/fa-magic.svg';
+import icon_4 from '../../assets/icons/fa-wrench.svg';
+import icon_5 from '../../assets/icons/fa-lightbulb.svg';
+
 import './fellowship.css';
 
 function Fellowship() {
@@ -32,7 +39,9 @@ function Fellowship() {
               fundamentals of product management while meeting others on a
               similar path to you.
             </p>
-            <PrimaryButton className='primary'>Apply now</PrimaryButton>
+            <a href="https://tally.so/r/nPdYY5?src=web_hero">
+              <PrimaryButton className='primary'>Apply now</PrimaryButton>
+            </a>
           </div>
           <img
             className='fellowship_vector'
@@ -74,6 +83,108 @@ function Fellowship() {
           </div>
         </div>
       </div>
+
+
+      <div id="timeline" class="timeline section">
+        <div class="info">
+          <h2>What to Expect</h2>
+        </div>
+
+        <div class="phase" id="application-interview">
+          <div class="phase-left">
+            <div class="phase-icon"><img src={icon_1} /></div>
+            <div class="phase-arrow">
+              <img src={down_arrow} />
+            </div>
+          </div>
+          <div class="phase-text">
+            <div class="phase-title"><h3>Application &amp; Interview</h3></div>
+            <div class="phase-date">Apply by Sept 12 at 11:59 PM</div>
+            <div class="phase-description">
+              <p>
+                Share your interest in product management and your commitment to the fellowship program.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="phase" id="program-launch">
+          <div class="phase-left">
+            <div class="phase-icon"><img src={icon_2} /></div>
+            <div class="phase-arrow">
+              <img src={down_arrow} />
+            </div>
+          </div>
+          <div class="phase-text">
+            <div class="phase-title"><h3>Program Launch</h3></div>
+            <div class="phase-date">Sept 18: In-person &amp; Online</div>
+            <div class="phase-description">
+              <p>
+                Meet others and learn about the process you will embark on through a real case study from a Senior PM at Shopify.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="phase" id="phase-1">
+          <div class="phase-left">
+            <div class="phase-icon">
+              <img src={icon_3} />
+            </div>
+            <div class="phase-arrow">
+              <img src={down_arrow} />
+            </div>
+          </div>
+          <div class="phase-text">
+            <div class="phase-title"><h3>Product Sense &amp; Design</h3></div>
+            <div class="phase-date">Case 1: improve your favourite product</div>
+            <div class="phase-description">
+              <p>
+                Design a new feature for your favourite software product by incorporating design and prioritization methods.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="phase" id="phase-2">
+          <div class="phase-left">
+            <div class="phase-icon"><img src={icon_4} /></div>
+            <div class="phase-arrow">
+              <img src={down_arrow} />
+            </div>
+          </div>
+          <div class="phase-text">
+            <div class="phase-title"><h3>Product Strategy &amp; Execution</h3></div>
+            <div class="phase-date">Case 2: repurpose a product for a new market</div>
+            <div class="phase-description">
+              <p>
+                Create the strategy to bring a product to a new market by planning a roadmap, defining risks, and considering 
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="phase" id="phase-3">
+          <div class="phase-left">
+            <div class="phase-icon"><img src={icon_5} /></div>
+            <div class="phase-arrow">
+              <img class="hidden-arrow" src={down_arrow} />
+            </div>
+          </div>
+          <div class="phase-text">
+            <div class="phase-title"><h3>Product Discovery</h3></div>
+            <div class="phase-date">Case 3: disrupt an existing market with your idea</div>
+            <div class="phase-description">
+              <p>
+                Validate a new product idea through intensive research, then pitch your first MVP to disrupt an existing market.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
       <div className='past_mentors'>
         <p className='title'>PAST MENTORS HAVE WORKED AT</p>
         <div className='fellowship_company_logos'>
@@ -94,9 +205,11 @@ function Fellowship() {
           Learn the skills it takes to be a product manager while building your
           portfolio to break into the industry.
         </p>
-        <PrimaryButton className='primary'>
-          Start your application
-        </PrimaryButton>
+        <a href="https://tally.so/r/nPdYY5?src=web_footer">
+          <PrimaryButton className='primary'>
+            Start your application
+          </PrimaryButton>
+        </a>
       </div>
     </div>
   );
