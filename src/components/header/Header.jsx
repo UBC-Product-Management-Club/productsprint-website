@@ -52,7 +52,7 @@ function Header() {
                 <div className='burger_content'>
                   <Link
                     className='fellowship_link'
-                    to='/fellowship'
+                    to='fellowship'
                     onClick={(e) => setIsActive(false)}
                   >
                     Fellowship Program
