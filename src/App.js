@@ -7,7 +7,7 @@ import Program from './components/program/Program';
 import Highlights from './components/highlights/Highlights';
 import Footer from './components/footer/Footer';
 import Fellowship from './components/fellowship/Fellowship';
-import ScrollToTop from "./components/utils/ScrollToTop";
+import ScrollToTop from './components/utils/ScrollToTop';
 
 function App() {
   return (
@@ -27,16 +27,16 @@ function App() {
               </>
             }
           />
-          <Route
-            path='about'
+          {/* <Route
+            path='/about'
             element={
               <>
                 <About />
               </>
             }
-          />
+          /> */}
           <Route
-            path='fellowship'
+            path='/fellowship'
             element={
               <>
                 <Fellowship />
