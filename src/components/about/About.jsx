@@ -16,9 +16,9 @@ function About() {
           <br />
           <br />
         </p>
-        <a className='about_link' href=''>
+        {/* <a className='about_link' href=''>
           Meet the team →
-        </a>
+        </a> */}
       </div>
       <div>
         <img className='about_img' src={AboutImg} alt='' />
