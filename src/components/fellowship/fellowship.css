@@ -149,7 +149,7 @@ p.title {
   .fellowship_title {
     font-size: 45px;
   }
-  
+
   .fellowship_text_container {
     width: 100%;
   }
@@ -182,9 +182,13 @@ p.title {
   .perks_display_subcontainer {
     width: 300px;
   }
+
+  .fellowship_footer_signup p {
+    width: fit-content;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
-
-
 
 /* PHASES */
 
@@ -206,8 +210,8 @@ p.title {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-flow: row nowrap;
-          flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
   border-radius: 18px;
   padding: 10px;
   -webkit-transition: ease-in-out filter 0.3s;
@@ -233,11 +237,11 @@ p.title {
 @media only screen and (min-width: 577px) {
   .phase:hover .phase-text {
     -webkit-transform: scale(104%) translateX(2%) translateY(2%);
-            transform: scale(104%) translateX(2%) translateY(2%);
+    transform: scale(104%) translateX(2%) translateY(2%);
   }
   .phase:hover .phase-icon {
     -webkit-transform: scale(110%);
-            transform: scale(110%);
+    transform: scale(110%);
   }
 }
 
@@ -255,12 +259,12 @@ p.title {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-flow: column nowrap;
-          flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
   text-align: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .phase-icon {
@@ -296,11 +300,11 @@ p.title {
 
 .phase-date {
   text-transform: uppercase;
-  color: #B8CFED;
+  color: #b8cfed;
   margin-bottom: 0.8em;
   font-size: 0.8em;
 }
 
 .phase-description p {
-  color: #DDE9F9;
+  color: #dde9f9;
 }
