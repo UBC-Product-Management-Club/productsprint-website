@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/www.ubcpm.club/static/css/main.a13d5657.css",
-    "main.js": "/www.ubcpm.club/static/js/main.48fa7c90.js",
+    "main.js": "/www.ubcpm.club/static/js/main.fab2ade3.js",
     "static/media/fellowship.png": "/www.ubcpm.club/static/media/fellowship.8c23dba11e12d4915888.png",
     "static/media/productSprint.png": "/www.ubcpm.club/static/media/productSprint.1eb9a132164038b7fc74.png",
     "static/media/hero.png": "/www.ubcpm.club/static/media/hero.2920062d339ff54535be.png",
@@ -28,10 +28,10 @@
     "static/media/fa-application.svg": "/www.ubcpm.club/static/media/fa-application.5f34eca4cde5098f0274811f7cc17950.svg",
     "static/media/down-arrow.svg": "/www.ubcpm.club/static/media/down-arrow.15a7ebe946c30b53f259a398df53335e.svg",
     "main.a13d5657.css.map": "/www.ubcpm.club/static/css/main.a13d5657.css.map",
-    "main.48fa7c90.js.map": "/www.ubcpm.club/static/js/main.48fa7c90.js.map"
+    "main.fab2ade3.js.map": "/www.ubcpm.club/static/js/main.fab2ade3.js.map"
   },
   "entrypoints": [
     "static/css/main.a13d5657.css",
-    "static/js/main.48fa7c90.js"
+    "static/js/main.fab2ade3.js"
   ]
 }
