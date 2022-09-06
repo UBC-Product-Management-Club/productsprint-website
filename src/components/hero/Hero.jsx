@@ -13,8 +13,12 @@ function Hero() {
           <p className='hero_title'>Explore product</p>
           <p className='hero_title'>management with us.</p>
           <div className='button_container'>
-            <PrimaryButton className='primary'>Join the club</PrimaryButton>
-            <SecondaryButton>Volunteer as a PM</SecondaryButton>
+            <div>
+              <PrimaryButton className='primary'>Join the club</PrimaryButton>
+            </div>
+            <div>
+              <SecondaryButton>Volunteer as a PM</SecondaryButton>
+            </div>
           </div>
         </div>
         <img className='hero_img' src={HeroImg} alt='hero' />
