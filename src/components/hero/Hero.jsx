@@ -13,12 +13,12 @@ function Hero() {
           <p className='hero_title'>Explore product</p>
           <p className='hero_title'>management with us.</p>
           <div className='button_container'>
-            <div>
+            <a href='https://tally.so/r/mODJXk'>
               <PrimaryButton className='primary'>Join the club</PrimaryButton>
-            </div>
-            <div>
+            </a>
+            <a href=''>
               <SecondaryButton>Volunteer as a PM</SecondaryButton>
-            </div>
+            </a>
           </div>
         </div>
         <img className='hero_img' src={HeroImg} alt='hero' />

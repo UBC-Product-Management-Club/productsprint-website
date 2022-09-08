@@ -68,7 +68,9 @@ function Header() {
               </div>
             </li>
             <li onClick={(e) => setIsActive(false)}>
-              <PrimaryButton className='header_btn'>JOIN US</PrimaryButton>
+              <a href='https://tally.so/r/mODJXk'>
+                <PrimaryButton className='header_btn'>JOIN US</PrimaryButton>
+              </a>
             </li>
           </ul>
         </nav>

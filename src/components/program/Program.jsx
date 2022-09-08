@@ -23,13 +23,20 @@ function Program() {
           <div className='text_container'>
             <p className='subtitle'>MEMBERSHIP</p>
             <p className='program_text'>
-              Be part of our community, in-person or online. Members gain access to events, programs, newsletters, and our online community.
+              Be part of our community, in-person or online. Members gain access
+              to events, programs, newsletters, and our online community.
               <br></br>
               <br></br>
-              This fall, you can look forward to bi-weekly chats with dozens of product managers, our fellowship program, and interview preparation opportunities.
+              This fall, you can look forward to bi-weekly chats with dozens of
+              product managers, our fellowship program, and interview
+              preparation opportunities.
             </p>
             <div className='button_container'>
-              <PrimaryButton className='primary'>Become a Member</PrimaryButton>
+              <a href='https://tally.so/r/mODJXk'>
+                <PrimaryButton className='primary'>
+                  Become a Member
+                </PrimaryButton>
+              </a>
             </div>
           </div>
 
@@ -46,13 +53,15 @@ function Program() {
           <div className='text_container'>
             <p className='subtitle'>FELLOWSHIP</p>
             <p className='program_text'>
-              Whether you are new to product management or you want to step up your game, the projects you work on over the course of the semester will teach you the core PM skills while preparing you for internships. As a bonus, you'll get insight into the industry during regular mentorship with product managers!
+              Whether you are new to product management or you want to step up
+              your game, the projects you work on over the course of the
+              semester will teach you the core PM skills while preparing you for
+              internships. As a bonus, you'll get insight into the industry
+              during regular mentorship with product managers!
             </p>
             <div className='button_container'>
               <Link to='fellowship'>
-                <PrimaryButton className='primary'>
-                      Learn more
-                </PrimaryButton>
+                <PrimaryButton className='primary'>Learn more</PrimaryButton>
               </Link>
             </div>
           </div>
