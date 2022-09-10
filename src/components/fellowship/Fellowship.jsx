@@ -158,7 +158,7 @@ function Fellowship() {
             <div class="phase-date">Case 2: repurpose a product for a new market</div>
             <div class="phase-description">
               <p>
-                Create the strategy to bring a product to a new market by planning a roadmap, defining risks, and considering 
+                Create the strategy to bring a product to a new market by planning for implementation, considering the roadmap &amp; risks involved.
               </p>
             </div>
           </div>
