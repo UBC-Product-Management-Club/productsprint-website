@@ -1,14 +1,19 @@
 import React from 'react';
+import './/profileCard.css';
 
 function ProfileCard({ img, name, title }) {
   return (
-    <div className='card_container'>
-      <div>
-        <img src={img} alt='Scott' />
+    <>
+      <div className='card_container'>
+        <div className='information_container'>
+          <div>
+            <img src={img} alt='Scott' />
+          </div>
+          <div className='name_title'>{name}</div>
+          <div className='exec_title'>{title}</div>
+        </div>
       </div>
-      <div>{name}</div>
-      <div>{title}</div>
-    </div>
+    </>
   );
 }
 

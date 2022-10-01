@@ -1,0 +1,33 @@
+.card_container * {
+  background-color: #2b3950;
+}
+
+.card_container {
+  width: 260px;
+  margin-bottom: 3%;
+}
+
+.information_container {
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 20px;
+  border-radius: 5%;
+  padding-bottom: 30px;
+}
+
+.card_container img {
+  width: 60%;
+  border-radius: 50%;
+}
+
+.name_title {
+  padding-top: 25px;
+  font-size: 18px;
+}
+
+.exec_title {
+  color: #9ea4af;
+  font-size: 14px;
+  padding-top: 10px;
+}
