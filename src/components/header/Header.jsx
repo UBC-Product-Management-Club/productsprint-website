@@ -43,6 +43,9 @@ function Header() {
             <li onClick={(e) => setIsActive(false)}>
               <Link to='/'>HOME</Link>
             </li>
+            <li onClick={(e) => setIsActive(false)}>
+              <Link to='/execs'>TEAM</Link>
+            </li>
             {/* <li onClick={(e) => setIsActive(false)}>
               <Link to='/about'>ABOUT</Link>
             </li> */}

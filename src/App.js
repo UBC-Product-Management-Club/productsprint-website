@@ -7,6 +7,7 @@ import Program from './components/program/Program';
 import Highlights from './components/highlights/Highlights';
 import Footer from './components/footer/Footer';
 import Fellowship from './components/fellowship/Fellowship';
+import Team from './components/team/Team';
 import ScrollToTop from './components/utils/ScrollToTop';
 
 function App() {
@@ -23,10 +24,18 @@ function App() {
                 <About />
                 <Program />
                 <Highlights />
-                <Footer />
               </>
             }
           />
+          <Route
+            path='/execs'
+            element={
+              <>
+                <Team />
+              </>
+            }
+          />
+
           {/* <Route
             path='/about'
             element={
@@ -45,6 +54,7 @@ function App() {
           />
         </Routes>
       </ScrollToTop>
+      <Footer />
     </>
   );
 }
