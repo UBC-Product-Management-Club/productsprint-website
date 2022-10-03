@@ -9,6 +9,7 @@ import Footer from './components/footer/Footer';
 import Fellowship from './components/fellowship/Fellowship';
 import Team from './components/team/Team';
 import ScrollToTop from './components/utils/ScrollToTop';
+import Projects from './components/shared/team/Projects';
 
 function App() {
   return (
@@ -49,6 +50,14 @@ function App() {
             element={
               <>
                 <Fellowship />
+              </>
+            }
+          />
+          <Route
+            path='/projects'
+            element={
+              <>
+                <Projects />
               </>
             }
           />

@@ -1,6 +1,6 @@
 import React from 'react';
-import PrimaryButton from '../shared/PrimaryButton';
-import './program.css';
+import PrimaryButton from '../shared/buttons/PrimaryButton';
+import './/program.css';
 import ProductSprint from '../../assets/productSprint.png';
 import Fellowship from '../../assets/fellowship.png';
 import { Link } from 'react-router-dom';

@@ -14,7 +14,7 @@ import Grammarly from '../../assets/fellowship_program_logos/grammarly.png';
 import Asana from '../../assets/fellowship_program_logos/asana.png';
 import ProductBoard from '../../assets/fellowship_program_logos/productboard.png';
 import Unity from '../../assets/fellowship_program_logos/unity.png';
-import PrimaryButton from '../shared/PrimaryButton';
+import PrimaryButton from '../shared/buttons/PrimaryButton';
 
 import down_arrow from '../../assets/icons/down-arrow.svg';
 import icon_1 from '../../assets/icons/fa-application.svg';

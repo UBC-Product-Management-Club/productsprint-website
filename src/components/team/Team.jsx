@@ -1,6 +1,6 @@
 import React from 'react';
 import './/team.css';
-import ProfileCard from '../shared/ProfileCard';
+import ProfileCard from '../shared/team/ProfileCard';
 import Scott from '../../assets/team_pictures/scott.png';
 import Kevin from '../../assets/team_pictures/kevin.png';
 import Landseer from '../../assets/team_pictures/landseer.png';

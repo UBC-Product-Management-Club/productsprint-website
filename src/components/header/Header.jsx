@@ -2,7 +2,7 @@ import React from 'react';
 import './header.css';
 import Logo from '../../assets/logo.png';
 import ProgramsDropDown from './ProgramsDropDown';
-import PrimaryButton from '../shared/PrimaryButton';
+import PrimaryButton from '../shared/buttons/PrimaryButton';
 import { MdClose } from 'react-icons/md';
 import { FiMenu } from 'react-icons/fi';
 import { Link } from 'react-router-dom';

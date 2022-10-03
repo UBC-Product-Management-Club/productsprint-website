@@ -1,7 +1,7 @@
 import React from 'react';
 import './hero.css';
-import PrimaryButton from '../shared/PrimaryButton';
-import SecondaryButton from '../shared/SecondaryButton';
+import PrimaryButton from '../shared/buttons/PrimaryButton';
+import SecondaryButton from '../shared/buttons/SecondaryButton';
 import HeroImg from '../../assets/hero.png';
 import ScrollDown from '../../assets/scroll_down.png';
 

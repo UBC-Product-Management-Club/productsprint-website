@@ -1,0 +1,35 @@
+.bio_container * {
+  background-color: #2c3951;
+}
+
+.bio_name {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.bio_title {
+  padding-top: 3%;
+  font-style: italic;
+}
+
+.bio_text {
+  padding-top: 2%;
+  padding-bottom: 3.5%;
+}
+
+.projects_container p {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.bio_container img {
+  width: 25%;
+  height: 25%;
+}
+
+.bio_container {
+  display: flex;
+  padding: 3% 18.5%;
+  background-color: #2c3951;
+  gap: 5%;
+}
