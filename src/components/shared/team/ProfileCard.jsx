@@ -5,7 +5,7 @@ function ProfileCard({ img, name, title }) {
   return (
     <>
       <div className='card_container'>
-        <div className='information_container'>
+        <div className='card_information_container'>
           <div>
             <img src={img} alt='name' />
           </div>
