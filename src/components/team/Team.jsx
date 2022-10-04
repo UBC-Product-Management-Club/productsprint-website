@@ -5,6 +5,7 @@ import Scott from '../../assets/team_pictures/scott.png';
 import Kevin from '../../assets/team_pictures/kevin.png';
 import Landseer from '../../assets/team_pictures/landseer.png';
 import Varun from '../../assets/team_pictures/varun.png';
+import Yash from '../../assets/team_pictures/yash.JPG';
 import Kimia from '../../assets/team_pictures/kimia.png';
 import Fahim from '../../assets/team_pictures/fahim.png';
 import Khushi from '../../assets/team_pictures/khushi.png';
@@ -37,6 +38,11 @@ function Team() {
             img={Varun}
             name='Varun Puri'
             title='Industry Connections'
+          ></ProfileCard>
+          <ProfileCard
+            img={Yash}
+            name='Yashkumar Shiroya'
+            title='Placeholder'
           ></ProfileCard>
           <ProfileCard
             img={Kimia}
