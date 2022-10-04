@@ -1,6 +1,7 @@
 import React from 'react';
 import './projects.css';
 import Scott from '../../../assets/bio_pictures/scott_bio.png';
+import ProjectCard from './ProjectCard';
 
 function Projects() {
   return (
@@ -23,6 +24,7 @@ function Projects() {
       </div>
       <div className='projects_container'>
         <p>Projects</p>
+        <ProjectCard />
       </div>
     </div>
   );

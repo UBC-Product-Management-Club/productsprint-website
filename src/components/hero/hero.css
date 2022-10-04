@@ -45,6 +45,12 @@ img.hero_img {
   }
 }
 
+@media screen and (max-width: 850px) {
+  img.hero_img {
+    width: 45%;
+  }
+}
+
 @media screen and (max-width: 755px) {
   .hero_title {
     font-size: 42px;
