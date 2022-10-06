@@ -42,7 +42,7 @@ function Team() {
           <ProfileCard
             img={Yash}
             name='Yashkumar Shiroya'
-            title='Placeholder'
+            title='External Relations'
           ></ProfileCard>
           <ProfileCard
             img={Kimia}
