@@ -46,10 +46,11 @@
   background-color: #2c3951;
   border-radius: 25px;
   padding: 2%;
-  height: 150px;
+  min-height: 75px;
   display: flex;
   gap: 10px;
   margin-top: 4%;
+  width: 750px;
 }
 
 .project_card_container * {
@@ -58,6 +59,11 @@
 
 .project_text_title {
   font-size: 18px;
+}
+
+.project_text_container {
+  margin-top: 0%;
+  margin-bottom: 0%;
 }
 
 .project_text {
