@@ -34,7 +34,7 @@ function ProjectCard({ isFinished }) {
             <p className='project_text'>
               Case: Repurpose a product for a new market. Create the strategy to
               bring a product to a new market by planning for implementation,
-              considering the roadmap & risks involved.
+              considering the roadmap &amp; risks involved.
             </p>
             <p className='about_link'>To be released in November.</p>
           </div>
