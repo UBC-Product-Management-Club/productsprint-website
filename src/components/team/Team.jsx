@@ -32,7 +32,7 @@ function Team() {
           <ProfileCard
             img={Landseer}
             name='Landseer Enga'
-            title='Learning & Recruit Prep'
+            title='Learning &amp; Recruit Prep'
           ></ProfileCard>
           <ProfileCard
             img={Varun}
@@ -57,7 +57,7 @@ function Team() {
           <ProfileCard
             img={Khushi}
             name='Khushi Dhand'
-            title='Design & Marketing'
+            title='Design &amp; Marketing'
           ></ProfileCard>
           <ProfileCard
             img={Sarah}
