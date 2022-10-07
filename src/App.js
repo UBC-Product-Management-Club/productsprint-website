@@ -10,6 +10,7 @@ import Fellowship from './components/fellowship/Fellowship';
 import Team from './components/team/Team';
 import ScrollToTop from './components/utils/ScrollToTop';
 import Projects from './components/shared/team/Projects';
+import Fellows from './components/fellowship/Fellows';
 
 function App() {
   return (
@@ -58,6 +59,14 @@ function App() {
             element={
               <>
                 <Projects />
+              </>
+            }
+          />
+          <Route
+            path='/fellows'
+            element={
+              <>
+                <Fellows />
               </>
             }
           />

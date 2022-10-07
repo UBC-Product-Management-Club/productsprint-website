@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import React from 'react';
 import FellowshipVector from '../../assets/fellowship_vector.png';
 import Build from '../../assets/build.png';
@@ -39,9 +41,14 @@ function Fellowship() {
               fundamentals of product management while meeting others on a
               similar path to you.
             </p>
-            <a href='https://tally.so/r/nPdYY5?src=web_hero'>
-              <PrimaryButton className='primary'>Apply now</PrimaryButton>
-            </a>
+            <Link to='/fellows'>
+              <PrimaryButton className='primary'>
+                Meet our Fellows
+              </PrimaryButton>
+            </Link>
+            {/* <a href='https://tally.so/r/nPdYY5?src=web_hero'>
+              
+            </a> */}
           </div>
           <img
             className='fellowship_vector'
@@ -230,11 +237,10 @@ function Fellowship() {
           Learn the skills it takes to be a product manager while building your
           portfolio to break into the industry.
         </p>
-        <a href='https://tally.so/r/nPdYY5?src=web_footer'>
-          <PrimaryButton className='primary'>
-            Start your application
-          </PrimaryButton>
-        </a>
+        <Link to='/fellows'>
+          <PrimaryButton className='primary'>Meet our Fellows</PrimaryButton>
+        </Link>
+        {/* <a href='https://tally.so/r/nPdYY5?src=web_footer'></a> */}
       </div>
     </div>
   );

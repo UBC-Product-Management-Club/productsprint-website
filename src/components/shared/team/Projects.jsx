@@ -3,7 +3,7 @@ import './projects.css';
 import Scott from '../../../assets/fellowship_members/scott/scott_bio.png';
 import ProjectCard from './ProjectCard';
 
-function Projects() {
+function Projects({ img, name, title, bio_text }) {
   return (
     <div>
       <div className='bio_container'>
