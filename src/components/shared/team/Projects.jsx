@@ -4,9 +4,6 @@ import './projects.css';
 import ProjectCard from './ProjectCard';
 
 function Projects({ img, name, title, bio_text, linkedin, projects }) {
-  // const listProjects =
-  //   projects || (projects == undefined && [undefined, undefined, undefined]);
-  console.log(projects);
   return (
     <div>
       <div className='bio_container'>

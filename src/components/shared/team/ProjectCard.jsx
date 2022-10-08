@@ -1,6 +1,6 @@
 import React from 'react';
 import './/projects.css';
-import FellowProject1 from '../../../assets/fellowship_members/scott/spatial_chat.png';
+import SpatialChat from '../../../assets/fellowship_members/scott/spatial_chat.png';
 
 function ProjectCard({ project }) {
   return (
@@ -9,11 +9,7 @@ function ProjectCard({ project }) {
       {project.isFinished && (
         <div className='project_card_container'>
           <div className='project_image_container'>
-            <img
-              className='project_image'
-              src={FellowProject1}
-              alt='project1'
-            />
+            <img className='project_image' src={project.image} alt='project1' />
           </div>
           <div className='project_text_container'>
             <p className='project_text_title'>{project.title}</p>

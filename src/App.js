@@ -11,9 +11,9 @@ import Team from './components/team/Team';
 import ScrollToTop from './components/utils/ScrollToTop';
 import Projects from './components/shared/team/Projects';
 import Fellows from './components/fellowship/Fellows';
-import ProjectCard from './components/shared/team/ProjectCard';
+
 import Scott from './assets/fellowship_members/scott/scott_bio.png';
-import ProjectData from './class/ProjectData';
+import SpatialChatImg from './assets/fellowship_members/scott/spatial_chat.png';
 
 function App() {
   const phase_2 = {
@@ -31,6 +31,7 @@ function App() {
     isFinished: true,
     title: 'Improving SpatialChat',
     text: 'A case study on how I would improve this spatial video meeting app that can simulate aspects of the in-person experience for online events and conferences.',
+    image: { SpatialChatImg },
   };
   return (
     <>
