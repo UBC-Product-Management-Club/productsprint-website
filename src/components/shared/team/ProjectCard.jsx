@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './/projects.css';
 import SpatialChat from '../../../assets/fellowship_members/scott/spatial_chat.png';
+import AppleMaps from '../../fellowship/projects/AppleMaps';
 
 function ProjectCard({ project }) {
   return (
@@ -14,9 +16,16 @@ function ProjectCard({ project }) {
           <div className='project_text_container'>
             <p className='project_text_title'>{project.title}</p>
             <p className='project_text'>{project.text}</p>
-            <a className='about_link' href=''>
+            {/* <a href='/Users/kevintan/ReactProjects/productsprint-website/src/components/fellowship/projects/AppleMaps.html'>
               View Project →
-            </a>
+            </a> */}
+            <a href='AppleMaps.html'>View Project →</a>
+
+            {/* <Link to='/apple-maps'>
+              <a className='about_link' href=''>
+                View Project →
+              </a>
+            </Link> */}
           </div>
         </div>
       )}

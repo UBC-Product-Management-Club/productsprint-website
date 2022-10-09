@@ -29,6 +29,7 @@
 .bio_container img {
   width: 25%;
   height: 25%;
+  border-radius: 100%;
 }
 
 .bio_container {

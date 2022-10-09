@@ -19,12 +19,6 @@ function Projects({ img, name, title, bio_text, linkedin, projects }) {
       </div>
       <div className='projects_container'>
         <p className='project_container_title'>Projects</p>
-        {/* {listProjects.map((item) => {
-          if (item === undefined) {
-            return <ProjectCard isFinished={item.isFinished} />;
-          }
-          return <ProjectCard isFinished={item.isFinished} />;
-        })} */}
         {projects.map((item) => {
           return <ProjectCard project={item} />;
         })}
