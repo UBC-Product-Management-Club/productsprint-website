@@ -19,13 +19,13 @@ function ProjectCard({ project }) {
             {/* <a href='/Users/kevintan/ReactProjects/productsprint-website/src/components/fellowship/projects/AppleMaps.html'>
               View Project →
             </a> */}
-            <a href='AppleMaps.html'>View Project →</a>
+            {/* <a href='AppleMaps.html'>View Project →</a> */}
 
-            {/* <Link to='/apple-maps'>
+            <Link to='/apple-maps'>
               <a className='about_link' href=''>
                 View Project →
               </a>
-            </Link> */}
+            </Link>
           </div>
         </div>
       )}

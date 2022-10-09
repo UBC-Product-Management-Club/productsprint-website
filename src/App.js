@@ -108,7 +108,7 @@ function App() {
             }
           />
           {/* Apple Maps Projects */}
-          {/* <Route path='/apple-maps' /> */}
+          <Route path='/apple-maps' element={<AppleMaps />} />
         </Routes>
       </ScrollToTop>
       <Footer />
