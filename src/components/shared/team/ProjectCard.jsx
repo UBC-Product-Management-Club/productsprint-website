@@ -2,9 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './/projects.css';
 import SpatialChat from '../../../assets/fellowship_members/scott/spatial_chat.png';
-import AppleMaps from '../../fellowship/projects/AppleMaps';
 
-function ProjectCard({ project }) {
+function ProjectCard({ project, img }) {
   return (
     <div>
       {console.log(project.isFinished)}

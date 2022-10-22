@@ -40,10 +40,10 @@ function App() {
   };
   const apple_maps = {
     isFinished: true,
-    title: 'Apple Maps Design',
+    title: 'Improving the Driving Experience in Apple Maps',
     text: 'Apple Maps is Apple’s native mapping app that allows users to navigate their surroundings via car, walking, public transit, cycling, and ride-hailing.',
-    image: { AppleMapsImg },
-    link: { AppleMaps },
+    image: AppleMapsImg,
+    link: './assets/fellowship_members/sophia/apple_maps.png',
   };
   return (
     <>
