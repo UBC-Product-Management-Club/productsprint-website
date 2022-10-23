@@ -127,4 +127,7 @@
   .project_card {
     margin-bottom: 40px;
   }
+  .project_image {
+    margin-bottom: 16px;
+  }
 }
