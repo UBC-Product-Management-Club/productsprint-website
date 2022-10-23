@@ -8,6 +8,9 @@
   margin-right: auto;
   width: 700px;
 }
+.project_page p {
+  line-height: 2em;
+}
 
 .project_container {
   margin-bottom: 30px;
