@@ -66,9 +66,9 @@ function AppleMaps() {
             <h2 className='text-lg'>
               <strong>Project Objective</strong>
             </h2>
-            <p>
+            <h3>
               <strong>Situation:</strong>
-            </p>
+            </h3>
             <p>
               Apple Maps’ detailed view currently allows you to view the lane
               markings, however, it does not identify which lane is designated
@@ -78,9 +78,9 @@ function AppleMaps() {
               identifiers in Maps can result in inflated commute times for
               drivers.
             </p>
-            <p>
+            <h3>
               <strong>Assumptions:</strong>
-            </p>
+            </h3>
             <ul className='list-disc list-inside pl-6'>
               <li>
                 <p>
@@ -93,16 +93,16 @@ function AppleMaps() {
                 <p>Users are not interested in driving through back alleys.</p>
               </li>
             </ul>
-            <p>
+            <h3>
               <strong>Hypothesis:</strong>
-            </p>
+            </h3>
             <p>
               Apple can reduce commute times for drivers by including HOV lanes
               in its navigation route calculations.
             </p>
-            <p>
+            <h3>
               <strong>Timeline:</strong>
-            </p>
+            </h3>
             <p>I am to spend 11.5 hours on this project:</p>
             <ul className='list-disc list-inside pl-6'>
               <li>
@@ -125,9 +125,9 @@ function AppleMaps() {
             <h2 className='text-xl'>
               <strong>User Research</strong>
             </h2>
-            <h2 className='text-lg'>
+            <h3 className='text-lg'>
               <strong>User Research Insights</strong>
-            </h2>
+            </h3>
             <p>
               My user research comprises insights from subreddits (r/applemaps,
               r/iphone), Apple Discussions, MacRumors threads, and seven user
@@ -137,9 +137,9 @@ function AppleMaps() {
               Waze. These user frustrations will be explored in the following
               User Persona and Opportunity sections.
             </p>
-            <h2 className='text-lg'>
+            <h3 className='text-lg'>
               <strong>User Persona</strong>
-            </h2>
+            </h3>
             <p>
               My user research revealed that users who used Apple Maps the most
               were those working in white-collar jobs that required them to
@@ -160,9 +160,9 @@ function AppleMaps() {
                 />
               </div>
             </figure>
-            <h2 className='text-lg'>
+            <h3 className='text-lg'>
               <strong>Opportunity Map</strong>
-            </h2>
+            </h3>
             <p>
               The Opportunity Map below indicates the various areas that can be
               improved in Apple Maps.
@@ -183,9 +183,9 @@ function AppleMaps() {
             <h2 className='text-xl'>
               <strong>Solution</strong>
             </h2>
-            <h2 className='text-lg'>
+            <h3 className='text-lg'>
               <strong>Potential Solutions</strong>
-            </h2>
+            </h3>
             <ul className='list-disc list-inside pl-6'>
               <li>
                 <p>
@@ -208,9 +208,9 @@ function AppleMaps() {
                 </p>
               </li>
             </ul>
-            <h2 className='text-lg'>
+            <h3 className='text-lg'>
               <strong>Feature Prioritization</strong>
-            </h2>
+            </h3>
             <figure>
               <div
                 className='flex items-center mt-5 ignore-typography justify-center bg-surface-100 -ml-4 -mr-4 sm:!-ml-6 sm:!-mr-6'
@@ -232,9 +232,9 @@ function AppleMaps() {
               climate change. This can encourage Apple Maps users to seek
               emission-reducing methods without compromising on travel time.
             </p>
-            <h2 className='text-lg'>
+            <h3 className='text-lg'>
               <strong>Value Proposition</strong>
-            </h2>
+            </h3>
             <p>
               Leave later – <em>without</em> the need to speed.
             </p>
@@ -242,9 +242,9 @@ function AppleMaps() {
             <h2 className='text-xl'>
               <strong>Design</strong>
             </h2>
-            <h2 className='text-lg'>
+            <h3 className='text-lg'>
               <strong>Product Requirements</strong>
-            </h2>
+            </h3>
             <p>
               Based on user interviews, persona development, and Apple's design
               language, the following user requirements are the following:
@@ -276,9 +276,9 @@ function AppleMaps() {
                 </p>
               </li>
             </ul>
-            <h2 className='text-lg'>
+            <h3 className='text-lg'>
               <strong>Visual Mockup</strong>
-            </h2>
+            </h3>
             <div className='preview relative w-full'>
               <figure>
                 <div>
@@ -316,9 +316,9 @@ function AppleMaps() {
             <h2 className='text-xl'>
               <strong>Conclusion</strong>
             </h2>
-            <h2 className='text-lg'>
+            <h3 className='text-lg'>
               <strong>Risk and Mitigation</strong>
-            </h2>
+            </h3>
             <p>
               <em>
                 Inaccurate educational screening can leave Apple vulnerable to
@@ -331,9 +331,9 @@ function AppleMaps() {
               are discovered, an update can be quickly developed and hopefully
               pushed out quickly to users.
             </p>
-            <h2 className='text-lg'>
+            <h3 className='text-lg'>
               <strong>Looking Forward</strong>
-            </h2>
+            </h3>
             <p>
               If I were given more time for this project, I would test out
               competing apps. Waze was mentioned by the users I interviewed as a
@@ -349,9 +349,9 @@ function AppleMaps() {
               the impact can present a stronger case for the implementation of
               this feature.
             </p>
-            <h2 className='text-lg'>
+            <h3 className='text-lg'>
               <strong>Learnings</strong>
-            </h2>
+            </h3>
             <p>
               I learned the importance of asking open questions in user
               interviews. Rather than asking a specific question which could
