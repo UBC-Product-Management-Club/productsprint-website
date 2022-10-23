@@ -20,6 +20,13 @@ import AppleMapsImg from './assets/fellowship_members/sophia/apple_maps.png';
 import AppleMaps from './components/fellowship/projects/AppleMaps';
 
 function App() {
+  const phase_1 = {
+    isFinished: false,
+    title: 'First Fellowship Project',
+    text: 'Case: Repurpose a product for a new market. Create the strategy to bring a product to a new market by planning for implementation, considering the roadmap &amp; risks involved.',
+    link: 'To be released in November.',
+  };
+
   const phase_2 = {
     isFinished: false,
     title: 'Second Fellowship Project',
@@ -36,14 +43,14 @@ function App() {
     isFinished: true,
     title: 'Improving SpatialChat',
     text: 'A case study on how I would improve this spatial video meeting app that can simulate aspects of the in-person experience for online events and conferences.',
-    image: { SpatialChatImg },
+    image: SpatialChatImg,
   };
   const apple_maps = {
     isFinished: true,
     title: 'Improving the Driving Experience in Apple Maps',
     text: 'Apple Maps is Apple’s native mapping app that allows users to navigate their surroundings via car, walking, public transit, cycling, and ride-hailing.',
     image: AppleMapsImg,
-    link: './assets/fellowship_members/sophia/apple_maps.png',
+    link: '/apple-maps',
   };
   return (
     <>

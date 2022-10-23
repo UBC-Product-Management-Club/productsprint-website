@@ -15,12 +15,8 @@ function ProjectCard({ project, img }) {
           <div className='project_text_container'>
             <p className='project_text_title'>{project.title}</p>
             <p className='project_text'>{project.text}</p>
-            {/* <a href='/Users/kevintan/ReactProjects/productsprint-website/src/components/fellowship/projects/AppleMaps.html'>
-              View Project →
-            </a> */}
-            {/* <a href='AppleMaps.html'>View Project →</a> */}
 
-            <Link to='/apple-maps'>
+            <Link to={project.link}>
               <a className='about_link' href=''>
                 View Project →
               </a>
