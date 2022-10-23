@@ -112,20 +112,19 @@
   border-style: dashed;
   border-color: #7a91c0;
 }
-.project_card_container.unfinished p {
+.project_card p {
   line-height: 1.5em;
 }
 
-.project_card_container p {
-  line-height: 1.5em;
-}
-
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 650px) {
   .project_card_container {
     display: block;
   }
   .project_image {
     width: 100%;
     max-width: none;
+  }
+  .project_card {
+    margin-bottom: 40px;
   }
 }

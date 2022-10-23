@@ -5,7 +5,7 @@ import SpatialChat from '../../../assets/fellowship_members/scott/spatial_chat.p
 
 function ProjectCard({ project, img }) {
   return (
-    <div>
+    <div className='project_card'>
       {console.log(project.isFinished)}
       {project.isFinished && (
         <div className='project_card_container'>
