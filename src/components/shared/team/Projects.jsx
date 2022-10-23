@@ -20,11 +20,13 @@ function Projects({ img, name, title, bio_text, linkedin, projects }) {
           </div>
         </div>
       </div>
-      <div className='projects_container'>
-        <p className='project_container_title'>Projects</p>
-        {projects.map((item) => {
-          return <ProjectCard project={item} />;
-        })}
+      <div>
+        <div className='projects_container'>
+          <p className='project_container_title'>Projects</p>
+          {projects.map((item) => {
+            return <ProjectCard project={item} />;
+          })}
+        </div>
       </div>
     </div>
   );

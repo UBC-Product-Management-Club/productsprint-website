@@ -46,15 +46,29 @@
   margin-right: auto;
   gap: 5%;
   max-width: 800px;
+  padding-left: 23px;
+  padding-right: 23px;
 }
 
 .projects_container {
-  padding-top: 3%;
+  /* padding-top: 3%;
   padding-bottom: 5%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  max-width: 800px; */
+  /* margin-left: 23px;
+  margin-right: 23px; */
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 5%;
   max-width: 800px;
+  padding-left: 23px;
+  padding-right: 23px;
 }
 
 .project_card_container {
@@ -129,5 +143,8 @@
   }
   .project_image {
     margin-bottom: 16px;
+  }
+  .bio_name {
+    font-size: 32px;
   }
 }
