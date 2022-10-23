@@ -2,6 +2,12 @@
   font-family: Inter, sans-serif;
 }
 
+.project_main_container {
+  border-top: solid;
+  border-width: 1px;
+  border-color: #c5d1df;
+}
+
 .project_page {
   display: block;
   margin-left: auto;
@@ -9,8 +15,7 @@
   max-width: 700px;
 }
 .project_page p {
-  line-height: 2em;
-  font-size: 18px;
+  line-height: 1.8em;
 }
 
 .project_container {
@@ -19,6 +24,7 @@
 
 .project_container p {
   color: #dde9f9;
+  font-size: 18px;
 }
 
 .project_meta img {
@@ -33,6 +39,7 @@
 .project_page h1 {
   font-size: 34px;
   margin-bottom: 20px;
+  line-height: 1.4em;
 }
 
 .project_container h2 {
@@ -66,30 +73,16 @@
 .project_meta_intro p {
   margin-bottom: 20px;
   margin-top: 20px;
-}
-
-.project_meta_card_container * {
-  /* background-color: #42475e; */
+  font-size: 18px;
 }
 
 .project_meta_card_container {
-  /* padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 0.25rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
-
-  margin-top: 20px; */
+  margin-top: 30px;
   width: fit-content;
   border-radius: 0.25rem;
-  /* border: #42475e;
-  border-style: solid;
-  border-width: 3px;
-  padding-right: 100px; */
 }
 
 .project_meta_card {
-  /* padding-top: 10px;
-  padding-bottom: 10px; */
   display: flex;
   gap: 10px;
   border-radius: 0.25rem;
@@ -102,9 +95,6 @@
   border-radius: 100px;
 }
 
-.project_meta_card {
-  /* padding: 10px; */
-}
 .meta_card_div p {
   color: #262936;
   margin-top: 5px;

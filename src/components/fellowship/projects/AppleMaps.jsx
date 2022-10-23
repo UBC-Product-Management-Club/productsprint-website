@@ -5,7 +5,7 @@ import Sophia from '../../../assets/fellowship_members/sophia/sophia_bio.png';
 function AppleMaps() {
   return (
     // <p>hello</p>
-    <div className='container'>
+    <div className='container project_main_container'>
       <div className='project_page'>
         <div className='project_meta'>
           <div className='project_meta_card_container'>
@@ -13,7 +13,7 @@ function AppleMaps() {
               <img src={Sophia} alt='Sophia' />
               <div className='meta_p'>
                 <p className='meta_name'>Sophia Huang</p>
-                <p className='meta_date'>Oct 2</p>
+                <p className='meta_date'>Oct 2, 2022</p>
               </div>
             </div>
           </div>
