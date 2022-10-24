@@ -18,7 +18,7 @@
   line-height: 1.8em;
 }
 
-.project_page ol {
+.project_main_container ol {
   margin-left: 30px;
 }
 
@@ -31,7 +31,7 @@
   font-size: 18px;
 }
 
-.project_container em {
+.project_main_container em {
   color: #dde9f9;
   font-size: 18px;
 }
@@ -45,31 +45,32 @@
   margin-top: 20px;
 }
 
-.project_page h1 {
+.project_main_container h1 {
   font-size: 34px;
-  margin-bottom: 20px;
   line-height: 1.4em;
 }
 
-.project_container h2 {
-  margin-bottom: 20px;
+.project_main_container h2 {
+  margin-top: 20px;
+  margin-bottom: 13px;
 }
 
-.project_container h3 {
-  margin-top: 30px;
-  margin-bottom: 5px;
+.project_main_container h3 {
+  margin-top: 20px;
+  margin-bottom: 13px;
 }
 
-.project_page hr {
+.project_main_container hr {
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-.project_container ul {
+.project_main_container ul {
   margin-left: 30px;
 }
 
-.project_container hr {
+.project_main_container hr {
+  margin-top: 25px;
   margin-bottom: 25px;
 }
 
@@ -94,7 +95,7 @@
 
 .project_meta_intro p {
   margin-bottom: 20px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   font-size: 18px;
 }
 

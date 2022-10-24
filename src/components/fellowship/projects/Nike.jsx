@@ -19,75 +19,69 @@ function Nike() {
           <h1 className='text-lg'>
             <strong>Improving the Social Feature of the Nike Run Club</strong>
           </h1>
-          <div className='project_meta_intro'></div>
-          <p>
-            For this case study, I took the role of a product manager for Nike
-            Run Club, Nike’s running tracker and training program application.
-            To arrive at well-developed a solution, I followed a rigorous
-            product management process by conducting user research, identifying
-            pain points, applying PM-specific frameworks to narrow down a viable
-            opportunity and designing a solution.
-          </p>
-          <p>
-            <strong>Deliverables:</strong>
-          </p>
-          <ol class='list-decimal list-inside pl-6'>
-            <li>
-              <p>User Personas</p>
-            </li>
-            <li>
-              <p>Opportunity Map</p>
-            </li>
-            <li>
-              <p>Feature Prioritization</p>
-            </li>
-            <li>
-              <p>Product Requirement Document</p>
-            </li>
-            <li>
-              <p>Visual Mockups (Low-fi and High-fi)</p>
-              <p></p>
-            </li>
-          </ol>
-          <h2 class='text-xl'>
-            <strong>
-              <u>Introducing Nike Run Club</u>
-            </strong>
-          </h2>
-          <p>
-            Growing up in Vancouver, fitness and health has always been an
-            integral part of my life. Surrounded by beautiful mountains and
-            living by the coast, I found myself partaking in a lot of outdoor
-            activities and specifically running when I entered university. This
-            summer, I decided to challenge my running abilities by setting a
-            goal of completing a half marathon by the end of the summer. While I
-            was training independently for the first few weeks, I quickly found
-            myself training with the Nike Run Club app and it slowly became one
-            of my favourite trackers for running.&nbsp;
-          </p>
-          <figure>
-            <div
-              class='flex items-center mt-5 ignore-typography justify-center bg-surface-100 -ml-4 -mr-4 sm:!-ml-6 sm:!-mr-6'
-              data-index='0'
-            >
-              <img
-                src='https://tribe-s3-production.imgix.net/ZevyJCAzaTVuK8fGh5cP2?w=1000&amp;auto=compress,format&amp;dl'
-                class='cursor-pointer max-h-120'
-                alt=''
-              />
-            </div>
-          </figure>
-          <p>
-            From distance, elevation and pace tracking to guided run and
-            training plans, the mobile application had all the features to be
-            considered an all-in-one tracker. Users on the app are able to
-            record their outdoor or treadmill runs while keeping a history of
-            past activities. Coupled with a simple user interface (UI), the app
-            felt seamless where pages and features were easy to use and quick to
-            navigate.&nbsp;
-          </p>
-          <p></p>
-          <p></p>
+          <div className='project_meta_intro'>
+            <h2>
+              <strong>Deliverables:</strong>
+            </h2>
+            <ol class='list-decimal list-inside pl-6'>
+              <li>
+                <p>User Personas</p>
+              </li>
+              <li>
+                <p>Opportunity Map</p>
+              </li>
+              <li>
+                <p>Feature Prioritization</p>
+              </li>
+              <li>
+                <p>Product Requirement Document</p>
+              </li>
+              <li>
+                <p>Visual Mockups (Low-fi and High-fi)</p>
+                <p></p>
+              </li>
+            </ol>
+            <h2 class='text-xl'>
+              <strong>
+                <u>Introducing Nike Run Club</u>
+              </strong>
+            </h2>
+            <p>
+              Growing up in Vancouver, fitness and health has always been an
+              integral part of my life. Surrounded by beautiful mountains and
+              living by the coast, I found myself partaking in a lot of outdoor
+              activities and specifically running when I entered university.
+              This summer, I decided to challenge my running abilities by
+              setting a goal of completing a half marathon by the end of the
+              summer. While I was training independently for the first few
+              weeks, I quickly found myself training with the Nike Run Club app
+              and it slowly became one of my favourite trackers for
+              running.&nbsp;
+            </p>
+            <figure>
+              <div
+                class='flex items-center mt-5 ignore-typography justify-center bg-surface-100 -ml-4 -mr-4 sm:!-ml-6 sm:!-mr-6'
+                data-index='0'
+              >
+                <img
+                  src='https://tribe-s3-production.imgix.net/ZevyJCAzaTVuK8fGh5cP2?w=1000&amp;auto=compress,format&amp;dl'
+                  class='cursor-pointer max-h-120'
+                  alt=''
+                />
+              </div>
+            </figure>
+            <p>
+              From distance, elevation and pace tracking to guided run and
+              training plans, the mobile application had all the features to be
+              considered an all-in-one tracker. Users on the app are able to
+              record their outdoor or treadmill runs while keeping a history of
+              past activities. Coupled with a simple user interface (UI), the
+              app felt seamless where pages and features were easy to use and
+              quick to navigate.&nbsp;
+            </p>
+            <p></p>
+            <p></p>
+          </div>
         </div>
 
         <div className='project_container'>
@@ -96,14 +90,15 @@ function Nike() {
               <u>Project Objective</u>
             </strong>
           </h2>
-          <p>
+          <h3>
             <strong>Situation:</strong>
-          </p>
+          </h3>
           <p>
             During my time using the application, there were pain points I have
             identified as well as features that I would want to see within the
             application.&nbsp;
           </p>
+          <br />
           <p>
             <strong>1. Community.</strong> As a runner, there’s never a better
             feeling than running with your running partner, group, or friends
@@ -114,6 +109,7 @@ function Nike() {
             leaderboard and a friend request feature, it lacks interaction
             between users and the social aspect of running.
           </p>
+          <br />
           <p>
             <strong>2. Prognostic and Diagnostic with Running Data. </strong>
             Another big reason why I love fitness tracking applications is
@@ -123,9 +119,10 @@ function Nike() {
             can be used to build a better understanding of the body, the
             progress of the runner, and trends.&nbsp;
           </p>
-          <p>
+          <br />
+          <h3>
             <strong>Assumption:</strong>
-          </p>
+          </h3>
           <ul class='list-disc list-inside pl-6'>
             <li>
               <p>
@@ -146,9 +143,9 @@ function Nike() {
               </p>
             </li>
           </ul>
-          <p>
+          <h3>
             <strong>Hypothesis:&nbsp;</strong>
-          </p>
+          </h3>
           <ul class='list-disc list-inside pl-6'>
             <li>
               <p>
@@ -163,9 +160,9 @@ function Nike() {
               </p>
             </li>
           </ul>
-          <p>
+          <h3>
             <strong>Timeline</strong>
-          </p>
+          </h3>
           <p>I am hoping to spend a total of 10 hours on this project:</p>
           <ul class='list-disc list-inside pl-6'>
             <li>
@@ -202,9 +199,9 @@ function Nike() {
             themes were further explored through categorization in the user
             personas and an opportunity map
           </p>
-          <p>
+          <h3>
             <strong>User Persona&nbsp;</strong>
-          </p>
+          </h3>
           <p>
             After compiling and distilling the insights from the user research
             phase, I realized the frustrations and improvements expressed by
@@ -238,9 +235,9 @@ function Nike() {
               />
             </div>
           </figure>
-          <p>
+          <h3>
             <strong>Opportunity Map</strong>
-          </p>
+          </h3>
           <p>
             The opportunity map below indicates the desired outcome and
             potential opportunities to improve the application through user pain
@@ -265,10 +262,10 @@ function Nike() {
               <u>Solution</u>
             </strong>
           </h2>
-          <p>
+          <h3>
             <strong>Potential Solutions</strong>
             <br />
-          </p>
+          </h3>
           <ol class='list-decimal list-inside pl-6'>
             <li>
               <p>
@@ -345,9 +342,9 @@ function Nike() {
               </ul>
             </li>
           </ol>
-          <p>
+          <h3>
             <strong>Feature Prioritization</strong>
-          </p>
+          </h3>
           <figure>
             <div
               class='flex items-center mt-5 ignore-typography justify-center bg-surface-100 -ml-4 -mr-4 sm:!-ml-6 sm:!-mr-6'
@@ -360,9 +357,9 @@ function Nike() {
               />
             </div>
           </figure>
-          <p>
+          <h3>
             <strong>Value Proposition</strong>
-          </p>
+          </h3>
           <p>
             Nike Run Club's implementation of sharing user metadata and
             integration with other social providers will enable users to feel
@@ -375,9 +372,9 @@ function Nike() {
               <u>Design</u>
             </strong>
           </h2>
-          <p>
+          <h3>
             <strong>Product Requirements</strong>
-          </p>
+          </h3>
           <ol class='list-decimal list-inside pl-6'>
             <li>
               <p>
@@ -395,9 +392,9 @@ function Nike() {
               <p>Users can view the shoes, friends and clubs of other users</p>
             </li>
           </ol>
-          <p>
+          <h3>
             <strong>Design Requirements</strong>
-          </p>
+          </h3>
           <ol class='list-decimal list-inside pl-6'>
             <li>
               <p>
@@ -424,9 +421,9 @@ function Nike() {
               </p>
             </li>
           </ol>
-          <p>
+          <h3>
             <strong>Visual Mockup&nbsp;</strong>
-          </p>
+          </h3>
           <figure>
             <div
               class='flex items-center mt-5 ignore-typography justify-center bg-surface-100 -ml-4 -mr-4 sm:!-ml-6 sm:!-mr-6'
@@ -439,9 +436,9 @@ function Nike() {
               />
             </div>
           </figure>
-          <p>
+          <h3>
             <strong>Low-fi&nbsp;</strong>
-          </p>
+          </h3>
           <figure>
             <div
               class='flex items-center mt-5 ignore-typography justify-center bg-surface-100 -ml-4 -mr-4 sm:!-ml-6 sm:!-mr-6'
@@ -454,9 +451,9 @@ function Nike() {
               />
             </div>
           </figure>
-          <p>
+          <h3>
             <strong>High-fi</strong>
-          </p>
+          </h3>
           <figure>
             <div
               class='flex items-center mt-5 ignore-typography justify-center bg-surface-100 -ml-4 -mr-4 sm:!-ml-6 sm:!-mr-6'
@@ -475,9 +472,10 @@ function Nike() {
               <u>Conclusion</u>
             </strong>
           </h2>
-          <p>
+          <h3>
             <strong>Risk and Mitigation</strong>
-          </p>
+          </h3>
+          <br />
           <p>
             <strong>Privacy</strong> - With the implementation of sharing
             features, it comes naturally that privacy and user permission will
@@ -486,9 +484,9 @@ function Nike() {
             of sensitive information such as running metadata when enabling
             sharing between users.&nbsp;
           </p>
-          <p>
+          <h3>
             <strong>Looking Forward</strong>
-          </p>
+          </h3>
           <p>
             Moving forward, I want to spend more time working on user research
             and developing a more fundamental understanding of the users and how
@@ -501,9 +499,9 @@ function Nike() {
             React Native or Swift to see the development efforts and the design
             becoming reality.
           </p>
-          <p>
+          <h3>
             <strong>Reflection and Learnings</strong>
-          </p>
+          </h3>
           <p>
             After completing this project, it felt as if I took my first step
             into product management. From working with different frameworks to
@@ -511,6 +509,7 @@ function Nike() {
             fresh air to see a product I use every day through the lens of a
             product manager.
           </p>
+          <br />
           <p>
             I learned the importance of taking a large number of pain points and
             really narrowing them down to one solution using tools and
