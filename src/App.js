@@ -28,6 +28,7 @@ import NikeImg from './assets/projects/nike_run_club.png';
 import SpotifyImg from './assets/projects/spotify.png';
 import TicketMasterImg from './assets/projects/ticketmaster.png';
 import NotabilityImg from './assets/projects/notability.png';
+import LinkedInImg from './assets/projects/linkedin.png';
 
 // Projects Page
 import AppleMaps from './components/fellowship/projects/AppleMaps';
@@ -36,6 +37,7 @@ import Nike from './components/fellowship/projects/Nike';
 import Spotify from './components/fellowship/projects/Spotify';
 import TicketMaster from './components/fellowship/projects/TicketMaster';
 import Notability from './components/fellowship/projects/Notability';
+import LinkedIn from './components/fellowship/projects/LinkedIn';
 
 function App() {
   const phase_2 = {
@@ -97,6 +99,13 @@ function App() {
     text: 'For this project, I was a PM for Notability, a note-taking software. I conducted user research, identified pain points, and used PM frameworks to develop a solution to improve the user experience.',
     image: NotabilityImg,
     link: '/notability',
+  };
+  const linkedin_jobs = {
+    isFinished: true,
+    title: 'Improving LinkedIn Jobs',
+    text: 'For this project, I was a product manager for LinkedIn, a business and employment-oriented online service. To arrive at my solution, I conducted primary and secondary market research and interviews, identified challenges, and used product management frameworks to develop a viable solution.',
+    image: LinkedInImg,
+    link: '/linkedin-jobs',
   };
   return (
     <>
@@ -226,6 +235,21 @@ function App() {
               />
             }
           />
+          <Route
+            path='/ashkan-gharahgozli'
+            element={
+              <Projects
+                img={Ashkan}
+                name='Ashkan Gharahgozli'
+                title='Fellow'
+                bio_text={
+                  'Aspiring Product Manager with experience in R&D, Android development, and design. Currently working part-time as a back-end developer at a Vancouver startup and enjoys pursuing real-world challenges.'
+                }
+                linkedin='https://www.linkedin.com/in/ashgozli/'
+                projects={[linkedin_jobs, phase_2, phase_3]}
+              />
+            }
+          />
           {/* Projects */}
           <Route path='/apple-maps' element={<AppleMaps />} />
           <Route path='/notion' element={<Notion />} />
@@ -233,6 +257,7 @@ function App() {
           <Route path='/spotify' element={<Spotify />} />
           <Route path='/ticket-master' element={<TicketMaster />} />
           <Route path='/notability' element={<Notability />} />
+          <Route path='/linkedin-jobs' element={<LinkedIn />} />
         </Routes>
       </ScrollToTop>
       <Footer />
