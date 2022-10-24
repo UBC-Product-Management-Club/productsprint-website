@@ -27,6 +27,7 @@ import NotionImg from './assets/projects/notion.png';
 import NikeImg from './assets/projects/nike_run_club.png';
 import SpotifyImg from './assets/projects/spotify.png';
 import TicketMasterImg from './assets/projects/ticketmaster.png';
+import NotabilityImg from './assets/projects/notability.png';
 
 // Projects Page
 import AppleMaps from './components/fellowship/projects/AppleMaps';
@@ -34,6 +35,7 @@ import Notion from './components/fellowship/projects/Notion';
 import Nike from './components/fellowship/projects/Nike';
 import Spotify from './components/fellowship/projects/Spotify';
 import TicketMaster from './components/fellowship/projects/TicketMaster';
+import Notability from './components/fellowship/projects/Notability';
 
 function App() {
   const phase_2 = {
@@ -88,6 +90,13 @@ function App() {
     text: 'In this project, I took on the role of a PM for Ticketmaster, a North-American ticket sales and distribution company. My goal was to improve the secondary market buying and selling experience for users, mainly in regards to the resale of tickets, while also keeping in mind the need for Ticketmaster to gain revenue. Enjoy!',
     image: TicketMasterImg,
     link: '/ticket-master',
+  };
+  const notability = {
+    isFinished: true,
+    title: 'Notability',
+    text: 'For this project, I was a PM for Notability, a note-taking software. I conducted user research, identified pain points, and used PM frameworks to develop a solution to improve the user experience.',
+    image: NotabilityImg,
+    link: '/notability',
   };
   return (
     <>
@@ -202,12 +211,28 @@ function App() {
               />
             }
           />
+          <Route
+            path='/oceanna-nguyen'
+            element={
+              <Projects
+                img={Oceanna}
+                name='Oceanna Nguyen'
+                title='Fellow'
+                bio_text={
+                  'Customer driven aspiring product manager passionate about getting to the root of problems. Experience working in a hyper growth SaaS startup with 6+ years of customer experience. Currently learning about project management frameworks to start my own passion project!'
+                }
+                linkedin='https://www.linkedin.com/in/oceanna-nguyen/'
+                projects={[notability, phase_2, phase_3]}
+              />
+            }
+          />
           {/* Projects */}
           <Route path='/apple-maps' element={<AppleMaps />} />
           <Route path='/notion' element={<Notion />} />
           <Route path='/nike-run-club' element={<Nike />} />
           <Route path='/spotify' element={<Spotify />} />
           <Route path='/ticket-master' element={<TicketMaster />} />
+          <Route path='/notability' element={<Notability />} />
         </Routes>
       </ScrollToTop>
       <Footer />
