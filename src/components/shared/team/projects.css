@@ -78,8 +78,9 @@
   padding: 23px;
   min-height: 75px;
   display: flex;
-  gap: 10px;
+  gap: 23px;
   margin-top: 4%;
+
   /* max-width: 700px; */
 }
 
@@ -89,6 +90,7 @@
 
 .project_text_title {
   font-size: 18px;
+  font-weight: 600;
 }
 
 .project_text_container {
@@ -114,6 +116,8 @@
 
 .project_image_container {
   width: 100%;
+  /* display: flex;
+  align-items: center; */
   /* object-fit: cover; */
 }
 
