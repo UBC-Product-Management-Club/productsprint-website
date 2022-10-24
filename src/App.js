@@ -26,12 +26,14 @@ import AppleMapsImg from './assets/projects/apple_maps.png';
 import NotionImg from './assets/projects/notion.png';
 import NikeImg from './assets/projects/nike_run_club.png';
 import SpotifyImg from './assets/projects/spotify.png';
+import TicketMasterImg from './assets/projects/ticketmaster.png';
 
 // Projects Page
 import AppleMaps from './components/fellowship/projects/AppleMaps';
 import Notion from './components/fellowship/projects/Notion';
 import Nike from './components/fellowship/projects/Nike';
 import Spotify from './components/fellowship/projects/Spotify';
+import TicketMaster from './components/fellowship/projects/TicketMaster';
 
 function App() {
   const phase_2 = {
@@ -79,6 +81,13 @@ function App() {
     text: 'For this case study, I took the role of a product manager for Nike Run Club, Nike’s running tracker and training program application. To arrive at well-developed a solution, I followed a rigorous product management process by conducting user research, identifying pain points, applying PM-specific frameworks to narrow down a viable opportunity and designing a solution.',
     image: SpotifyImg,
     link: '/spotify',
+  };
+  const ticket_master = {
+    isFinished: true,
+    title: 'Taking over the Secondary Market with Ticketmaster!',
+    text: 'In this project, I took on the role of a PM for Ticketmaster, a North-American ticket sales and distribution company. My goal was to improve the secondary market buying and selling experience for users, mainly in regards to the resale of tickets, while also keeping in mind the need for Ticketmaster to gain revenue. Enjoy!',
+    image: TicketMasterImg,
+    link: '/ticket-master',
   };
   return (
     <>
@@ -178,11 +187,27 @@ function App() {
               />
             }
           />
+          <Route
+            path='/evan-sandhu'
+            element={
+              <Projects
+                img={Evan}
+                name='Evan Sandhu'
+                title='Fellow'
+                bio_text={
+                  "Aspiring product manager with interests in design & development, blockchain technology & web3, and the gaming industry. Driven, passionate, and motivated marketing student at the University of British Columbia's Sauder School of Business."
+                }
+                linkedin='https://www.linkedin.com/in/evansandhu/'
+                projects={[ticket_master, phase_2, phase_3]}
+              />
+            }
+          />
           {/* Projects */}
           <Route path='/apple-maps' element={<AppleMaps />} />
           <Route path='/notion' element={<Notion />} />
           <Route path='/nike-run-club' element={<Nike />} />
           <Route path='/spotify' element={<Spotify />} />
+          <Route path='/ticket-master' element={<TicketMaster />} />
         </Routes>
       </ScrollToTop>
       <Footer />
