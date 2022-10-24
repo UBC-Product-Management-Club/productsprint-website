@@ -64,9 +64,9 @@ function Notion() {
           <h2 class='text-xl'>
             <strong>Project Objective</strong>
           </h2>
-          <p>
+          <h3>
             <strong>Situation:</strong>
-          </p>
+          </h3>
           <p>
             Currently, you cannot access your Notion offline unless you have
             revisited a certain page. Given the versatility of Notion, people
@@ -85,9 +85,9 @@ function Notion() {
             their updated data immediately saved when they are back online,
             similar to platforms like Google Docs.
           </p>
-          <p>
+          <h3>
             <strong>Assumptions:</strong>
-          </p>
+          </h3>
           <ul class='list-disc list-inside pl-6'>
             <li>
               <p>Users use Notion for various things</p>
@@ -103,13 +103,13 @@ function Notion() {
                 Users are likely to want to use Notion even while they aren't
                 connected to the Internet (writing their shopping list, taking
                 notes during class, etc.), and certain users are pushed away
-                from the app simply because this feature isn't available
+                from the app3simply because this feature isn't available
               </p>
             </li>
           </ul>
-          <p>
+          <h3>
             <strong>Hypothesis:</strong>
-          </p>
+          </h3>
           <ul class='list-disc list-inside pl-6'>
             <li>
               <p>
@@ -152,9 +152,9 @@ function Notion() {
           <h2 class='text-xl'>
             <strong>User Research</strong>
           </h2>
-          <p>
+          <h3>
             <strong>User Persona:</strong>
-          </p>
+          </h3>
           <p>
             The large majority of Notion's user base is made up of 17-35 year
             olds, or young adults. A sizable portion of this group includes
@@ -174,9 +174,9 @@ function Notion() {
               />
             </div>
           </figure>
-          <p>
+          <h3>
             <strong>Opportunity Map:</strong>
-          </p>
+          </h3>
           <p>
             The opportunity map outlines certain pain points and areas of
             improvement for Notion, specifically when it comes to its
@@ -205,9 +205,9 @@ function Notion() {
           <h2 class='text-xl'>
             <strong>Solution</strong>
           </h2>
-          <p>
+          <h3>
             <strong>Solution Ideation:</strong>
-          </p>
+          </h3>
           <ul class='list-disc list-inside pl-6'>
             <li>
               <p>
@@ -229,9 +229,9 @@ function Notion() {
               </p>
             </li>
           </ul>
-          <p>
+          <h3>
             <strong>Feature Prioritization</strong>
-          </p>
+          </h3>
           <figure>
             <div
               class='flex items-center mt-5 ignore-typography justify-center bg-surface-100 -ml-4 -mr-4 sm:!-ml-6 sm:!-mr-6'
@@ -244,9 +244,9 @@ function Notion() {
               />
             </div>
           </figure>
-          <p>
+          <h3>
             <strong>Value Proposition</strong>
-          </p>
+          </h3>
           <p>
             Enabling an offline mode for Notion will allow users to customize
             their experience and view/edit necessary pages on the go, whenever
@@ -254,9 +254,9 @@ function Notion() {
             and flexible, increasing user satisfaction and gaining more users
             now that the app is more integrated.
           </p>
-          <p>
+          <h3>
             <strong>Product Requirements</strong>
-          </p>
+          </h3>
           <p>
             Based on user interviews, persona development, and Notion's visual
             interface, the following user requirements are the following:
@@ -284,9 +284,9 @@ function Notion() {
           <h2 class='text-xl'>
             <strong>Design</strong>
           </h2>
-          <p>
+          <h3>
             <strong>Visual Mockup</strong>
-          </p>
+          </h3>
           <p>
             The Notion interface below is a hi-fidelity prototype purely mocked
             up on Figma
@@ -306,9 +306,9 @@ function Notion() {
           <h2 class='text-xl'>
             <strong>Conclusion</strong>
           </h2>
-          <p>
+          <h3>
             <strong>Risks</strong>
-          </p>
+          </h3>
           <p>
             One risk of the offline mode is that users may complain about how
             much space their offline workspace may take on their devices. This
