@@ -106,12 +106,15 @@
 }
 
 .project_image {
-  max-width: 280px;
+  width: 280px;
+  height: 134.4px;
   border-radius: 15px;
+  object-fit: cover;
 }
 
 .project_image_container {
   width: 100%;
+  /* object-fit: cover; */
 }
 
 .project_card_container.unfinished {
@@ -146,5 +149,8 @@
   }
   .bio_name {
     font-size: 32px;
+  }
+  .project_image {
+    width: 100%;
   }
 }
