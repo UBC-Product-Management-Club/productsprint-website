@@ -19,58 +19,60 @@ function LinkedIn() {
           <h1 className='text-lg'>
             <strong>Improving LinkedIn Jobs</strong>
           </h1>
-          <div className='project_meta_intro'></div>
+          <div className='project_meta_intro'>
+            <h2 class='text-lg'>
+              <strong>Introducing LinkedIn Jobs</strong>
+            </h2>
+            <p>
+              One of the favourite software products that I frequently use is
+              LinkedIn. I love the platform because it has allowed me to meet
+              and connect with many brilliant individuals. But not every
+              software comes without flaws, and I can see the platform growing
+              and serving its purpose in many areas. For example, through my job
+              search, I realized that the application section does not update
+              user application status, and I find that to be discouraging for
+              applicants desperately looking for opportunities. The job category
+              only includes a section for the jobs applied but does not let the
+              user know where in the application process they are.
+            </p>
+            <p>
+              Another aspect that I see the platform improving is its
+              subscription features provided explicitly to users who are looking
+              for jobs and want their profiles to be in priority—adding a
+              job-seeking subscription model with the features mentioned below
+              that target users looking for jobs and needing specific
+              accommodations.&nbsp;&nbsp;
+            </p>
+            <figure>
+              <div
+                class='flex items-center mt-5 ignore-typography justify-center bg-surface-100 -ml-4 -mr-4 sm:!-ml-6 sm:!-mr-6'
+                data-index='0'
+              >
+                <img
+                  src='https://tribe-s3-production.imgix.net/HU5q8Ls9yGTPajDvYVBnM?w=1000&amp;auto=compress,format&amp;dl'
+                  class='cursor-pointer max-h-120'
+                  className='meta_img'
+                  alt=''
+                />
+              </div>
+            </figure>
+          </div>
 
           <p></p>
         </div>
 
         <div className='project_container'>
-          <h2 class='text-lg'>
-            <strong>Introducing LinkedIn Jobs</strong>
-          </h2>
-          <p>
-            One of the favourite software products that I frequently use is
-            LinkedIn. I love the platform because it has allowed me to meet and
-            connect with many brilliant individuals. But not every software
-            comes without flaws, and I can see the platform growing and serving
-            its purpose in many areas. For example, through my job search, I
-            realized that the application section does not update user
-            application status, and I find that to be discouraging for
-            applicants desperately looking for opportunities. The job category
-            only includes a section for the jobs applied but does not let the
-            user know where in the application process they are.
-          </p>
-          <p>
-            Another aspect that I see the platform improving is its subscription
-            features provided explicitly to users who are looking for jobs and
-            want their profiles to be in priority—adding a job-seeking
-            subscription model with the features mentioned below that target
-            users looking for jobs and needing specific
-            accommodations.&nbsp;&nbsp;
-          </p>
-          <figure>
-            <div
-              class='flex items-center mt-5 ignore-typography justify-center bg-surface-100 -ml-4 -mr-4 sm:!-ml-6 sm:!-mr-6'
-              data-index='0'
-            >
-              <img
-                src='https://tribe-s3-production.imgix.net/HU5q8Ls9yGTPajDvYVBnM?w=1000&amp;auto=compress,format&amp;dl'
-                class='cursor-pointer max-h-120'
-                alt=''
-              />
-            </div>
-          </figure>
-          <h2 class='text-lg'>
+          <h3 class='text-lg'>
             <strong>Hypothesis</strong>
-          </h2>
+          </h3>
           <p>
             LinkedIn can increase user engagement and usability of their job
             search feature by allowing users to track and manage each stage of
             their job application.
           </p>
-          <h2 class='text-lg'>
+          <h3 class='text-lg'>
             <strong>Assumptions</strong>
-          </h2>
+          </h3>
           <ul class='list-disc list-inside pl-6'>
             <li>
               <p>
@@ -95,9 +97,9 @@ function LinkedIn() {
               </p>
             </li>
           </ul>
-          <h2 class='text-lg'>
+          <h3 class='text-lg'>
             <strong>Key Features</strong>
-          </h2>
+          </h3>
           <ul class='list-disc list-inside pl-6'>
             <li>
               <p>
@@ -118,7 +120,7 @@ function LinkedIn() {
               </p>
             </li>
           </ul>
-          <h2 class='text-lg'>Separate User Dashboard</h2>
+          <h3 class='text-lg'>Separate User Dashboard</h3>
           <ul class='list-disc list-inside pl-6'>
             <li>
               <p>
@@ -137,9 +139,9 @@ function LinkedIn() {
               </p>
             </li>
           </ul>
-          <h2 class='text-lg'>
+          <h3 class='text-lg'>
             <strong>Objective</strong>
-          </h2>
+          </h3>
           <ul class='list-disc list-inside pl-6'>
             <li>
               <p>
@@ -157,9 +159,9 @@ function LinkedIn() {
               <p>Develop an early prototype of the feature using Figma.</p>
             </li>
           </ul>
-          <h2 class='text-lg'>
+          <h3 class='text-lg'>
             <strong>Potential Challenges</strong>
-          </h2>
+          </h3>
           <ul class='list-disc list-inside pl-6'>
             <li>
               <p>
@@ -174,9 +176,9 @@ function LinkedIn() {
               </p>
             </li>
           </ul>
-          <h2 class='text-lg'>
+          <h3 class='text-lg'>
             <strong>Timeline</strong>
-          </h2>
+          </h3>
           <p>I aim to spend 12 hours in total on this product feature:&nbsp;</p>
           <ul class='list-disc list-inside pl-6'>
             <li>
@@ -204,9 +206,9 @@ function LinkedIn() {
           <h2 class='text-xl'>
             <strong>User Research</strong>
           </h2>
-          <h2 class='text-lg'>
+          <h3 class='text-lg'>
             <strong>Research Overview</strong>
-          </h2>
+          </h3>
           <p>
             After reading many articles and Reddit threads<strong> </strong>on
             LinkedIn users who have had no luck securing the jobs they have
@@ -214,6 +216,7 @@ function LinkedIn() {
             same distaste towards their ignored messages and time-consuming
             over-looked applications.&nbsp;&nbsp;
           </p>
+          <br />
           <p>
             Here are a few examples of how users are experiencing job searching
             using LinkedIn:&nbsp;
@@ -224,6 +227,7 @@ function LinkedIn() {
               manager on LinkedIn? [...] He's since viewed my LinkedIn profile
               but no reply yet." (u/dibs45)
             </p>
+
             <p>
               "I feel you, I've easily applied to hundreds of applications since
               graduating from my school, also in a digital art field. I don't
@@ -241,8 +245,6 @@ function LinkedIn() {
               </a>
               )
             </p>
-          </blockquote>
-          <blockquote>
             <p>
               "LinkedIn Job Scam [...] I think I got scammed by a recruiter?" (
               <a
@@ -256,8 +258,6 @@ function LinkedIn() {
               </a>
               )
             </p>
-          </blockquote>
-          <blockquote>
             <p>
               "I applied to 500+ applications on LinkedIn and got no response.
               Is that ok? [...] I tried Easy Apply, applying through the company
@@ -275,6 +275,8 @@ function LinkedIn() {
               )
             </p>
           </blockquote>
+          {/* <blockquote></blockquote>
+          <blockquote></blockquote> */}
           <p>
             During my research, it was crucial to differentiate applicant skill
             levels to understand better if this issue still exists in more
@@ -285,15 +287,16 @@ function LinkedIn() {
             and part-time/full-time job opportunities using the LinkedIn job
             application tool.&nbsp;
           </p>
+          <br />
           <p>
             Through extensive secondary research and conducting multiple user
             interviews with my target users, it became clear that LinkedIn's job
             application tracking and messaging services require optimization.
             More on this in the Solution phase.
           </p>
-          <h2 class='text-lg'>
+          <h3 class='text-lg'>
             <strong>User Persona</strong>
-          </h2>
+          </h3>
           <p>
             I have focused on interviewing the job-seeker/applicant side of the
             LinkedIn job search feature. In addition, I targeted undergraduate
@@ -321,9 +324,9 @@ function LinkedIn() {
               />
             </div>
           </figure>
-          <h2 class='text-lg'>
+          <h3 class='text-lg'>
             <strong>Opportunity Map</strong>
-          </h2>
+          </h3>
           <p>
             The Opportunity Map below shows potential areas where LinkedIn can
             further improve their job searching features.
@@ -340,9 +343,9 @@ function LinkedIn() {
               />
             </div>
           </figure>
-          <h2 class='text-lg'>
+          <h3 class='text-lg'>
             <strong>Findings</strong>
-          </h2>
+          </h3>
           <p>
             There are three main opportunities identified through my secondary
             and primary user research. Application tracking and responsiveness
@@ -354,9 +357,9 @@ function LinkedIn() {
           <h2 class='text-xl'>
             <strong>Solution</strong>
           </h2>
-          <h2 class='text-lg'>
+          <h3 class='text-lg'>
             <strong>Potential Features</strong>
-          </h2>
+          </h3>
           <ul class='list-disc list-inside pl-6'>
             <li>
               <p>
@@ -393,9 +396,9 @@ function LinkedIn() {
             LinkedIn Learning topics to prepare them for their applied
             roles.&nbsp;
           </p>
-          <h2 class='text-lg'>
+          <h3 class='text-lg'>
             <strong>Feature Prioritization</strong>
-          </h2>
+          </h3>
           <figure>
             <div
               class='flex items-center mt-5 ignore-typography justify-center bg-surface-100 -ml-4 -mr-4 sm:!-ml-6 sm:!-mr-6'
@@ -421,9 +424,9 @@ function LinkedIn() {
             incentivize users them complete more applications that may result in
             higher chances of acceptance.&nbsp;
           </p>
-          <h2 class='text-lg'>
+          <h3 class='text-lg'>
             <strong>Value Proposition</strong>
-          </h2>
+          </h3>
           <p>
             Implementing a tracking feature for in-progress job applications
             ensures that users can understand the steps to their application
@@ -436,9 +439,9 @@ function LinkedIn() {
           <h2 class='text-xl'>
             <strong>Design</strong>
           </h2>
-          <h2 class='text-lg'>
+          <h3 class='text-lg'>
             <strong>Product Requirements</strong>
-          </h2>
+          </h3>
           <p>
             Based on user interviews, persona development, and LinkedIn visual
             interface, the following user requirements are the following:&nbsp;
@@ -463,9 +466,9 @@ function LinkedIn() {
               </p>
             </li>
           </ol>
-          <h2 class='text-lg'>
+          <h3 class='text-lg'>
             <strong>Visual Mockup</strong>
-          </h2>
+          </h3>
           <figure>
             <div
               class='flex items-center mt-5 ignore-typography justify-center bg-surface-100 -ml-4 -mr-4 sm:!-ml-6 sm:!-mr-6'
@@ -500,9 +503,9 @@ function LinkedIn() {
           <h2 class='text-xl'>
             <strong>Conclusion</strong>
           </h2>
-          <h2 class='text-lg'>
+          <h3 class='text-lg'>
             <strong>Risks and Mitigation</strong>
-          </h2>
+          </h3>
           <p>
             This project's significant risk and assumption are that recruiters
             and companies are open to integrating LinkedIn applicants with their
@@ -515,18 +518,18 @@ function LinkedIn() {
             third-party recruitment might need additional privacy access to use
             such a feature.&nbsp; &nbsp;
           </p>
-          <h2 class='text-lg'>
+          <h3 class='text-lg'>
             <strong>Looking Forward</strong>
-          </h2>
+          </h3>
           <p>
             So far in this project, I have focused on researching the applicant
             side of LinkedIn job searchers; however, I am planning to do more
             user research on the pain points of recruiters using this
             platform.&nbsp;
           </p>
-          <h2 class='text-lg'>
+          <h3 class='text-lg'>
             <strong>Learnings</strong>
-          </h2>
+          </h3>
           <p>
             During this time, I learned not to rely on my assumptions about the
             solution and look into what my target users experience using this

@@ -29,6 +29,7 @@
 .project_container p {
   color: #dde9f9;
   font-size: 18px;
+  padding-bottom: 15px;
 }
 
 .project_main_container em {
@@ -91,8 +92,9 @@
 }
 
 .project_meta {
-  border-bottom: 3px solid white;
-  margin-bottom: 20px;
+  border-bottom: 3px solid #dde9f934;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .project_meta_intro p {
@@ -146,4 +148,19 @@
 
 .meta_p {
   display: inline;
+}
+
+.meta_img {
+  padding-bottom: 20px;
+}
+
+.project_main_container blockquote p {
+  padding-left: 20px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.project_main_container blockquote {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }

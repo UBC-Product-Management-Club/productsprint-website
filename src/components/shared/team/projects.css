@@ -136,7 +136,6 @@
 .project_card p {
   line-height: 1.5em;
 }
-
 @media screen and (max-width: 650px) {
   .project_card_container {
     display: block;
