@@ -19,43 +19,45 @@ function Notion() {
           <h1 className='text-lg'>
             <strong>Improving Notion's Accessibility</strong>
           </h1>
-          <div className='project_meta_intro'></div>
-          <p>
-            For this project, I was a PM for Notion, a project management,
-            note-taking, and productivity application. I identified a
-            significant issue on the platform, conducted user research to
-            identify pain points and potential opportunities, and used PM
-            frameworks to formulate a solution and design a mockup for my new
-            feature in order to improve user experience.
-          </p>
-          <h2 class='text-xl'>
-            <strong>Introducing my Favourite Product</strong>
-          </h2>
-          <p>
-            Notion is a productivity and note-taking tool aimed at helping users
-            collaborate and increase productivity. I discovered this application
-            in high school and have been using it ever since, from keeping track
-            of my calendar, to taking notes for class, to sorting my to-do list,
-            to listing a database of my expenses, and so much more.
-          </p>
-          <p>
-            The best thing about Notion for me is the versatility in its many
-            features, being able to use various components to aid with any
-            aspect of my life while remaining completely customizable.
-          </p>
-          <figure>
-            <div
-              class='flex items-center mt-5 ignore-typography justify-center bg-surface-100 -ml-4 -mr-4 sm:!-ml-6 sm:!-mr-6'
-              data-index='0'
-            >
-              <img
-                src='https://tribe-s3-production.imgix.net/mjy59cmD3JfWnU9tOXSa1?w=1000&amp;auto=compress,format&amp;dl'
-                class='cursor-pointer max-h-120'
-                alt=''
-              />
-            </div>
-          </figure>
-          <p></p>
+          <div className='project_meta_intro'>
+            <p>
+              For this project, I was a PM for Notion, a project management,
+              note-taking, and productivity application. I identified a
+              significant issue on the platform, conducted user research to
+              identify pain points and potential opportunities, and used PM
+              frameworks to formulate a solution and design a mockup for my new
+              feature in order to improve user experience.
+            </p>
+            <h2 class='text-xl'>
+              <strong>Introducing my Favourite Product</strong>
+            </h2>
+            <p>
+              Notion is a productivity and note-taking tool aimed at helping
+              users collaborate and increase productivity. I discovered this
+              application in high school and have been using it ever since, from
+              keeping track of my calendar, to taking notes for class, to
+              sorting my to-do list, to listing a database of my expenses, and
+              so much more.
+            </p>
+            <p>
+              The best thing about Notion for me is the versatility in its many
+              features, being able to use various components to aid with any
+              aspect of my life while remaining completely customizable.
+            </p>
+            <figure>
+              <div
+                class='flex items-center mt-5 ignore-typography justify-center bg-surface-100 -ml-4 -mr-4 sm:!-ml-6 sm:!-mr-6'
+                data-index='0'
+              >
+                <img
+                  src='https://tribe-s3-production.imgix.net/mjy59cmD3JfWnU9tOXSa1?w=1000&amp;auto=compress,format&amp;dl'
+                  class='cursor-pointer max-h-120'
+                  alt=''
+                />
+              </div>
+            </figure>
+            <p></p>
+          </div>
         </div>
 
         <div className='project_container'>

@@ -20,6 +20,14 @@ function Nike() {
             <strong>Improving the Social Feature of the Nike Run Club</strong>
           </h1>
           <div className='project_meta_intro'>
+            <p>
+              For this case study, I took the role of a product manager for Nike
+              Run Club, Nike’s running tracker and training program application.
+              To arrive at well-developed a solution, I followed a rigorous
+              product management process by conducting user research,
+              identifying pain points, applying PM-specific frameworks to narrow
+              down a viable opportunity and designing a solution.
+            </p>
             <h2>
               <strong>Deliverables:</strong>
             </h2>

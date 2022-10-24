@@ -21,6 +21,13 @@ function AppleMaps() {
             <strong>Improving the Driving Experience in Apple Maps</strong>
           </h1>
           <div className='project_meta_intro'>
+            <p>
+              For this project, I was a product manager for Apple Maps, Apple's
+              native navigation app. To arrive at my solution, I conducted user
+              research and interviews, identified pain points, and used product
+              management-specific frameworks to narrow down a viable
+              opportunity.
+            </p>
             <h2 className='text-lg'>
               <strong>Introducing Apple Maps</strong>
             </h2>
