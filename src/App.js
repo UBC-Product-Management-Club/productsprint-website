@@ -25,11 +25,13 @@ import Riti from './assets/fellowship_members/riti.jpeg';
 import AppleMapsImg from './assets/projects/apple_maps.png';
 import NotionImg from './assets/projects/notion.png';
 import NikeImg from './assets/projects/nike_run_club.png';
+import SpotifyImg from './assets/projects/spotify.png';
 
 // Projects Page
 import AppleMaps from './components/fellowship/projects/AppleMaps';
 import Notion from './components/fellowship/projects/Notion';
 import Nike from './components/fellowship/projects/Nike';
+import Spotify from './components/fellowship/projects/Spotify';
 
 function App() {
   const phase_2 = {
@@ -70,6 +72,13 @@ function App() {
     text: 'For this case study, I took the role of a product manager for Nike Run Club, Nike’s running tracker and training program application. To arrive at well-developed a solution, I followed a rigorous product management process by conducting user research, identifying pain points, applying PM-specific frameworks to narrow down a viable opportunity and designing a solution.',
     image: NikeImg,
     link: '/nike-run-club',
+  };
+  const spotify = {
+    isFinished: true,
+    title: 'Improving Spotify',
+    text: 'For this case study, I took the role of a product manager for Nike Run Club, Nike’s running tracker and training program application. To arrive at well-developed a solution, I followed a rigorous product management process by conducting user research, identifying pain points, applying PM-specific frameworks to narrow down a viable opportunity and designing a solution.',
+    image: SpotifyImg,
+    link: '/spotify',
   };
   return (
     <>
@@ -156,10 +165,24 @@ function App() {
               />
             }
           />
+          <Route
+            path='/riti-nawroz'
+            element={
+              <Projects
+                img={Riti}
+                name='Riti Nawroz'
+                title='Fellow'
+                bio_text='Graduating Interdisciplinary Studies student at UBC. Currently interning at Deloitte as Risk and Quality Analyst. Looking to explore PM and its design thinking, problem solving and communication aspects. '
+                linkedin='https://www.linkedin.com/in/ritinawroz/'
+                projects={[spotify, phase_2, phase_3]}
+              />
+            }
+          />
           {/* Projects */}
           <Route path='/apple-maps' element={<AppleMaps />} />
           <Route path='/notion' element={<Notion />} />
           <Route path='/nike-run-club' element={<Nike />} />
+          <Route path='/spotify' element={<Spotify />} />
         </Routes>
       </ScrollToTop>
       <Footer />
