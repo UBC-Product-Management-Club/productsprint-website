@@ -20,6 +20,7 @@ import Evan from './assets/fellowship_members/evan.jpeg';
 import Martin from './assets/fellowship_members/martin.png';
 import Oceanna from './assets/fellowship_members/oceanna.jpeg';
 import Riti from './assets/fellowship_members/riti.jpeg';
+import William from './assets/fellowship_members/william.png';
 
 // Projects Pic
 import AppleMapsImg from './assets/projects/apple_maps.png';
@@ -29,6 +30,7 @@ import SpotifyImg from './assets/projects/spotify.png';
 import TicketMasterImg from './assets/projects/ticketmaster.png';
 import NotabilityImg from './assets/projects/notability.png';
 import LinkedInImg from './assets/projects/linkedin.png';
+import YoutubeImg from './assets/projects/youtube.png';
 
 // Projects Page
 import AppleMaps from './components/fellowship/projects/AppleMaps';
@@ -38,6 +40,7 @@ import Spotify from './components/fellowship/projects/Spotify';
 import TicketMaster from './components/fellowship/projects/TicketMaster';
 import Notability from './components/fellowship/projects/Notability';
 import LinkedIn from './components/fellowship/projects/LinkedIn';
+import Youtube from './components/fellowship/projects/Youtube';
 
 function App() {
   const phase_2 = {
@@ -106,6 +109,13 @@ function App() {
     text: 'For this project, I was a product manager for LinkedIn, a business and employment-oriented online service. To arrive at my solution, I conducted primary and secondary market research and interviews, identified challenges, and used product management frameworks to develop a viable solution.',
     image: LinkedInImg,
     link: '/linkedin-jobs',
+  };
+  const youtube = {
+    isFinished: true,
+    title: 'Improving accessibility in YouTube',
+    text: 'In this project, I took the place of a product manager for Youtube. Through user interviews and broad research of the application and its complaints, I identified pain points and potential improvement opportunities and utilized product management frameworks to arrive at a viable solution.',
+    image: YoutubeImg,
+    link: '/youtube',
   };
   return (
     <>
@@ -250,6 +260,21 @@ function App() {
               />
             }
           />
+          <Route
+            path='/william-nguyen'
+            element={
+              <Projects
+                img={William}
+                name='William Nguyen'
+                title='Fellow'
+                bio_text={
+                  'Aspiring product manager and developer with experience in front-end development. Currently, a student in the Business and Computer Science program at UBC. In the future, I hope to utilize my technology skills and business acumen to create a startup that combats climate change. '
+                }
+                linkedin='https://www.linkedin.com/in/william-nguyen202103/'
+                projects={[youtube, phase_2, phase_3]}
+              />
+            }
+          />
           {/* Projects */}
           <Route path='/apple-maps' element={<AppleMaps />} />
           <Route path='/notion' element={<Notion />} />
@@ -258,6 +283,7 @@ function App() {
           <Route path='/ticket-master' element={<TicketMaster />} />
           <Route path='/notability' element={<Notability />} />
           <Route path='/linkedin-jobs' element={<LinkedIn />} />
+          <Route path='/youtube' element={<Youtube />} />
         </Routes>
       </ScrollToTop>
       <Footer />
