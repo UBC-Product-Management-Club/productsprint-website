@@ -18,6 +18,10 @@
   line-height: 1.8em;
 }
 
+.project_page ol {
+  margin-left: 30px;
+}
+
 .project_container {
   margin-bottom: 30px;
 }

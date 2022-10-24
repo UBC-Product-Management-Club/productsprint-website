@@ -4,7 +4,6 @@ import Sophia from '../../../assets/fellowship_members/sophia_bio.png';
 
 function Template() {
   return (
-    // <p>hello</p>
     <div className='container project_main_container'>
       <div className='project_page'>
         <div className='project_meta'>

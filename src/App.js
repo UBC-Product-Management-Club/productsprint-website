@@ -24,10 +24,12 @@ import Riti from './assets/fellowship_members/riti.jpeg';
 // Projects Pic
 import AppleMapsImg from './assets/projects/apple_maps.png';
 import NotionImg from './assets/projects/notion.png';
+import NikeImg from './assets/projects/nike_run_club.png';
 
 // Projects Page
 import AppleMaps from './components/fellowship/projects/AppleMaps';
 import Notion from './components/fellowship/projects/Notion';
+import Nike from './components/fellowship/projects/Nike';
 
 function App() {
   const phase_2 = {
@@ -61,6 +63,13 @@ function App() {
     text: 'I was a PM for Notion, a project management, note-taking, and productivity application. I identified a significant issue on the platform, conducted user research to identify pain points and potential opportunities, and used PM frameworks to formulate a solution and design a mockup for my new feature in order to improve user experience.',
     image: NotionImg,
     link: '/notion',
+  };
+  const nike_run_club = {
+    isFinished: true,
+    title: 'Improving the Social Feature of the Nike Run Club',
+    text: 'For this case study, I took the role of a product manager for Nike Run Club, Nike’s running tracker and training program application. To arrive at well-developed a solution, I followed a rigorous product management process by conducting user research, identifying pain points, applying PM-specific frameworks to narrow down a viable opportunity and designing a solution.',
+    image: NikeImg,
+    link: '/nike-run-club',
   };
   return (
     <>
@@ -115,10 +124,7 @@ function App() {
                 img={Sophia}
                 name='Sophia Huang'
                 title='Fellow'
-                bio_text='Aspiring Product Manager with experience in front-end development
-              and design. Currently working as a PM Intern at BlackBerry in
-              Toronto, but eventually wants to break out of the corporate world to
-              pursue his own startup and tackle problems in education.'
+                bio_text='Aspiring Product Manager with an eye for design and interest in analytics. Previous work experience includes consulting at a large, global firm, and IT Analyst at a hypergrowth company.'
                 linkedin='https://www.linkedin.com/in/sophia-huang7/'
                 projects={[apple_maps, phase_2, phase_3]}
               />
@@ -132,14 +138,28 @@ function App() {
                 name='Indira Sowy'
                 title='Fellow'
                 bio_text="Aspiring product manager with past experiences in software development and UX design, working as a UX Designer at a university faculty and a Software Engineer Intern at a YC startup over the summer. I'm passionate about combining my interests to work on building meaningful products that aim to benefit users' lives."
-                linkedin='https://www.linkedin.com/in/sophia-huang7/'
+                linkedin='https://www.linkedin.com/in/indirasowy/'
                 projects={[notion, phase_2, phase_3]}
               />
             }
           />
-          {/* Apple Maps Projects */}
+          <Route
+            path='/martin-tang'
+            element={
+              <Projects
+                img={Martin}
+                name='Martin Tang'
+                title='Fellow'
+                bio_text="Hello 👋🏻 I'm Martin, currently a second year computer engineering student at UBC. I have worked previously at Bombardier as Product Management Intern and want to pursue this career in the tech industry. Feel free to reach out on Linkedin :) "
+                linkedin='https://www.linkedin.com/in/martin-txng/'
+                projects={[nike_run_club, phase_2, phase_3]}
+              />
+            }
+          />
+          {/* Projects */}
           <Route path='/apple-maps' element={<AppleMaps />} />
           <Route path='/notion' element={<Notion />} />
+          <Route path='/nike-run-club' element={<Nike />} />
         </Routes>
       </ScrollToTop>
       <Footer />
