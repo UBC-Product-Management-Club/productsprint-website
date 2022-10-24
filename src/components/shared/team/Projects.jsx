@@ -1,6 +1,6 @@
 import React from 'react';
 import './projects.css';
-import AppleMapsImg from '../../../assets/fellowship_members/sophia/apple_maps.png';
+import AppleMapsImg from '../../../assets/projects/apple_maps.png';
 
 import ProjectCard from './ProjectCard';
 

@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './/projects.css';
-import SpatialChat from '../../../assets/fellowship_members/scott/spatial_chat.png';
 
 function ProjectCard({ project, img }) {
   return (

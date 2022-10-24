@@ -1,6 +1,6 @@
 import React from 'react';
 import './projects.css';
-import Sophia from '../../../assets/fellowship_members/sophia/sophia_bio.png';
+import Sophia from '../../../assets/fellowship_members/sophia_bio.png';
 
 function AppleMaps() {
   return (
