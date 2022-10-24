@@ -20,15 +20,9 @@ function Spotify() {
             <strong>Improving Spotify</strong>
           </h1>
           <div className='project_meta_intro'>
-            <p>
-              For this project, I acted as a PM for the popular music streaming
-              platform, Spotify. I performed user research to find pain points
-              and then utilized various design thinking tools to brainstorm
-              solutions to improve the user experience.
-            </p>
-            <p>
+            <h2>
               <strong>Introducing my Favorite Product</strong>
-            </p>
+            </h2>
             <p>
               Spotify is an app I use on a daily basis because it enhances my
               daily life while requiring low levels of effort. It is great for

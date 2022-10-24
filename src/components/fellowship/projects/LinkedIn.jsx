@@ -25,9 +25,6 @@ function LinkedIn() {
         </div>
 
         <div className='project_container'>
-          <h2 class='text-xl'>
-            <strong>Project Proposal</strong>
-          </h2>
           <h2 class='text-lg'>
             <strong>Introducing LinkedIn Jobs</strong>
           </h2>

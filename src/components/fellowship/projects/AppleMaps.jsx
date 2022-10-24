@@ -21,6 +21,9 @@ function AppleMaps() {
             <strong>Improving the Driving Experience in Apple Maps</strong>
           </h1>
           <div className='project_meta_intro'>
+            <h2 className='text-lg'>
+              <strong>Introducing Apple Maps</strong>
+            </h2>
             <p>
               In 2021, I had to travel alone from San Francisco to San Jose via
               the metro. This was initially scary and challenging as a
@@ -60,9 +63,6 @@ function AppleMaps() {
 
         <div className='project_container'>
           <article className='mt-2 text-md text-basicSurface-700'>
-            <h1 className='text-lg'>
-              <strong>Introducing Apple Maps</strong>
-            </h1>
             <h2 className='text-lg'>
               <strong>Project Objective</strong>
             </h2>
