@@ -1,0 +1,428 @@
+import React from 'react';
+import './projects.css';
+import Michael from '../../../assets/fellowship_members/michael.jpeg';
+
+function ImprovingDuolingo() {
+  return (
+    <div className='container project_main_container'>
+      <div className='project_page'>
+        <div className='project_meta'>
+          <div className='project_meta_card_container'>
+            <div className='project_meta_card'>
+              <img
+                src={Michael}
+                alt='
+              Michael
+              '
+              />
+              <div className='meta_p'>
+                <p className='meta_name'>Michael Tham</p>
+                <p className='meta_date'>Oct 2, 2022</p>
+              </div>
+            </div>
+          </div>
+          <h1 className='text-lg'>
+            <strong>Improving Duolingo</strong>
+          </h1>
+          <div className='project_meta_intro'>
+            <h2 class='text-xl'>
+              <strong>Introducing my Favourite Product</strong>
+            </h2>
+            <p>
+              When I first came to university, I met a bunch of people from all
+              over the world! I loved learning about their upbringing, identity,
+              and culture. Ultimately, I loved to connect with others with
+              different backgrounds to mine. This then intrigued me to learn a
+              new language (Korean) in the hopes of being able to immerse myself
+              a bit into a different culture.
+            </p>
+            <p>
+              There were a variety of options I could choose from. I could take
+              an introductory language course at UBC, learn it online on an app
+              like Duolingo, or annoy my friends by asking them every word I was
+              unsure of.
+            </p>
+            <figure>
+              <div
+                class='flex items-center mt-5 ignore-typography justify-center bg-surface-100 -ml-4 -mr-4 sm:!-ml-6 sm:!-mr-6'
+                data-index='0'
+              >
+                <img
+                  src='https://tribe-s3-production.imgix.net/zhxtwDsA0PWpfLcnTcYTs?w=1000&amp;auto=compress,format&amp;dl'
+                  class='cursor-pointer max-h-120'
+                  alt=''
+                />
+              </div>
+            </figure>
+            <p>
+              The initial reason I went with the online route and use Duolingo
+              as it was free and a popular app on the App Store. Later on, I
+              decided to keep using it due to the gamified approach it has. I
+              found that while learning a new language is exciting, it often
+              times is extremely hard and can sometimes make learners lose
+              interest very quickly. Having something that keeps you engaged
+              helps learners combat that dip in interest.
+            </p>
+          </div>
+
+          <p></p>
+        </div>
+
+        <div className='project_container'>
+          <h2 class='text-xl'>
+            <strong>Project Objective</strong>
+          </h2>
+          <h3>
+            <strong>Situation:</strong>
+          </h3>
+          <p>
+            The primary problem I believe that Duolingo is trying to solve is
+            the disconnect people have with language barriers.
+          </p>
+          <p>
+            As a user, when I start to learn a language on Duolingo, I have a
+            good learning experience as there is a structured program where I
+            simply have to learn module by module. In each module, I am given a
+            set of words where I am tested on speaking, writing, and reading.
+            There is also a streaks feature where I would be rewarded as a user
+            for using the app daily. This combined with its mascot, a cute,
+            green owl creates a gamified effect which I believe helps to enhance
+            user engagement.
+          </p>
+          <p>
+            However, by doing each module, it sometimes feels as though you are
+            going through the motions for the sake of learning and later on,
+            forgetting certain words that perhaps do not come up in the later
+            modules. Furthermore, sometimes, the best way to learn a new
+            language is actually speaking with locals.
+          </p>
+          <h3>
+            <strong>Assumptions:</strong>
+          </h3>
+          <ul class='list-disc list-inside pl-6'>
+            <li>
+              <p>
+                User’s memory retention will increase if they are able to see
+                words more often, regardless of their knowledge of that word
+              </p>
+            </li>
+            <li>
+              <p>
+                User’s willingness to learn will increase if they are able to
+                motivate and discipline themselves (much like doing the dishes
+                on your own rather than your parents telling you to do them)
+              </p>
+            </li>
+          </ul>
+          <h3>
+            <strong>Hypothesis:</strong>
+          </h3>
+          <ul class='list-disc list-inside pl-6'>
+            <li>
+              <p>
+                Duolingo could improve its user’s learning experience by
+                increasing personalization among its users, so that they take
+                more ownership of their learning.
+              </p>
+            </li>
+          </ul>
+          <h3>
+            <strong>Timeline:</strong>
+          </h3>
+          <p>I aim to spend 10 hours in total on this project:</p>
+          <ul class='list-disc list-inside pl-6'>
+            <li>
+              <p>3 hours researching user needs</p>
+            </li>
+            <li>
+              <p>3 hours honing in on a solution</p>
+            </li>
+            <li>
+              <p>2 hours wire-framing</p>
+            </li>
+            <li>
+              <p>2 hours on the conclusion &amp; additional writing</p>
+            </li>
+          </ul>
+          <hr />
+          <h2 class='text-xl'>User Research</h2>
+          <h3>
+            <strong>Research Insights</strong>
+          </h3>
+          <p>
+            My user research process was very insightful! I first went about it
+            by heading to online forums such as Reddit pages - r/duolingo and
+            r/languagelearning as well as app store reviews. I never realized
+            how passionate some users were in expressing their pain points and
+            opinions on certain features. From watching the mini workshop video
+            about discovering opportunities &amp; solutions, when doing user
+            research I tried not to have confirmation bias and instead read and
+            listened to users and what they really valued.
+          </p>
+          <p>
+            “Like if you guys actually want us to learn either give us like 20
+            hearts or remove the health bar. It limits the amount we learn and
+            it takes a whole day to refill 5 little hearts. Terrible experience”
+          </p>
+          <p>~GoodgAmes69 (App Store User) in Apple App Store reviews</p>
+          <p>
+            “I really really hate the fact that they made it impossible to
+            repeat old skills. I don't actually hate the new concept, just that
+            it literally only gives you two options: do some random new lesson,
+            or repeat from the pool of everything you've done before (and if you
+            lose your hearts, that's the ONLY option).”
+          </p>
+          <p>~ Der_Pianist (Reddit User) in r/duolingo</p>
+          <p>
+            “Duolingo is great at creating and maintaining motivation for people
+            to use Duolingo. That's the issue. It's strength is creating a habit
+            for itself, rather than learning a new language.”
+          </p>
+          <p>~DaveJWilliams (Reddit User) in r/languagelearning</p>
+          <h3>
+            <strong>User Persona</strong>
+          </h3>
+          <p>
+            Through user research, I found that the&nbsp;
+            <strong>Student User</strong>&nbsp;is the primary segment I want to
+            address. Here's a persona and their needs:
+          </p>
+          <p></p>
+          <figure>
+            <div
+              class='flex items-center mt-5 ignore-typography justify-center bg-surface-100 -ml-4 -mr-4 sm:!-ml-6 sm:!-mr-6'
+              data-index='1'
+            >
+              <img
+                src='https://tribe-s3-production.imgix.net/qPIQNPVvNdl6KkHfJQuvb?w=1000&amp;auto=compress,format&amp;dl'
+                class='cursor-pointer max-h-120'
+                alt=''
+              />
+            </div>
+          </figure>
+          <h3>
+            <strong>Opportunity Map</strong>
+          </h3>
+          <p>
+            To increase the learning experience of users, I researched their
+            needs, pains, and desires:
+          </p>
+          <figure>
+            <div
+              class='flex items-center mt-5 ignore-typography justify-center bg-surface-100 -ml-4 -mr-4 sm:!-ml-6 sm:!-mr-6'
+              data-index='2'
+            >
+              <img
+                src='https://tribe-s3-production.imgix.net/vgbAIQyH5aVd2CmODOW84?w=1000&amp;auto=compress,format&amp;dl'
+                class='cursor-pointer max-h-120'
+                alt=''
+              />
+            </div>
+          </figure>
+          <p></p>
+          <hr />
+          <h2 class='text-xl'>Solution</h2>
+          <h3 class='text-lg'>
+            <strong>Solution Ideation:</strong>
+          </h3>
+          <ul class='list-disc list-inside pl-6'>
+            <li>
+              <p>
+                Groups - a groups feature to allow users to develop a sense of
+                community and allow learners to interact with each other
+              </p>
+            </li>
+            <li>
+              <p>
+                Save - Adding a save words button during lessons so users have a
+                bank
+              </p>
+            </li>
+            <li>
+              <p>
+                Gaining hearts - Deleting users only having 5 hearts feature.
+                Replacing it with you start with 5 hearts and gain a heart after
+                X amount of streak days in a row
+              </p>
+            </li>
+          </ul>
+          <h3 class='text-lg'>
+            <strong>Feature Prioritization:</strong>
+          </h3>
+          <p>Kano Model</p>
+          <figure>
+            <div
+              class='flex items-center mt-5 ignore-typography justify-center bg-surface-100 -ml-4 -mr-4 sm:!-ml-6 sm:!-mr-6'
+              data-index='3'
+            >
+              <img
+                src='https://tribe-s3-production.imgix.net/z3GCeShPhJutA5iZ6nWsa?w=1000&amp;auto=compress,format&amp;dl'
+                class='cursor-pointer max-h-120'
+                alt=''
+              />
+            </div>
+          </figure>
+          <h3 class='text-lg'>
+            <strong>#1 Solution:</strong> Adding the ability to gain more hearts
+            after x amount of streak days in a row
+          </h3>
+          <h4 class='text-lg'>
+            <strong>Benefits:</strong>
+          </h4>
+          <ul class='list-disc list-inside pl-6'>
+            <li>
+              <p>
+                Users have more time to learn rather than spending more time
+                waiting for their hearts to revive
+              </p>
+            </li>
+            <li>
+              <p>
+                Users are more incentivized to log into the app as there is a
+                tangible benefit to continue their learning rather than gaining
+                XP which doesn’t do much
+              </p>
+            </li>
+            <li>
+              <p>
+                Allows users to feel less pressured to always be right, it's
+                supposed to be a fun learning experience and not a time to be
+                disappointed because you made a mistake
+              </p>
+            </li>
+            <li>
+              <p>Technically feasible</p>
+            </li>
+            <li>
+              <p>Not changing the nature of app drastically</p>
+            </li>
+          </ul>
+          <h3 class='text-lg'>
+            <strong>#2 Solution:</strong> Adding ability to save words to a
+            ‘word bank’ and be able to create customized quizzes based on it
+          </h3>
+          <h4 class='text-lg'>
+            <strong>Benefits:</strong>
+          </h4>
+          <ul class='list-disc list-inside pl-6'>
+            <li>
+              <p>
+                Users can retain information/knowledge better by having a
+                centralized area to view their desired words
+              </p>
+            </li>
+            <li>
+              <p>
+                Users can take more ownership of their learning by ‘saving’ the
+                word and testing themselves
+              </p>
+            </li>
+          </ul>
+          <h3 class='text-lg'>
+            <strong>Value Proposition:</strong>
+          </h3>
+          <p>
+            Duolingo’s gaining hearts feature will incentivize users to maximize
+            their learning time, while it’s saving words feature will allow
+            users to take more ownership of their learning by creating an
+            optional actionable item for them which improves their motivation to
+            learn and thereby improving their learning experience.
+          </p>
+          <p></p>
+          <hr />
+          <h2 class='text-xl'>
+            <strong>Design</strong>
+          </h2>
+          <h3 class='text-lg'>
+            <strong>Product Requirements</strong>
+          </h3>
+          <p>
+            Based on the user conversations and persona development, the
+            following user requirements were generated:
+          </p>
+          <ol class='list-decimal list-inside pl-6'>
+            <li>
+              <p>Users should be able to see the number of hearts they have</p>
+            </li>
+            <li>
+              <p>
+                Users should be able to see the number of streak days they have
+                to complete to earn extra hearts
+              </p>
+            </li>
+            <li>
+              <p>Users should be able to save a word</p>
+            </li>
+            <li>
+              <p>Users can quickly see what the words they saved are</p>
+            </li>
+            <li>
+              <p>Users should be able to quiz themselves</p>
+            </li>
+          </ol>
+          <h3 class='text-lg'>
+            <strong>Visual Mockup</strong>
+          </h3>
+          <figure>
+            <div
+              class='flex items-center mt-5 ignore-typography justify-center bg-surface-100 -ml-4 -mr-4 sm:!-ml-6 sm:!-mr-6'
+              data-index='4'
+            >
+              <img
+                src='https://tribe-s3-production.imgix.net/gNIiPAkELTfQ9Amkwl5Ip?w=1000&amp;auto=compress,format&amp;dl'
+                class='cursor-pointer max-h-120'
+                alt=''
+              />
+            </div>
+          </figure>
+          <p></p>
+          <hr />
+
+          <hr />
+          <h2 class='text-xl'>Conclusion</h2>
+          <h3 class='text-lg'>Risks and Mitigation</h3>
+          <p>
+            A huge risk is the education of these 2 features to users. Adding
+            more than 1 feature per update may potentially confuse users and
+            cause them to not use the features at all.
+          </p>
+          <p>
+            To mitigate this, I would little incentives such as added XP/more
+            hearts for using the features.
+          </p>
+          <h3 class='text-lg'>What I would have done if I had more time</h3>
+          <p>
+            I would have tried to research the market a little more and perhaps
+            discover different customer segments to see how features that I
+            recommended above might play out to different users. This is
+            especially because during the user research phase, I only
+            interviewed 1 student and got perspectives from reddit and app store
+            reviews where there is no information about the user.
+          </p>
+          <h3 class='text-lg'>What I learned</h3>
+          <ol class='list-decimal list-inside pl-6'>
+            <li>
+              <p>
+                Do your research! Find out what your customers’ pain points are
+                as well as what exactly do they value before prototyping a
+                solution. ‘We must discover and measure customer’s conception of
+                value’ and this holds truth since customers make a product
+                valuable.
+              </p>
+            </li>
+            <li>
+              <p>
+                Being flexible. After doing more research on Duolingo, I revised
+                my hypothesis to reflect my findings and thereby was able to
+                create a more valuable and catered solution than the one I had
+                initially planned.
+              </p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default ImprovingDuolingo;

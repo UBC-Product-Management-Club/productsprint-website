@@ -1,6 +1,6 @@
 import React from 'react';
 import './projects.css';
-// import author
+import Name from '../../../assets/fellowship_members/name.jpeg';
 
 function Template() {
   return (
@@ -22,7 +22,7 @@ function Template() {
             </div>
           </div>
           <h1 className='text-lg'>
-            <strong></strong>
+            <strong>{/* Project Title */}</strong>
           </h1>
           <div className='project_meta_intro'>{/* Project Name */}</div>
 

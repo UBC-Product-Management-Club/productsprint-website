@@ -35,6 +35,7 @@ import NotabilityImg from './assets/projects/notability.png';
 import LinkedInImg from './assets/projects/linkedin.png';
 import YoutubeImg from './assets/projects/youtube.png';
 import ImprovingLetterBoxDImg from './assets/projects/improving_letterboxd.jpeg';
+import ImprovingDuolingoImg from './assets/projects/improving_duolingo.jpeg';
 
 // Projects Page
 import AppleMaps from './components/fellowship/projects/AppleMaps';
@@ -46,6 +47,7 @@ import Notability from './components/fellowship/projects/Notability';
 import LinkedIn from './components/fellowship/projects/LinkedIn';
 import Youtube from './components/fellowship/projects/Youtube';
 import ImprovingLetterBoxD from './components/fellowship/projects/ImprovingLetterBoxD';
+import ImprovingDuolingo from './components/fellowship/projects/ImprovingDuolingo';
 
 function App() {
   const phase_2 = {
@@ -125,17 +127,20 @@ function App() {
   const improving_letterboxd = {
     isFinished: true,
     title: 'Improving accessibility in YouTube',
-    text: 'In this project, I took the place of a product manager for Youtube. Through user interviews and broad research of the application and its complaints, I identified pain points and potential improvement opportunities and utilized product management frameworks to arrive at a viable solution.',
+    text: "In this project, I assumed the position of a product manager for Letterboxd, a social media platform for movie-lovers. Over the course of the project's timeline, I leveraged a combination of primary and secondary market research to identify user pain points and utilized PM frameworks to create a solution.",
     image: ImprovingLetterBoxDImg,
     link: '/improving-letterboxd',
   };
-  // const improving_duolingo = {
-  //   isFinished: true,
-  //   title: 'Improving accessibility in YouTube',
-  //   text: 'In this project, I took the place of a product manager for Youtube. Through user interviews and broad research of the application and its complaints, I identified pain points and potential improvement opportunities and utilized product management frameworks to arrive at a viable solution.',
-  //   image: ImprovingDuolingoImg,
-  //   link: '/improving-duolingo',
-  // };
+  // @Todo
+  const improving_duolingo = {
+    isFinished: true,
+    title:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi iste doloribus dolorum omnis cupiditate minima quas architecto consequatur unde. Doloremque eligendi fugit ullam porro, mollitia iusto rem iure ipsam facilis?',
+    text: '',
+    image: ImprovingDuolingoImg,
+    link: '/improving-duolingo',
+  };
+
   // const improving_onenote = {
   //   isFinished: true,
   //   title: 'Improving accessibility in YouTube',
@@ -316,7 +321,8 @@ function App() {
               />
             }
           />
-          {/* <Route
+          {/* Todo */}
+          <Route
             path='/michael-tham'
             element={
               <Projects
@@ -330,7 +336,7 @@ function App() {
                 projects={[improving_duolingo, phase_2, phase_3]}
               />
             }
-          /> */}
+          />
           {/* <Route
             path='/ved-varshney'
             element={
@@ -359,8 +365,8 @@ function App() {
             path='/improving-letterboxd'
             element={<ImprovingLetterBoxD />}
           />
-          {/* <Route path='/improving-duolingo' element={<ImprovingDuolingo />} />
-          <Route path='/improving-onenote' element={<ImprovingOneNote />} /> */}
+          <Route path='/improving-duolingo' element={<ImprovingDuolingo />} />
+          {/* <Route path='/improving-onenote' element={<ImprovingOneNote />} /> */}
         </Routes>
       </ScrollToTop>
       <Footer />
