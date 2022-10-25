@@ -10,6 +10,9 @@ import Martin from '../../assets/fellowship_members/martin.png';
 import Oceanna from '../../assets/fellowship_members/oceanna.jpeg';
 import Riti from '../../assets/fellowship_members/riti.jpeg';
 import Will from '../../assets/fellowship_members/william.png';
+import Eric from '../../assets/fellowship_members/eric.jpeg';
+import Michael from '../../assets/fellowship_members/michael.jpeg';
+import Ved from '../../assets/fellowship_members/ved.jpeg';
 
 function Fellows() {
   return (
@@ -47,6 +50,15 @@ function Fellows() {
           </Link>
           <Link to='/william-nguyen'>
             <ProfileCard img={Will} name='William Nguyen' title='Fellow' />
+          </Link>
+          <Link to='/eric-gadbois'>
+            <ProfileCard img={Eric} name='Eric Gadbois' title='Fellow' />
+          </Link>
+          <Link to='/michael-tham'>
+            <ProfileCard img={Michael} name='Michael Tham' title='Fellow' />
+          </Link>
+          <Link to='/ved-varshney'>
+            <ProfileCard img={Ved} name='Ved Varshney' title='Fellow' />
           </Link>
         </div>
       </div>

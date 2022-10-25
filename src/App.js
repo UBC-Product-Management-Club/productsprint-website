@@ -21,6 +21,9 @@ import Martin from './assets/fellowship_members/martin.png';
 import Oceanna from './assets/fellowship_members/oceanna.jpeg';
 import Riti from './assets/fellowship_members/riti.jpeg';
 import William from './assets/fellowship_members/william.png';
+import Eric from './assets/fellowship_members/eric.jpeg';
+import Michael from './assets/fellowship_members/michael.jpeg';
+import Ved from './assets/fellowship_members/ved.jpeg';
 
 // Projects Pic
 import AppleMapsImg from './assets/projects/apple_maps.png';
@@ -31,6 +34,7 @@ import TicketMasterImg from './assets/projects/ticketmaster.png';
 import NotabilityImg from './assets/projects/notability.png';
 import LinkedInImg from './assets/projects/linkedin.png';
 import YoutubeImg from './assets/projects/youtube.png';
+import ImprovingLetterBoxDImg from './assets/projects/improving_letterboxd.jpeg';
 
 // Projects Page
 import AppleMaps from './components/fellowship/projects/AppleMaps';
@@ -41,6 +45,7 @@ import TicketMaster from './components/fellowship/projects/TicketMaster';
 import Notability from './components/fellowship/projects/Notability';
 import LinkedIn from './components/fellowship/projects/LinkedIn';
 import Youtube from './components/fellowship/projects/Youtube';
+import ImprovingLetterBoxD from './components/fellowship/projects/ImprovingLetterBoxD';
 
 function App() {
   const phase_2 = {
@@ -117,6 +122,27 @@ function App() {
     image: YoutubeImg,
     link: '/youtube',
   };
+  const improving_letterboxd = {
+    isFinished: true,
+    title: 'Improving accessibility in YouTube',
+    text: 'In this project, I took the place of a product manager for Youtube. Through user interviews and broad research of the application and its complaints, I identified pain points and potential improvement opportunities and utilized product management frameworks to arrive at a viable solution.',
+    image: ImprovingLetterBoxDImg,
+    link: '/improving-letterboxd',
+  };
+  // const improving_duolingo = {
+  //   isFinished: true,
+  //   title: 'Improving accessibility in YouTube',
+  //   text: 'In this project, I took the place of a product manager for Youtube. Through user interviews and broad research of the application and its complaints, I identified pain points and potential improvement opportunities and utilized product management frameworks to arrive at a viable solution.',
+  //   image: ImprovingDuolingoImg,
+  //   link: '/improving-duolingo',
+  // };
+  // const improving_onenote = {
+  //   isFinished: true,
+  //   title: 'Improving accessibility in YouTube',
+  //   text: 'In this project, I took the place of a product manager for Youtube. Through user interviews and broad research of the application and its complaints, I identified pain points and potential improvement opportunities and utilized product management frameworks to arrive at a viable solution.',
+  //   image: ImprovingOnenoteImg,
+  //   link: '/improving-onenote',
+  // };
   return (
     <>
       <Header />
@@ -275,6 +301,51 @@ function App() {
               />
             }
           />
+          <Route
+            path='/eric-gadbois'
+            element={
+              <Projects
+                img={Eric}
+                name='Eric Gadbois'
+                title='Fellow'
+                bio_text={
+                  'I am a 5th-year UBC student with a passion for creation. As a product manager, I aspire to create meaningful and innovative products that deliver real value to customers. My background in both business and computer science uniqely equips me with a multi-angled perspective on product development and empowers me to effectively communicate across teams throughout the development lifecycle.'
+                }
+                linkedin='https://www.linkedin.com/in/ericgadbois/'
+                projects={[improving_letterboxd, phase_2, phase_3]}
+              />
+            }
+          />
+          {/* <Route
+            path='/michael-tham'
+            element={
+              <Projects
+                img={Michael}
+                name='Michael Tham'
+                title='Fellow'
+                bio_text={
+                  'A 3rd year at UBC studying Business and Computer Science whom is currently exploring the world of tech to see how I can best use his skills to provide value and solve pressing social issues. '
+                }
+                linkedin='https://www.linkedin.com/in/michael-tham/'
+                projects={[improving_duolingo, phase_2, phase_3]}
+              />
+            }
+          /> */}
+          {/* <Route
+            path='/ved-varshney'
+            element={
+              <Projects
+                img={Ved}
+                name='Ved Varshney'
+                title='Fellow'
+                bio_text={
+                  'Aspiring Product Manager with experience in Backend and Front End Software development. Currently working in software, but eventually wants to break out into the Product space and work on fintech products.'
+                }
+                linkedin='https://www.linkedin.com/in/vedvarshney/'
+                projects={[improving_onenote, phase_2, phase_3]}
+              />
+            }
+          /> */}
           {/* Projects */}
           <Route path='/apple-maps' element={<AppleMaps />} />
           <Route path='/notion' element={<Notion />} />
@@ -284,6 +355,12 @@ function App() {
           <Route path='/notability' element={<Notability />} />
           <Route path='/linkedin-jobs' element={<LinkedIn />} />
           <Route path='/youtube' element={<Youtube />} />
+          <Route
+            path='/improving-letterboxd'
+            element={<ImprovingLetterBoxD />}
+          />
+          {/* <Route path='/improving-duolingo' element={<ImprovingDuolingo />} />
+          <Route path='/improving-onenote' element={<ImprovingOneNote />} /> */}
         </Routes>
       </ScrollToTop>
       <Footer />

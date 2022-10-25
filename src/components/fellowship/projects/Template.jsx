@@ -1,6 +1,6 @@
 import React from 'react';
 import './projects.css';
-import Sophia from '../../../assets/fellowship_members/sophia_bio.png';
+// import author
 
 function Template() {
   return (
@@ -9,22 +9,27 @@ function Template() {
         <div className='project_meta'>
           <div className='project_meta_card_container'>
             <div className='project_meta_card'>
-              <img src={Sophia} alt='Sophia' />
+              <img
+                src={Filler}
+                alt='
+              Filler
+              '
+              />
               <div className='meta_p'>
-                <p className='meta_name'>Sophia Huang</p>
+                <p className='meta_name'>{/* Author Name */}</p>
                 <p className='meta_date'>Oct 2, 2022</p>
               </div>
             </div>
           </div>
           <h1 className='text-lg'>
-            <strong>Improving the Driving Experience in Apple Maps</strong>
+            <strong></strong>
           </h1>
-          <div className='project_meta_intro'></div>
+          <div className='project_meta_intro'>{/* Project Name */}</div>
 
           <p></p>
         </div>
 
-        <div className='project_container'></div>
+        <div className='project_container'>{/* Project Details */}</div>
       </div>
     </div>
   );
