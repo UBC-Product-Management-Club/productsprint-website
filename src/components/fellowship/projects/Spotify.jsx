@@ -57,14 +57,14 @@ function Spotify() {
         </div>
 
         <div className='project_container'>
-          <p>
+          <h2>
             <strong>
               <u>Project Objective</u>
             </strong>
-          </p>
-          <p>
+          </h2>
+          <h3>
             <u>Situation</u>
-          </p>
+          </h3>
           <p>
             Spotify offers a
             <a
@@ -74,7 +74,7 @@ function Spotify() {
               to='https://spotify.design/article/introducing-spotifys-new-design-principles'
               href='https://spotify.design/article/introducing-spotifys-new-design-principles'
             >
-              <u>relevant, human, and unified</u>
+              <u> relevant, human, and unified </u>
             </a>
             user experience. It is personalized to each user and their
             behavioural patterns. The platform’s focus on the individual makes
@@ -110,9 +110,9 @@ function Spotify() {
             there is no way for other users to be privy to that. If it was not
             that way, there would be greater potential for community building.
           </p>
-          <p>
+          <h3>
             <u>Assumptions:</u>
-          </p>
+          </h3>
           <ul class='list-disc list-inside pl-6'>
             <li>
               <p>
@@ -133,9 +133,9 @@ function Spotify() {
               </p>
             </li>
           </ul>
-          <p>
+          <h3>
             <u>Hypothesis:</u>
-          </p>
+          </h3>
           <p>
             <em>
               Spotify could increase time spent by user on the platform by
@@ -144,9 +144,9 @@ function Spotify() {
               their experience and 2) interact with others internally.
             </em>
           </p>
-          <p>
+          <h3>
             <u>Timeline:</u>
-          </p>
+          </h3>
           <p>Total projected time - 10 hours</p>
           <ul class='list-disc list-inside pl-6'>
             <li>
@@ -163,9 +163,9 @@ function Spotify() {
             </li>
           </ul>
           <h2 class='text-xl'>Spotify User Research</h2>
-          <p>
+          <h3>
             <strong>Research insights:</strong>
-          </p>
+          </h3>
           <p>
             For the purpose of my research, I look at various online articles
             and public forums where people expressed their frustrations with the
@@ -175,16 +175,16 @@ function Spotify() {
             platform. Mainly, I am interested in the interactive and explorative
             elements of socializing on Spotify.
           </p>
-          <p>
+          <h3>
             <strong>User Persona:</strong>
-          </p>
+          </h3>
           <p>
             People
             <a
               class='cursor-pointer transition duration-100 ease-in-out text-actionAccent-600 hover:text-actionAccentHover-500'
               href="/curriculum/1-2/post/https://thesocialshepherd.com/blog/spotify-statistics#:~:text=Most%20of%20Spotify's%20Users%20in,make%20up%2029%25%20of%20users."
             >
-              <u>18 to 34 </u>
+              <u> 18 to 34 </u>
             </a>
             years of age makeup over 50% of all Spotify Users. Many in this
             demographic are students or young professionals. They share similar
@@ -204,9 +204,9 @@ function Spotify() {
               />
             </div>
           </figure>
-          <p>
+          <h3>
             <strong>Opportunity Map:</strong>
-          </p>
+          </h3>
           <p>
             The opportunity map below outlines the opportunities available to
             improve Spotify. Many of the pain points seem interrelated as they
@@ -235,7 +235,7 @@ function Spotify() {
             users.&nbsp;
           </p>
           <h2 class='text-xl'>Spotify Solution</h2>
-          <p>Solutions:</p>
+          <h3>Solutions:</h3>
           <ul class='list-disc list-inside pl-6'>
             <li>
               <p>
@@ -268,7 +268,7 @@ function Spotify() {
                   />
                 </div>
               </figure>
-              <p>Value Prop Statement:</p>
+              <h3>Value Prop Statement:</h3>
               <p>
                 Spotify’s react feature will help users satisfy the human need
                 of expressing one’s emotions and the playlist composed of
@@ -279,7 +279,7 @@ function Spotify() {
             </li>
           </ul>
           <h2 class='text-xl'>Spotify Design</h2>
-          <p>Product Requirements:</p>
+          <h3>Product Requirements:</h3>
           <ul class='list-disc list-inside pl-6'>
             <li>
               <p>Users can react to songs based on their mood</p>
@@ -297,7 +297,7 @@ function Spotify() {
               <p>Users can share songs directly with others in Spotify</p>
             </li>
           </ul>
-          <p>Visual Mockup:</p>
+          <h3>Visual Mockup:</h3>
           <figure>
             <div
               class='flex items-center mt-5 ignore-typography justify-center bg-surface-100 -ml-4 -mr-4 sm:!-ml-6 sm:!-mr-6'
@@ -310,7 +310,7 @@ function Spotify() {
               />
             </div>
           </figure>
-          <p>Trade-offs:</p>
+          <h3>Trade-offs:</h3>
           <ul class='list-disc list-inside pl-6'>
             <li>
               <p>
@@ -325,7 +325,7 @@ function Spotify() {
             </li>
           </ul>
           <h2 class='text-xl'>Conclusion</h2>
-          <h2 class='text-lg'>Risks:</h2>
+          <h3 class='text-lg'>Risks:</h3>
           <p>
             A potential risk that could arise from the solution is that users
             might not understand how the react feature works in the social
@@ -333,17 +333,17 @@ function Spotify() {
             playlist but are also compiled into a group playlist with friends).
             There are two ways to address this issue.&nbsp;
           </p>
-          <p>
+          <h3>
             <em>Internally</em>
-          </p>
+          </h3>
           <p>
             Create distinct branding for the new feature so the new additions
             will stand out to the user immediately. If they are hyper aware of
             the new feature initially then they will purposely explore it.
           </p>
-          <p>
+          <h3>
             <em>Externally</em>
-          </p>
+          </h3>
           <p>
             Provide a demo or brief explanation to the user of what the new
             feature is and how they can use it.&nbsp;
