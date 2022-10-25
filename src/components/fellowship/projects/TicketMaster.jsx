@@ -43,12 +43,12 @@ function Template() {
             <h2 class='text-xl'>
               <strong>Project Proposal</strong>
             </h2>
-            <h2 class='text-lg'>
+            <h3 class='text-lg'>
               <strong>
                 Introducing the number one ticketing system in North America,
                 Ticketmaster!
               </strong>
-            </h2>
+            </h3>
             <p>
               After nearly two years of being locked in my personal bubble due
               to the COVID-19 pandemic, I was ecstatic to finally get out and
@@ -84,7 +84,7 @@ function Template() {
           <h2 class='text-lg'>
             <strong>Project Objective</strong>
           </h2>
-          <h2 class='text-lg'>Situation:</h2>
+          <h3 class='text-lg'>Situation:</h3>
           <p>
             As a user purchasing resale tickets, I often assume I am getting the
             short end of the stick each time. Why? Well first, I can never tell
@@ -101,7 +101,7 @@ function Template() {
             that the ticket and payment delivery system is legit, or scour
             third-party marketplaces to get a better deal?
           </p>
-          <h2 class='text-lg'>Assumptions:</h2>
+          <h3 class='text-lg'>Assumptions:</h3>
           <ul class='list-disc list-inside pl-6'>
             <li>
               <p>
@@ -116,7 +116,7 @@ function Template() {
               </p>
             </li>
           </ul>
-          <h2 class='text-lg'>Hypothesis:&nbsp;</h2>
+          <h3 class='text-lg'>Hypothesis:&nbsp;</h3>
           <ul class='list-disc list-inside pl-6'>
             <li>
               <p>
@@ -127,7 +127,7 @@ function Template() {
               </p>
             </li>
           </ul>
-          <h2 class='text-lg'>Timeline:</h2>
+          <h3 class='text-lg'>Timeline:</h3>
           <p>I will spend at least 12 hours on this project:</p>
           <ul class='list-disc list-inside pl-6'>
             <li>
@@ -150,9 +150,9 @@ function Template() {
           <h2 class='text-xl'>
             <strong>User Research</strong>
           </h2>
-          <h2 class='text-lg'>
+          <h3 class='text-lg'>
             <strong>Research Insights:</strong>
-          </h2>
+          </h3>
           <p>
             After reading an abundance of news articles, scouring r/ticketmaster
             and Twitter threads, and conducting market research with various age
@@ -171,9 +171,9 @@ function Template() {
             two main issues people had were: Price and Security. More on this in
             the Solution phase.
           </p>
-          <h2 class='text-lg'>
+          <h3 class='text-lg'>
             <strong>User Persona:</strong>
-          </h2>
+          </h3>
           <p>
             Through user research, I found that Ticketmaster is an application
             used by all age groups, so it would not make sense to segment the
@@ -192,9 +192,9 @@ function Template() {
               />
             </div>
           </figure>
-          <h2 class='text-lg'>
+          <h3 class='text-lg'>
             <strong>Opportunity Map:</strong>
-          </h2>
+          </h3>
           <figure>
             <div
               class='flex items-center mt-5 ignore-typography justify-center bg-surface-100 -ml-4 -mr-4 sm:!-ml-6 sm:!-mr-6'
@@ -225,7 +225,7 @@ function Template() {
           <h2 class='text-xl'>
             <strong>Solutions</strong>
           </h2>
-          <h2 class='text-lg'>Overhaul current UI to a marketplace&nbsp;</h2>
+          <h3 class='text-lg'>Overhaul current UI to a marketplace&nbsp;</h3>
           <p>
             Though risky, through extensive research I believe that Ticketmaster
             changing their UI to a marketplace format will allow them to nail
@@ -238,7 +238,7 @@ function Template() {
             will enable users to use Ticketmaster over third-party applications
             and OTC transactions.&nbsp;
           </p>
-          <h2 class='text-lg'>Add advanced filtration</h2>
+          <h3 class='text-lg'>Add advanced filtration</h3>
           <p>
             Currently, in addition to the interactive seat mapping tool, the
             only filtration that a user can apply is in regards to the ticket
@@ -253,7 +253,7 @@ function Template() {
             seating charts, and that sellers can correctly value their tickets
             in comparison to other listings.&nbsp;
           </p>
-          <h2 class='text-lg'>Add a sales activity</h2>
+          <h3 class='text-lg'>Add a sales activity</h3>
           <p>
             In addition to the advanced filtration which allows users to
             correctly value their tickets, a sales activity further ensures that
@@ -262,9 +262,9 @@ function Template() {
             great for both the scalping and buying economy of the ticketing
             industry.&nbsp;
           </p>
-          <h2 class='text-lg'>
+          <h3 class='text-lg'>
             Other important marketplace features which improve the UX
-          </h2>
+          </h3>
           <p>
             In-app secure ticket trading/transferring. Ability to bid/offer on
             specific tickets (tied to filtration) and the entire supply of
@@ -298,9 +298,9 @@ function Template() {
           <h2 class='text-xl'>
             <strong>Design: Mock Marketplace</strong>
           </h2>
-          <h2 class='text-lg'>
+          <h3 class='text-lg'>
             <strong>Product Requirements</strong>
-          </h2>
+          </h3>
           <p>
             1) At the top of the page you will find the Concert Name, and simple
             (but useful) quantitative information regarding the number of
@@ -328,9 +328,9 @@ function Template() {
             information such as the ticket type, section, row, price, and
             current bid.
           </p>
-          <h2 class='text-lg'>
+          <h3 class='text-lg'>
             <strong>Mock Design</strong>
-          </h2>
+          </h3>
           <figure>
             <div
               class='flex items-center mt-5 ignore-typography justify-center bg-surface-100 -ml-4 -mr-4 sm:!-ml-6 sm:!-mr-6'
@@ -343,9 +343,9 @@ function Template() {
               />
             </div>
           </figure>
-          <h2 class='text-lg'>
+          <h3 class='text-lg'>
             <strong>Tradeoffs/Risks</strong>
-          </h2>
+          </h3>
           <ul class='list-disc list-inside pl-6'>
             <li>
               <p>Resource allocation (Opportunity Cost)</p>

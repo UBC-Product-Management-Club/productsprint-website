@@ -59,9 +59,9 @@ function Notability() {
         </div>
 
         <div className='project_container'>
-          <p>
+          <h3>
             <strong>Why Notability is Superior</strong>
-          </p>
+          </h3>
           <p>
             Notability is superior for students who want to write and organize
             their school notes in one app. It has simple and unique features
@@ -89,9 +89,9 @@ function Notability() {
           <h2 class='text-xl'>
             <strong>Project Objective</strong>
           </h2>
-          <p>
+          <h3>
             <strong>Situation:</strong>
-          </p>
+          </h3>
           <p>
             Notability allows you to import PDFs, allowing the user to command F
             keywords and find important topics quickly. This is great for
@@ -102,9 +102,9 @@ function Notability() {
             high school and university students. Both groups want convenience
             and efficiency while still being able to digest information.
           </p>
-          <p>
+          <h3>
             <strong>Improving:</strong>
-          </p>
+          </h3>
           <p>
             Notability's major point of difference is its recording feature.
             None of its competitors have that, and based on Reddit forums I
@@ -117,10 +117,10 @@ function Notability() {
             the most helpful way to catch up as this can be timely and
             ineffective for a visual learner.
           </p>
-          <p>
+          <h3>
             <br />
             <strong>Assumptions</strong>
-          </p>
+          </h3>
           <ul class='list-disc list-inside pl-6'>
             <li>
               <p>
@@ -138,9 +138,9 @@ function Notability() {
               </p>
             </li>
           </ul>
-          <p>
+          <h3>
             <strong>Hypothesis</strong>
-          </p>
+          </h3>
           <ul class='list-disc list-inside pl-6'>
             <li>
               <p>
@@ -159,9 +159,9 @@ function Notability() {
               </p>
             </li>
           </ul>
-          <p>
+          <h3>
             <strong>Timeline</strong>
-          </p>
+          </h3>
           <p>I plan to spend 13 hours on this project:</p>
           <ul class='list-disc list-inside pl-6'>
             <li>
@@ -189,9 +189,9 @@ function Notability() {
           <h2 class='text-xl'>
             <strong>User Research</strong>
           </h2>
-          <h2 class='text-xl'>
+          <h3 class='text-xl'>
             <strong>Research Insights</strong>
-          </h2>
+          </h3>
           <p>
             By interviewing five Notability users and conducting online research
             through multiple Reddit threads (r/notabilityapp, r/ipad), there
@@ -211,9 +211,9 @@ function Notability() {
             of them
           </p>
           <p></p>
-          <h2 class='text-xl'>
+          <h3 class='text-xl'>
             <strong>User Persona</strong>
-          </h2>
+          </h3>
           <p>
             With user research, I found that students (primarily postgraduates)
             are the primary segment I want to address.
@@ -231,9 +231,9 @@ function Notability() {
               />
             </div>
           </figure>
-          <h2 class='text-xl'>
+          <h3 class='text-xl'>
             <strong>Opportunity Map</strong>
-          </h2>
+          </h3>
           <p></p>
           <figure>
             <div
@@ -247,9 +247,9 @@ function Notability() {
               />
             </div>
           </figure>
-          <p>
+          <h3>
             <strong>Summary</strong>
-          </p>
+          </h3>
           <p>
             There are many desires from Notability customers considering how
             many hours they spend on it. However, my user research helped me
@@ -267,9 +267,9 @@ function Notability() {
             </a>
             <strong>Solution</strong>
           </h2>
-          <p>
+          <h3>
             <strong>Solutions</strong>
-          </p>
+          </h3>
           <ul class='list-disc list-inside pl-6'>
             <li>
               <p>
@@ -298,9 +298,9 @@ function Notability() {
               />
             </div>
           </figure>
-          <p>
+          <h3>
             <strong>Value Prop statement</strong>
-          </p>
+          </h3>
           <p>
             Notability's transcription of audio recording helps busy students
             who want to cut time and increase productivity by reducing study
@@ -311,9 +311,9 @@ function Notability() {
           <h2 class='text-xl'>
             <strong>New Notability Design</strong>
           </h2>
-          <p>
+          <h3>
             <strong>Product Requirements</strong>
-          </p>
+          </h3>
           <ol class='list-decimal list-inside pl-6'>
             <li>
               <p>Users can get an accurate transcription of their audio</p>
@@ -337,23 +337,23 @@ function Notability() {
                 more room to sort through notes on the sidebar
               </p>
               <p></p>
-              <p>
-                <strong>Visual Mockup</strong>
-              </p>
-              <figure>
-                <div
-                  class='flex items-center mt-5 ignore-typography justify-center bg-surface-100'
-                  data-index='4'
-                >
-                  <img
-                    src='https://tribe-s3-production.imgix.net/Xxf8iK1DSkIn77mODgX9k?w=1000&amp;auto=compress,format&amp;dl'
-                    class='cursor-pointer max-h-120'
-                    alt=''
-                  />
-                </div>
-              </figure>
             </li>
           </ol>
+          <h3>
+            <strong>Visual Mockup</strong>
+          </h3>
+          <figure>
+            <div
+              class='flex items-center mt-5 ignore-typography justify-center bg-surface-100'
+              data-index='4'
+            >
+              <img
+                src='https://tribe-s3-production.imgix.net/Xxf8iK1DSkIn77mODgX9k?w=1000&amp;auto=compress,format&amp;dl'
+                class='cursor-pointer max-h-120'
+                alt=''
+              />
+            </div>
+          </figure>
           <p>
             <strong>Trade-offs:</strong> Users have less space to see an
             overview of notes when reading captions. The caption box is small so
@@ -364,32 +364,32 @@ function Notability() {
           <h2 class='text-xl'>
             <strong>Conclusion</strong>
           </h2>
-          <p>
+          <h3>
             <strong>Risks</strong>
-          </p>
+          </h3>
           <p>
             A major risk would be not having an accurate transcript, which is
             extremely frustrating for the user experience. There are two ways to
             help mitigate this, externally and internally.
           </p>
-          <p>
+          <h3>
             <em>Internally</em>
-          </p>
+          </h3>
           <p>
             Instead of developing transcription software in-house, buy quality
             premade to integrate with current software.
           </p>
-          <p>
+          <h3>
             <em>Externally</em>
-          </p>
+          </h3>
           <p>
             Educate users on the quality of the audio recording (Ex. try to get
             as close as possible, don't cover the mic, etc.) This can be shown
             in the "Settings" portion or as a pop-up window.
           </p>
-          <p>
+          <h3>
             <strong>Reflection</strong>
-          </p>
+          </h3>
           <p>
             If I had more time, I would talk to SWEs to further explore the
             feasibility. Also, I would explore my other solution (collaboration
