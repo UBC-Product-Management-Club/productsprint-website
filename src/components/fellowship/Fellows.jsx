@@ -9,6 +9,7 @@ import Evan from '../../assets/fellowship_members/evan.jpeg';
 import Martin from '../../assets/fellowship_members/martin.png';
 import Oceanna from '../../assets/fellowship_members/oceanna.jpeg';
 import Riti from '../../assets/fellowship_members/riti.jpeg';
+import Will from '../../assets/fellowship_members/william.png';
 
 function Fellows() {
   return (
@@ -43,6 +44,9 @@ function Fellows() {
           </Link>
           <Link to='/riti-nawroz'>
             <ProfileCard img={Riti} name='Riti Nawroz' title='Fellow' />
+          </Link>
+          <Link to='/william-nguyen'>
+            <ProfileCard img={Will} name='William Nguyen' title='Fellow' />
           </Link>
         </div>
       </div>

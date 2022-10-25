@@ -83,7 +83,7 @@ function Template() {
             annotated and numbered to identify potential issues that could
             decrease the 65+ demographic's engagement with the application.
           </p>
-          <h2 class='text-lg'>Current Youtube Landing page</h2>
+          <h3 class='text-lg'>Current Youtube Landing page</h3>
           <figure>
             <div
               class='flex items-center mt-5 ignore-typography justify-center bg-surface-100 -ml-4 -mr-4 sm:!-ml-6 sm:!-mr-6'
@@ -140,7 +140,7 @@ function Template() {
               </p>
             </li>
           </ol>
-          <h2 class='text-lg'>YouTube in a different language:</h2>
+          <h3 class='text-lg'>YouTube in a different language:</h3>
           <figure>
             <div
               class='flex items-center mt-5 ignore-typography justify-center bg-surface-100 -ml-4 -mr-4 sm:!-ml-6 sm:!-mr-6'
@@ -205,9 +205,9 @@ function Template() {
               </p>
             </li>
           </ul>
-          <p>
+          <h2>
             &nbsp;<strong>Timeline:</strong>
-          </p>
+          </h2>
           <p>&nbsp;I aim to spend 12 hours total on this project:</p>
           <p>
             &nbsp;1.&nbsp;&nbsp;&nbsp; 3 hours researching user needs and other
@@ -224,9 +224,9 @@ function Template() {
             __________________________________________________________________________
           </p>
           <h2 class='text-xl'>User Research</h2>
-          <h2 class='text-xl'>
+          <h3 class='text-xl'>
             <strong>Research Insight:</strong>
-          </h2>
+          </h3>
           <p>
             Through interviews with four users (1 user &lt; 50 years old and 3
             users &gt; 50 years old) and online research (Nielsen Norman Group -
@@ -258,11 +258,11 @@ function Template() {
               />
             </div>
           </figure>
-          <p>User Persona:</p>
+          <h3>User Persona:</h3>
           <p>
             Through user research, I identified the
             <strong>
-              <u>elderly population (65+) </u>
+              <u> elderly population (65+) </u>
             </strong>
             and, more specifically, outside of English-speaking countries,
             seniors as the primary YouTube segment I hope to address.
@@ -280,9 +280,9 @@ function Template() {
               />
             </div>
           </figure>
-          <h2 class='text-xl'>
+          <h3 class='text-xl'>
             <strong>Opportunity Map:</strong>
-          </h2>
+          </h3>
           <p>
             The opportunity map below highlights potential changes to improve
             the YouTube experience.&nbsp;
@@ -464,9 +464,9 @@ function Template() {
           <h2 class='text-xl'>
             <strong>Design</strong>
           </h2>
-          <h2 class='text-xl'>
+          <h3 class='text-xl'>
             <strong>Product Requirements</strong>
-          </h2>
+          </h3>
           <p>
             Through user research, persona development, and the feedback of our
             mentors, the user requirements are as follows:&nbsp;
@@ -517,15 +517,15 @@ function Template() {
               </p>
             </li>
           </ul>
-          <h2 class='text-xl'>
+          <h3 class='text-xl'>
             <strong>Visual Mockup</strong>
-          </h2>
+          </h3>
           <p>
-            Below is a visual mockup of my most crucial Solution:
+            Below is a visual mockup of my most crucial Solution: &nbsp;
             <strong>
               an accessibility hub to help elderly people and people with
               accessibility needs access all the relevant accessibility settings
-              in one place
+              in one place &nbsp;
             </strong>
             using Figma.
           </p>
@@ -577,7 +577,7 @@ function Template() {
             __________________________________________________________________________
           </p>
           <h2 class='text-xl'>Conclusion</h2>
-          <h2 class='text-lg'>Risks</h2>
+          <h3 class='text-lg'>Risks</h3>
           <p>
             <em>
               If the user does not sign in to YouTube over privacy concerns or
@@ -591,7 +591,7 @@ function Template() {
             accessibility choices based on categories like low-vision or hearing
             issues.&nbsp;
           </p>
-          <h2 class='text-lg'>Iteration</h2>
+          <h3 class='text-lg'>Iteration</h3>
           <p>
             If I had more time on the project, I would overhaul the design of my
             interface and conduct user testing on the current design. Although I
@@ -607,7 +607,7 @@ function Template() {
             adding a guided tutorial for older users to harness all the powers
             the YouTube application offers.
           </p>
-          <h2 class='text-lg'>What I learned</h2>
+          <h3 class='text-lg'>What I learned</h3>
           <p>
             I have learned the importance of consistent revision and overcoming
             my fear of starting over again. Previously, I felt attached to a
