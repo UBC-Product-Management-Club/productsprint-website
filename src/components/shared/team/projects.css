@@ -27,8 +27,10 @@
 }
 
 .bio_container img {
-  width: 25%;
-  height: 25%;
+  width: auto;
+  height: 200px;
+  /* width: 25%;
+  height: 25%; */
   border-radius: 100%;
 }
 
@@ -155,5 +157,8 @@
   }
   .project_image {
     width: 100%;
+  }
+  .bio_container img {
+    height: 92px;
   }
 }
