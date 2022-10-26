@@ -13,7 +13,7 @@ import Projects from './components/shared/team/Projects';
 import Fellows from './components/fellowship/Fellows';
 
 // Fellows Pic
-import Sophia from './assets/fellowship_members/sophia_bio.png';
+import Sophia from './assets/fellowship_members/sophia.jpeg';
 import Indira from './assets/fellowship_members/indira.jpeg';
 import Ashkan from './assets/fellowship_members/ashkan.jpeg';
 import Evan from './assets/fellowship_members/evan.jpeg';
@@ -39,7 +39,7 @@ import ImprovingDuolingoImg from './assets/projects/improving_duolingo.jpeg';
 import ImprovingOneNoteImg from './assets/projects/improving_onenote.png';
 
 // Projects Page
-import AppleMaps from './components/fellowship/projects/AppleMaps';
+import DrivingExperienceAppleMaps from './components/fellowship/projects/DrivingExperienceAppleMaps';
 import Notion from './components/fellowship/projects/Notion';
 import Nike from './components/fellowship/projects/Nike';
 import Spotify from './components/fellowship/projects/Spotify';
@@ -75,7 +75,7 @@ function App() {
     title: 'Improving the Driving Experience in Apple Maps',
     text: 'Apple Maps is Apple’s native mapping app that allows users to navigate their surroundings via car, walking, public transit, cycling, and ride-hailing.',
     image: AppleMapsImg,
-    link: '/apple-maps',
+    link: '/improving-the-driving-experience-in-apple-maps',
   };
   const notion = {
     isFinished: true,
@@ -354,7 +354,10 @@ function App() {
             }
           />
           {/* Projects */}
-          <Route path='/apple-maps' element={<AppleMaps />} />
+          <Route
+            path='/improving-the-driving-experience-in-apple-maps'
+            element={<DrivingExperienceAppleMaps />}
+          />
           <Route path='/notion' element={<Notion />} />
           <Route path='/nike-run-club' element={<Nike />} />
           <Route path='/spotify' element={<Spotify />} />

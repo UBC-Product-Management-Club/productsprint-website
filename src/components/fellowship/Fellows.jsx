@@ -2,7 +2,7 @@ import React from 'react';
 import '../team/team.css';
 import { Route, Routes, Link, Switch, BrowserRouter } from 'react-router-dom';
 import ProfileCard from '../shared/team/ProfileCard';
-import Sophia from '../../assets/fellowship_members/sophia_bio.png';
+import Sophia from '../../assets/fellowship_members/sophia.jpeg';
 import Indira from '../../assets/fellowship_members/indira.jpeg';
 import Ashkan from '../../assets/fellowship_members/ashkan.jpeg';
 import Evan from '../../assets/fellowship_members/evan.jpeg';
