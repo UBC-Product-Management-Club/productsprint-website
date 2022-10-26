@@ -17,10 +17,10 @@ import Sophia from './assets/fellowship_members/sophia.jpeg';
 import Indira from './assets/fellowship_members/indira.jpeg';
 import Ashkan from './assets/fellowship_members/ashkan.jpeg';
 import Evan from './assets/fellowship_members/evan.jpeg';
-import Martin from './assets/fellowship_members/martin.png';
+import Martin from './assets/fellowship_members/martin.jpg';
 import Oceanna from './assets/fellowship_members/oceanna.jpeg';
 import Riti from './assets/fellowship_members/riti.jpeg';
-import William from './assets/fellowship_members/william.png';
+import William from './assets/fellowship_members/william.jpeg';
 import Eric from './assets/fellowship_members/eric.jpeg';
 import Michael from './assets/fellowship_members/michael.jpeg';
 import Ved from './assets/fellowship_members/ved.jpeg';
@@ -28,12 +28,12 @@ import Ved from './assets/fellowship_members/ved.jpeg';
 // Projects Pic
 import AppleMapsImg from './assets/projects/improving_apple_maps.jpeg';
 import NotionImg from './assets/projects/improving_notion.jpeg';
-import NikeImg from './assets/projects/nike_run_club.png';
-import SpotifyImg from './assets/projects/spotify.png';
-import TicketMasterImg from './assets/projects/ticketmaster.png';
-import NotabilityImg from './assets/projects/notability.png';
+import NikeImg from './assets/projects/introducing_nike_run.jpeg';
+import SpotifyImg from './assets/projects/improving_spotify.jpeg';
+import TicketMasterImg from './assets/projects/secondary_market_ticket_master.jpeg';
+import NotabilityImg from './assets/projects/notability.jpeg';
 import LinkedInImg from './assets/projects/improving_linkedin_jobs.jpeg';
-import YoutubeImg from './assets/projects/youtube.png';
+import YoutubeImg from './assets/projects/youtube.jpeg';
 import ImprovingLetterBoxDImg from './assets/projects/improving_letterboxd.jpeg';
 import ImprovingDuolingoImg from './assets/projects/improving_duolingo.jpeg';
 import ImprovingOneNoteImg from './assets/projects/improving_onenote.png';
@@ -82,28 +82,28 @@ function App() {
     title: "Improving Notion's Accessibility",
     text: 'I was a PM for Notion, a project management, note-taking, and productivity application. I identified a significant issue on the platform, conducted user research to identify pain points and potential opportunities, and used PM frameworks to formulate a solution and design a mockup for my new feature in order to improve user experience.',
     image: NotionImg,
-    link: '/notion',
+    link: '/improving-notion-accessibility',
   };
   const nike_run_club = {
     isFinished: true,
     title: 'Improving the Social Feature of the Nike Run Club',
     text: 'For this case study, I took the role of a product manager for Nike Run Club, Nike’s running tracker and training program application. To arrive at well-developed a solution, I followed a rigorous product management process by conducting user research, identifying pain points, applying PM-specific frameworks to narrow down a viable opportunity and designing a solution.',
     image: NikeImg,
-    link: '/nike-run-club',
+    link: '/improving-the-social-feature-of-the-nike-run-club',
   };
   const spotify = {
     isFinished: true,
     title: 'Improving Spotify',
     text: 'For this case study, I took the role of a product manager for Nike Run Club, Nike’s running tracker and training program application. To arrive at well-developed a solution, I followed a rigorous product management process by conducting user research, identifying pain points, applying PM-specific frameworks to narrow down a viable opportunity and designing a solution.',
     image: SpotifyImg,
-    link: '/spotify',
+    link: '/improving-spotify',
   };
   const ticket_master = {
     isFinished: true,
     title: 'Taking over the Secondary Market with Ticketmaster!',
     text: 'In this project, I took on the role of a PM for Ticketmaster, a North-American ticket sales and distribution company. My goal was to improve the secondary market buying and selling experience for users, mainly in regards to the resale of tickets, while also keeping in mind the need for Ticketmaster to gain revenue. Enjoy!',
     image: TicketMasterImg,
-    link: '/ticket-master',
+    link: '/taking-over-the-secondary-market-with-ticket-master',
   };
   const notability = {
     isFinished: true,
@@ -117,27 +117,26 @@ function App() {
     title: 'Improving LinkedIn Jobs',
     text: 'For this project, I was a product manager for LinkedIn, a business and employment-oriented online service. To arrive at my solution, I conducted primary and secondary market research and interviews, identified challenges, and used product management frameworks to develop a viable solution.',
     image: LinkedInImg,
-    link: '/linkedin-jobs',
+    link: '/improving-linkedin-jobs',
   };
   const youtube = {
     isFinished: true,
-    title: 'Improving accessibility in YouTube',
+    title: 'Improving Accessibility in YouTube',
     text: 'In this project, I took the place of a product manager for Youtube. Through user interviews and broad research of the application and its complaints, I identified pain points and potential improvement opportunities and utilized product management frameworks to arrive at a viable solution.',
     image: YoutubeImg,
-    link: '/youtube',
+    link: '/improving-accessibility-in-youtube',
   };
   const improving_letterboxd = {
     isFinished: true,
-    title: 'Improving accessibility in YouTube',
+    title: 'Improving LetterboxD',
     text: "In this project, I assumed the position of a product manager for Letterboxd, a social media platform for movie-lovers. Over the course of the project's timeline, I leveraged a combination of primary and secondary market research to identify user pain points and utilized PM frameworks to create a solution.",
     image: ImprovingLetterBoxDImg,
     link: '/improving-letterboxd',
   };
-  // @Todo
   const improving_duolingo = {
     isFinished: true,
     title: 'Improving Duolingo',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi iste doloribus dolorum omnis cupiditate minima quas architecto consequatur unde. Doloremque eligendi fugit ullam porro, mollitia iusto rem iure ipsam facilis?',
+    text: 'In this project, I was the product manager for Duolingo, a language learning app. Over the course of this project, I incorpoated primary and secondary research to identify pain points and used PM frameworks to generate a solution.',
     image: ImprovingDuolingoImg,
     link: '/improving-duolingo',
   };
@@ -358,13 +357,22 @@ function App() {
             path='/improving-the-driving-experience-in-apple-maps'
             element={<DrivingExperienceAppleMaps />}
           />
-          <Route path='/notion' element={<Notion />} />
-          <Route path='/nike-run-club' element={<Nike />} />
-          <Route path='/spotify' element={<Spotify />} />
-          <Route path='/ticket-master' element={<TicketMaster />} />
+          <Route path='/improving-notion-accessibility' element={<Notion />} />
+          <Route
+            path='/improving-the-social-feature-of-the-nike-run-club'
+            element={<Nike />}
+          />
+          <Route path='/improving-spotify' element={<Spotify />} />
+          <Route
+            path='/taking-over-the-secondary-market-with-ticket-master'
+            element={<TicketMaster />}
+          />
           <Route path='/notability' element={<Notability />} />
-          <Route path='/linkedin-jobs' element={<LinkedIn />} />
-          <Route path='/youtube' element={<Youtube />} />
+          <Route path='/improving-linkedin-jobs' element={<LinkedIn />} />
+          <Route
+            path='/improving-accessibility-in-youtube'
+            element={<Youtube />}
+          />
           <Route
             path='/improving-letterboxd'
             element={<ImprovingLetterBoxD />}

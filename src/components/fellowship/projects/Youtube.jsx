@@ -1,6 +1,6 @@
 import React from 'react';
 import './projects.css';
-import William from '../../../assets/fellowship_members/william.png';
+import William from '../../../assets/fellowship_members/william.jpeg';
 
 function Template() {
   return (
@@ -20,6 +20,13 @@ function Template() {
             <strong>Improving Accessibility in YouTube</strong>
           </h1>
           <div className='project_meta_intro'>
+            <p>
+              In this project, I took the place of a product manager for
+              Youtube. Through user interviews and broad research of the
+              application and its complaints, I identified pain points and
+              potential improvement opportunities and utilized product
+              management frameworks to arrive at a viable solution.
+            </p>
             <h2 class='text-xl'>
               <strong>Introducing YouTube:</strong>
             </h2>

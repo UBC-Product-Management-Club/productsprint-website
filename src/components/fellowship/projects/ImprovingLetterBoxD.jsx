@@ -28,7 +28,7 @@ function ImprovingLetterBoxD() {
               and utilized PM frameworks to create a solution.
             </p>
             <hr />
-            <h2 class='text-xl'>Project Proposal</h2>
+            {/* <h2 class='text-xl'>Project Proposal</h2> */}
             <h3 class='text-xl'>Overview</h3>
             <p>
               A favourite software of mine has been the mobile application

@@ -24,6 +24,12 @@ function ImprovingDuolingo() {
           <h1 className='text-lg'>
             <strong>Improving Duolingo</strong>
           </h1>
+          <p>
+            In this project, I was the product manager for Duolingo, a language
+            learning app. Over the course of this project, I incorpoated primary
+            and secondary research to identify pain points and used PM
+            frameworks to generate a solution.
+          </p>
           <div className='project_meta_intro'>
             <h2 class='text-xl'>
               <strong>Introducing my Favourite Product</strong>

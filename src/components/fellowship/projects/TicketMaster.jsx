@@ -39,10 +39,9 @@ function Template() {
                 />
               </div>
             </figure>
-            <hr />
-            <h2 class='text-xl'>
+            {/* <h2 class='text-xl'>
               <strong>Project Proposal</strong>
-            </h2>
+            </h2> */}
             <h3 class='text-lg'>
               <strong>
                 Introducing the number one ticketing system in North America,

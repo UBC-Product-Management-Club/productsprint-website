@@ -32,62 +32,63 @@ function Template() {
               used the product management framework to identify a viable
               solution.
             </p>
+            <h2 class='text-xl'>Improving Onenote</h2>
+            <p>
+              Going into university from high school was a tough transition.
+              Like me, some of you might have also been overwhelmed by the
+              number of books, notebooks, and general papers that needed to be
+              stored and neatly organized for future reference.
+            </p>
+            <p>
+              Taking this into account, I decided to buy an android tablet and
+              its accompanying pen to take in-class notes. This led me to
+              research note-taking apps and finding out what would be the best
+              and I found that Onenote was the best note-taking application for
+              me.
+            </p>
+            <figure>
+              <div
+                class='flex items-center mt-5 ignore-typography justify-center bg-surface-100 -ml-4 -mr-4 sm:!-ml-6 sm:!-mr-6'
+                data-index='0'
+              >
+                <img
+                  src='https://tribe-s3-production.imgix.net/MY7OiBYp6uVyWzY49VQKK?w=1000&amp;auto=compress,format&amp;dl'
+                  class='cursor-pointer max-h-120'
+                  alt=''
+                />
+              </div>
+            </figure>
+            <h3>
+              <strong>Why Onenote?</strong>
+            </h3>
+            <ul class='list-disc list-inside pl-6'>
+              <li>
+                <p>
+                  Easy Integration with desktop software - allows users to share
+                  notebooks and make edits on the desktop version of the
+                  application
+                </p>
+              </li>
+              <li>
+                <p>
+                  Easily add elements you need - Many times instead of
+                  handwriting the lecture notes, I just paste them into my
+                  notebook, making my life easier
+                </p>
+              </li>
+              <li>
+                <p>
+                  Organization - Onenote can seamlessly organize all of your
+                  notes in a hierarchy to make them very easy to find
+                </p>
+              </li>
+            </ul>
           </div>
 
           <p></p>
         </div>
 
         <div className='project_container'>
-          <h2 class='text-xl'>Project Proposal - Improving Onenote</h2>
-          <p>
-            Going into university from high school was a tough transition. Like
-            me, some of you might have also been overwhelmed by the number of
-            books, notebooks, and general papers that needed to be stored and
-            neatly organized for future reference.
-          </p>
-          <p>
-            Taking this into account, I decided to buy an android tablet and its
-            accompanying pen to take in-class notes. This led me to research
-            note-taking apps and finding out what would be the best and I found
-            that Onenote was the best note-taking application for me.
-          </p>
-          <figure>
-            <div
-              class='flex items-center mt-5 ignore-typography justify-center bg-surface-100 -ml-4 -mr-4 sm:!-ml-6 sm:!-mr-6'
-              data-index='0'
-            >
-              <img
-                src='https://tribe-s3-production.imgix.net/MY7OiBYp6uVyWzY49VQKK?w=1000&amp;auto=compress,format&amp;dl'
-                class='cursor-pointer max-h-120'
-                alt=''
-              />
-            </div>
-          </figure>
-          <h3>
-            <strong>Why Onenote?</strong>
-          </h3>
-          <ul class='list-disc list-inside pl-6'>
-            <li>
-              <p>
-                Easy Integration with desktop software - allows users to share
-                notebooks and make edits on the desktop version of the
-                application
-              </p>
-            </li>
-            <li>
-              <p>
-                Easily add elements you need - Many times instead of handwriting
-                the lecture notes, I just paste them into my notebook, making my
-                life easier
-              </p>
-            </li>
-            <li>
-              <p>
-                Organization - Onenote can seamlessly organize all of your notes
-                in a hierarchy to make them very easy to find
-              </p>
-            </li>
-          </ul>
           <h2 class='text-lg'>
             <strong>Project Objectives</strong>
           </h2>

@@ -1,6 +1,6 @@
 import React from 'react';
 import './projects.css';
-import Martin from '../../../assets/fellowship_members/martin.png';
+import Martin from '../../../assets/fellowship_members/martin.jpg';
 
 function Nike() {
   return (
