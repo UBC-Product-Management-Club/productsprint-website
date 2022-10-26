@@ -36,6 +36,7 @@ import LinkedInImg from './assets/projects/linkedin.png';
 import YoutubeImg from './assets/projects/youtube.png';
 import ImprovingLetterBoxDImg from './assets/projects/improving_letterboxd.jpeg';
 import ImprovingDuolingoImg from './assets/projects/improving_duolingo.jpeg';
+import ImprovingOneNoteImg from './assets/projects/improving_onenote.png';
 
 // Projects Page
 import AppleMaps from './components/fellowship/projects/AppleMaps';
@@ -48,6 +49,7 @@ import LinkedIn from './components/fellowship/projects/LinkedIn';
 import Youtube from './components/fellowship/projects/Youtube';
 import ImprovingLetterBoxD from './components/fellowship/projects/ImprovingLetterBoxD';
 import ImprovingDuolingo from './components/fellowship/projects/ImprovingDuolingo';
+import ImprovingOneNote from './components/fellowship/projects/ImprovingOnenote';
 
 function App() {
   const phase_2 = {
@@ -134,20 +136,19 @@ function App() {
   // @Todo
   const improving_duolingo = {
     isFinished: true,
-    title:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi iste doloribus dolorum omnis cupiditate minima quas architecto consequatur unde. Doloremque eligendi fugit ullam porro, mollitia iusto rem iure ipsam facilis?',
-    text: '',
+    title: 'Improving Duolingo',
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi iste doloribus dolorum omnis cupiditate minima quas architecto consequatur unde. Doloremque eligendi fugit ullam porro, mollitia iusto rem iure ipsam facilis?',
     image: ImprovingDuolingoImg,
     link: '/improving-duolingo',
   };
 
-  // const improving_onenote = {
-  //   isFinished: true,
-  //   title: 'Improving accessibility in YouTube',
-  //   text: 'In this project, I took the place of a product manager for Youtube. Through user interviews and broad research of the application and its complaints, I identified pain points and potential improvement opportunities and utilized product management frameworks to arrive at a viable solution.',
-  //   image: ImprovingOnenoteImg,
-  //   link: '/improving-onenote',
-  // };
+  const improving_onenote = {
+    isFinished: true,
+    title: 'Improving OneNote',
+    text: 'For this project, I assumed the role of a Product Manager working at Microsoft for OneNote. Through primary and secondary user research, I was able to identify pain points for OneNote users and used the product management framework to identify a viable solution.',
+    image: ImprovingOneNoteImg,
+    link: '/improving-onenote',
+  };
   return (
     <>
       <Header />
@@ -337,7 +338,7 @@ function App() {
               />
             }
           />
-          {/* <Route
+          <Route
             path='/ved-varshney'
             element={
               <Projects
@@ -351,7 +352,7 @@ function App() {
                 projects={[improving_onenote, phase_2, phase_3]}
               />
             }
-          /> */}
+          />
           {/* Projects */}
           <Route path='/apple-maps' element={<AppleMaps />} />
           <Route path='/notion' element={<Notion />} />
@@ -366,7 +367,7 @@ function App() {
             element={<ImprovingLetterBoxD />}
           />
           <Route path='/improving-duolingo' element={<ImprovingDuolingo />} />
-          {/* <Route path='/improving-onenote' element={<ImprovingOneNote />} /> */}
+          <Route path='/improving-onenote' element={<ImprovingOneNote />} />
         </Routes>
       </ScrollToTop>
       <Footer />
