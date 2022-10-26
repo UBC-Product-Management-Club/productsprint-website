@@ -26,13 +26,13 @@ import Michael from './assets/fellowship_members/michael.jpeg';
 import Ved from './assets/fellowship_members/ved.jpeg';
 
 // Projects Pic
-import AppleMapsImg from './assets/projects/apple_maps.png';
-import NotionImg from './assets/projects/notion.png';
+import AppleMapsImg from './assets/projects/improving_apple_maps.jpeg';
+import NotionImg from './assets/projects/improving_notion.jpeg';
 import NikeImg from './assets/projects/nike_run_club.png';
 import SpotifyImg from './assets/projects/spotify.png';
 import TicketMasterImg from './assets/projects/ticketmaster.png';
 import NotabilityImg from './assets/projects/notability.png';
-import LinkedInImg from './assets/projects/linkedin.png';
+import LinkedInImg from './assets/projects/improving_linkedin_jobs.jpeg';
 import YoutubeImg from './assets/projects/youtube.png';
 import ImprovingLetterBoxDImg from './assets/projects/improving_letterboxd.jpeg';
 import ImprovingDuolingoImg from './assets/projects/improving_duolingo.jpeg';
@@ -73,7 +73,7 @@ function App() {
   const apple_maps = {
     isFinished: true,
     title: 'Improving the Driving Experience in Apple Maps',
-    text: 'Apple Maps is Apple’s native mapping app that allows users to navigate their surroundings via car, walking, public transit, cycling, and ride-hailing.',
+    text: "For this project, I was a product manager for Apple Maps, Apple's native navigation app. To arrive at my solution, I conducted user research and interviews, identified pain points, and used product management-specific frameworks to narrow down a viable opportunity.",
     image: AppleMapsImg,
     link: '/improving-the-driving-experience-in-apple-maps',
   };

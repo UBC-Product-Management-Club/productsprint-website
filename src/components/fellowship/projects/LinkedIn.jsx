@@ -20,6 +20,13 @@ function LinkedIn() {
             <strong>Improving LinkedIn Jobs</strong>
           </h1>
           <div className='project_meta_intro'>
+            <p>
+              For this project, I was a product manager for LinkedIn, a business
+              and employment-oriented online service. To arrive at my solution,
+              I conducted primary and secondary market research and interviews,
+              identified challenges, and used product management frameworks to
+              develop a viable solution.
+            </p>
             <h2 class='text-lg'>
               <strong>Introducing LinkedIn Jobs</strong>
             </h2>
