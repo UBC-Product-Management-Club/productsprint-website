@@ -84,6 +84,19 @@
   margin-top: 30px;
 }
 
+.project_container video {
+  /* width: 100%; */
+  border-radius: 10px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.video_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .preview {
   width: 100%;
   border-radius: 10px;

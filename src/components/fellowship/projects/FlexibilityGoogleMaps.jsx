@@ -46,6 +46,57 @@ function FlexibilityGoogleMaps() {
               </div>
             </figure>
             <p></p>
+            <p>
+              Since I arrived as an international student in Canada 🍁, Google
+              Maps has become my favorite product, compass, and best friend
+              <em>(since I also fight with it a lot)</em>. However, if you have
+              never used Google Maps ... I don't believe you 🤔{' '}
+              <em>(#SorryNotSorry)</em> since Google Maps 🗺️ was founded in 2005
+              🗓️ and today is used by more than 1 billion people 🌎 every month.
+            </p>
+            <figure>
+              <div class='video_container aspect-video -ml-4 -mr-4 sm:!-ml-6 sm:!-mr-6'>
+                {/* <div style='width: 100%; height: 100%'> */}
+                <div class='vsc-controller'></div>
+                {/* <video
+                  src='https://files-us-east-1.t-cdn.net/files/NTMauYBin7kI2PMQPwvYk'
+                  preload='auto'
+                  controls=''
+                  style='width: 100%; height: 100%'
+                ></video> */}
+                <video
+                  controls
+                  preload='auto'
+                  style={({ width: '100%' }, { height: '100%' })}
+                >
+                  <source src='https://files-us-east-1.t-cdn.net/files/NTMauYBin7kI2PMQPwvYk' />
+                </video>
+                {/* </div> */}
+              </div>
+            </figure>
+            <p>
+              <strong>Google Maps</strong> is a web mapping platform and
+              consumer application offered by Google. It provides satellite 🛰️
+              imagery, aerial photography, street maps 🗺️, 360° interactive
+              <a
+                class='cursor-pointer transition duration-100 ease-in-out text-actionAccent-600 hover:text-actionAccentHover-500'
+                target='_blank'
+                rel='noopener noreferrer nofollow ugc'
+                to='https://en.wikipedia.org/wiki/Interactive_panorama'
+                href='https://en.wikipedia.org/wiki/Interactive_panorama'
+              ></a>
+              panoramic views of streets (Street View), real-time traffic 🚗 🚕
+              🚜 🏎️ conditions, and route
+              <a
+                class='cursor-pointer transition duration-100 ease-in-out text-actionAccent-600 hover:text-actionAccentHover-500'
+                target='_blank'
+                rel='noopener noreferrer nofollow ugc'
+                to='https://en.wikipedia.org/wiki/Route_planner'
+                href='https://en.wikipedia.org/wiki/Route_planner'
+              ></a>
+              planning for traveling by foot 👣, car🚙, bike🚲 , air🛩️ , and
+              public transportation🚌 (Wikipedia, 2022).
+            </p>
           </div>
 
           <p></p>
@@ -55,50 +106,7 @@ function FlexibilityGoogleMaps() {
           <h2 class='text-xl'>
             <strong>PROJECT PROPOSAL</strong>
           </h2>
-          <p>
-            Since I arrived as an international student in Canada 🍁, Google
-            Maps has become my favorite product, compass, and best friend
-            <em>(since I also fight with it a lot)</em>. However, if you have
-            never used Google Maps ... I don't believe you 🤔{' '}
-            <em>(#SorryNotSorry)</em> since Google Maps 🗺️ was founded in 2005
-            🗓️ and today is used by more than 1 billion people 🌎 every month.
-          </p>
-          {/* <figure>
-            <div class='aspect-video -ml-4 -mr-4 sm:!-ml-6 sm:!-mr-6'>
-              <div style='width: 100%; height: 100%'>
-                <div class='vsc-controller'></div>
-                <video
-                  src='https://files-us-east-1.t-cdn.net/files/NTMauYBin7kI2PMQPwvYk'
-                  preload='auto'
-                  controls=''
-                  style='width: 100%; height: 100%'
-                ></video>
-              </div>
-            </div>
-          </figure> */}
-          <p>
-            <strong>Google Maps</strong> is a web mapping platform and consumer
-            application offered by Google. It provides satellite 🛰️ imagery,
-            aerial photography, street maps 🗺️, 360° interactive
-            <a
-              class='cursor-pointer transition duration-100 ease-in-out text-actionAccent-600 hover:text-actionAccentHover-500'
-              target='_blank'
-              rel='noopener noreferrer nofollow ugc'
-              to='https://en.wikipedia.org/wiki/Interactive_panorama'
-              href='https://en.wikipedia.org/wiki/Interactive_panorama'
-            ></a>
-            panoramic views of streets (Street View), real-time traffic 🚗 🚕 🚜
-            🏎️ conditions, and route
-            <a
-              class='cursor-pointer transition duration-100 ease-in-out text-actionAccent-600 hover:text-actionAccentHover-500'
-              target='_blank'
-              rel='noopener noreferrer nofollow ugc'
-              to='https://en.wikipedia.org/wiki/Route_planner'
-              href='https://en.wikipedia.org/wiki/Route_planner'
-            ></a>
-            planning for traveling by foot 👣, car🚙, bike🚲 , air🛩️ , and
-            public transportation🚌 (Wikipedia, 2022).
-          </p>
+
           <h3 class='text-lg'>
             <strong>Problem Identification</strong>
           </h3>
