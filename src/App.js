@@ -24,6 +24,7 @@ import William from './assets/fellowship_members/william.jpeg';
 import Eric from './assets/fellowship_members/eric.jpeg';
 import Michael from './assets/fellowship_members/michael.jpeg';
 import Ved from './assets/fellowship_members/ved.jpeg';
+import Armando from './assets/fellowship_members/armando.png';
 
 // Projects Pic
 import AppleMapsImg from './assets/projects/improving_apple_maps.jpeg';
@@ -37,6 +38,7 @@ import YoutubeImg from './assets/projects/youtube.jpeg';
 import ImprovingLetterBoxDImg from './assets/projects/improving_letterboxd.jpeg';
 import ImprovingDuolingoImg from './assets/projects/improving_duolingo.jpeg';
 import ImprovingOneNoteImg from './assets/projects/improving_onenote.png';
+import FlexibilityGoogleMapsImg from './assets/projects/flexibility_googlemaps.png';
 
 // Projects Page
 import DrivingExperienceAppleMaps from './components/fellowship/projects/DrivingExperienceAppleMaps';
@@ -50,6 +52,7 @@ import Youtube from './components/fellowship/projects/Youtube';
 import ImprovingLetterBoxD from './components/fellowship/projects/ImprovingLetterBoxD';
 import ImprovingDuolingo from './components/fellowship/projects/ImprovingDuolingo';
 import ImprovingOneNote from './components/fellowship/projects/ImprovingOnenote';
+import FlexibilityGoogleMaps from './components/fellowship/projects/FlexibilityGoogleMaps';
 
 function App() {
   const phase_2 = {
@@ -147,6 +150,13 @@ function App() {
     text: 'For this project, I assumed the role of a Product Manager working at Microsoft for OneNote. Through primary and secondary user research, I was able to identify pain points for OneNote users and used the product management framework to identify a viable solution.',
     image: ImprovingOneNoteImg,
     link: '/improving-onenote',
+  };
+  const flexibility_with_google_maps = {
+    isFinished: true,
+    title: 'Inclusion and flexibility with Google Maps',
+    text: "In this project, I took the role of a Product Manager at Google to improve Google Maps in terms of inclusion and flexibility for its users. Join me throughout this post to know my findings and proposal to improve one of the world's most used applications/platforms.",
+    image: FlexibilityGoogleMapsImg,
+    link: '/google',
   };
   return (
     <>
@@ -352,6 +362,21 @@ function App() {
               />
             }
           />
+          <Route
+            path='/armando-rocha'
+            element={
+              <Projects
+                img={Armando}
+                name='Armando Rocha'
+                title='Fellow'
+                bio_text={
+                  "Product Manager with past experience in financial products and athletic apparel. I'm passionate about talking and listening to customers, executing plans, and making things happen. "
+                }
+                linkedin='https://www.linkedin.com/in/armandorochac/'
+                projects={[flexibility_with_google_maps, phase_2, phase_3]}
+              />
+            }
+          />
           {/* Projects */}
           <Route
             path='/improving-the-driving-experience-in-apple-maps'
@@ -379,6 +404,7 @@ function App() {
           />
           <Route path='/improving-duolingo' element={<ImprovingDuolingo />} />
           <Route path='/improving-onenote' element={<ImprovingOneNote />} />
+          <Route path='/google' element={<FlexibilityGoogleMaps />} />
         </Routes>
       </ScrollToTop>
       <Footer />
