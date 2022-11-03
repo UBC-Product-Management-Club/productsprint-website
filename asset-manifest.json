@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.2d2600ec.css",
-    "main.js": "/static/js/main.32a73fb2.js",
+    "main.css": "/static/css/main.67f1c553.css",
+    "main.js": "/static/js/main.7047fe10.js",
     "static/media/kimia.png": "/static/media/kimia.2187ecff18dd69765ddf.png",
     "static/media/landseer.png": "/static/media/landseer.ef62423195842f0c93fd.png",
     "static/media/sarah.png": "/static/media/sarah.70702abc343d538f4cba.png",
     "static/media/fahim.png": "/static/media/fahim.aa7d68f18244080a3a3e.png",
     "static/media/fellowship.png": "/static/media/fellowship.8c23dba11e12d4915888.png",
+    "static/media/armando.png": "/static/media/armando.eee3f2e0eb5a45c016e5.png",
     "static/media/scott.png": "/static/media/scott.a36cc9fa467396cdbfc4.png",
     "static/media/rithvik.png": "/static/media/rithvik.febc286625a4e781b26d.png",
     "static/media/rachit.png": "/static/media/rachit.0714ba5c4e2a5fbdf348.png",
@@ -48,6 +49,7 @@
     "static/media/improving_linkedin_jobs.jpeg": "/static/media/improving_linkedin_jobs.07aba7d9116f95cdfa44.jpeg",
     "static/media/oceanna.jpeg": "/static/media/oceanna.304207b05a50ea9a4c86.jpeg",
     "static/media/asana.png": "/static/media/asana.a08caab53d91bd4fa280.png",
+    "static/media/flexibility_googlemaps.png": "/static/media/flexibility_googlemaps.cb54b123affc4e718937.png",
     "static/media/improving_duolingo.jpeg": "/static/media/improving_duolingo.e2b5d789ca4ef1a61b18.jpeg",
     "static/media/microsoft.png": "/static/media/microsoft.975c500047fe38bd4d8d.png",
     "static/media/unity.png": "/static/media/unity.59c3233dd1cfad6fd5d5.png",
@@ -60,11 +62,11 @@
     "static/media/fa-application.svg": "/static/media/fa-application.5f34eca4cde5098f0274811f7cc17950.svg",
     "index.html": "/index.html",
     "static/media/down-arrow.svg": "/static/media/down-arrow.15a7ebe946c30b53f259a398df53335e.svg",
-    "main.2d2600ec.css.map": "/static/css/main.2d2600ec.css.map",
-    "main.32a73fb2.js.map": "/static/js/main.32a73fb2.js.map"
+    "main.67f1c553.css.map": "/static/css/main.67f1c553.css.map",
+    "main.7047fe10.js.map": "/static/js/main.7047fe10.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d2600ec.css",
-    "static/js/main.32a73fb2.js"
+    "static/css/main.67f1c553.css",
+    "static/js/main.7047fe10.js"
   ]
 }
