@@ -31,6 +31,10 @@
   font-size: 18px;
   padding-bottom: 15px;
 }
+.project_container u {
+  color: #dde9f9;
+  text-decoration: underline;
+}
 
 .project_main_container em {
   color: #dde9f9;

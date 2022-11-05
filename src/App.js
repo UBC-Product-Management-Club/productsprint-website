@@ -25,6 +25,7 @@ import Eric from './assets/fellowship_members/eric.jpeg';
 import Michael from './assets/fellowship_members/michael.jpeg';
 import Ved from './assets/fellowship_members/ved.jpeg';
 import Armando from './assets/fellowship_members/armando.png';
+import Wilson from './assets/fellowship_members/wilson.jpeg';
 
 // Projects Pic
 import AppleMapsImg from './assets/projects/improving_apple_maps.jpeg';
@@ -39,6 +40,7 @@ import ImprovingLetterBoxDImg from './assets/projects/improving_letterboxd.jpeg'
 import ImprovingDuolingoImg from './assets/projects/improving_duolingo.jpeg';
 import ImprovingOneNoteImg from './assets/projects/improving_onenote.png';
 import FlexibilityGoogleMapsImg from './assets/projects/flexibility_googlemaps.png';
+import ImprovingKindertalesImg from './assets/projects/improving_kindertales.jpeg';
 
 // Projects Page
 import DrivingExperienceAppleMaps from './components/fellowship/projects/DrivingExperienceAppleMaps';
@@ -53,6 +55,7 @@ import ImprovingLetterBoxD from './components/fellowship/projects/ImprovingLette
 import ImprovingDuolingo from './components/fellowship/projects/ImprovingDuolingo';
 import ImprovingOneNote from './components/fellowship/projects/ImprovingOnenote';
 import FlexibilityGoogleMaps from './components/fellowship/projects/FlexibilityGoogleMaps';
+import ImprovingKindertales from './components/fellowship/projects/ImprovingKindertales';
 
 function App() {
   const phase_2 = {
@@ -157,6 +160,13 @@ function App() {
     text: "In this project, I took the role of a Product Manager at Google to improve Google Maps in terms of inclusion and flexibility for its users. Join me throughout this post to know my findings and proposal to improve one of the world's most used applications/platforms.",
     image: FlexibilityGoogleMapsImg,
     link: '/google',
+  };
+  const improving_kindertales = {
+    isFinished: true,
+    title: 'Improving Kindertales',
+    text: 'For this project, I was a product manager for Kindertales, a childcare management app. To arrive at my solution, I conducted user research and interviews, identified pain points, and used product management-specific frameworks to narrow down a viable opportunity.',
+    image: ImprovingKindertalesImg,
+    link: '/improving-kindertales',
   };
   return (
     <>
@@ -377,6 +387,21 @@ function App() {
               />
             }
           />
+          <Route
+            path='/wilson-cheung'
+            element={
+              <Projects
+                img={Wilson}
+                name='Wilson Cheung'
+                title='Fellow'
+                bio_text={
+                  'Professional MBA student at UBC with over 10 years of technology consulting experience working on large scale and complex finance transformation projects in North America and Asia. Combines strong business acumen with in-depth technical expertise to be fluent in the dual languages of business and technology. Currently learning about product management to explore about a career pivot and developing personal projects.'
+                }
+                linkedin='https://www.linkedin.com/in/wilscheung/'
+                projects={[improving_kindertales, phase_2, phase_3]}
+              />
+            }
+          />
           {/* Projects */}
           <Route
             path='/improving-the-driving-experience-in-apple-maps'
@@ -405,6 +430,10 @@ function App() {
           <Route path='/improving-duolingo' element={<ImprovingDuolingo />} />
           <Route path='/improving-onenote' element={<ImprovingOneNote />} />
           <Route path='/google' element={<FlexibilityGoogleMaps />} />
+          <Route
+            path='/improving-kindertales'
+            element={<ImprovingKindertales />}
+          />
         </Routes>
       </ScrollToTop>
       <Footer />

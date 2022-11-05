@@ -14,6 +14,7 @@ import Eric from '../../assets/fellowship_members/eric.jpeg';
 import Michael from '../../assets/fellowship_members/michael.jpeg';
 import Ved from '../../assets/fellowship_members/ved.jpeg';
 import Armando from '../../assets/fellowship_members/armando.png';
+import Wilson from '../../assets/fellowship_members/wilson.jpeg';
 
 function Fellows() {
   return (
@@ -63,6 +64,9 @@ function Fellows() {
           </Link>
           <Link to='/armando-rocha'>
             <ProfileCard img={Armando} name='Armando Rocha' title='Fellow' />
+          </Link>
+          <Link to='/wilson-cheung'>
+            <ProfileCard img={Wilson} name='Wilson Cheung' title='Fellow' />
           </Link>
         </div>
       </div>

@@ -1,0 +1,616 @@
+import React from 'react';
+import './projects.css';
+import Wilson from '../../../assets/fellowship_members/wilson.jpeg';
+
+function ImprovingKindertales() {
+  return (
+    <div className='container project_main_container'>
+      <div className='project_page'>
+        <div className='project_meta'>
+          <div className='project_meta_card_container'>
+            <div className='project_meta_card'>
+              <img
+                src={Wilson}
+                alt='
+              Filler
+              '
+              />
+              <div className='meta_p'>
+                <p className='meta_name'>Wilson Cheung</p>
+                <p className='meta_date'>Oct 2, 2022</p>
+              </div>
+            </div>
+          </div>
+          <h1 className='text-lg'>
+            <strong>Improving Kindertales</strong>
+          </h1>
+          <div className='project_meta_intro'>
+            <h2 class='text-xl'>
+              <strong>Project Summary</strong>
+            </h2>
+            <p>
+              For this project, I was a product manager for Kindertales, a
+              childcare management app. To arrive at my solution, I conducted
+              user research and interviews, identified pain points, and used
+              product management-specific frameworks to narrow down a viable
+              opportunity.
+            </p>
+            <hr />
+            {/* <h2 class='text-xl'>
+              <strong>Project Proposal</strong>
+            </h2> */}
+            <h2 class='text-lg'>
+              <strong>Introducing Kindertales</strong>
+            </h2>
+            <p>
+              As a new dad, one of my most frequently used apps is Kindertales,
+              a childcare management software that provides updates from my
+              child’s daycare on her daily activities, offers instant
+              communication with teachers and general broadcast announcements
+              from the principal. The app gives parents the comfort of knowing
+              when their children are checked in and out of school. And gives us
+              the extra boost of joy when your child’s picture is posted during
+              an activity.
+            </p>
+            <p>
+              There are 3 sets of users for this app: Families, Teachers,
+              Enterprise / School Administrators. Families use the software as a
+              receiver of information, getting notifications of when their child
+              eats, plays, or sleeps. Teachers use the app to track daily
+              activities of a child such as diaper changes, meal intakes and
+              playtime activities. School Administrators use the app to gather
+              billing details, create security of student check in and check
+              outs, and notify parents general communications.
+            </p>
+            <p>
+              For this project, I will be researching and suggesting an
+              improvement to the Families user. Speaking with other parents,
+              many at-home and non-franchised daycares have not adapted
+              technology into daycare management and are updating parents using
+              handwritten notes of their child’s key milestones and
+              communicating via email newsletters. Childcare management software
+              can be a differentiator for daycares by providing parents with a
+              peace of mind throughout the day with real-time updates of their
+              child’s activities. In today’s world of hyperconnectivity, parents
+              value the instant notifications in case of emergency will often
+              prioritize notifications about their children over other
+              applications.
+            </p>
+            <figure>
+              <div
+                class='flex items-center mt-5 ignore-typography justify-center bg-surface-100 -ml-4 -mr-4 sm:!-ml-6 sm:!-mr-6'
+                data-index='0'
+              >
+                <img
+                  src='https://tribe-s3-production.imgix.net/DoDOSyOfbKJrpb2LqHVvt?w=1000&amp;auto=compress,format&amp;dl'
+                  class='cursor-pointer max-h-120'
+                  alt=''
+                />
+              </div>
+            </figure>
+          </div>
+
+          <p></p>
+        </div>
+
+        <div className='project_container'>
+          <h2 class='text-xl'>
+            <strong>Project Objective</strong>
+          </h2>
+          <h3 class='text-lg'>
+            <strong>Situation:</strong>
+          </h3>
+          <p>
+            Kindertales current only allows for parent-to-teacher and
+            parent-to-principal communications. The communication feature within
+            the app is similar to email, with an inbox of messages, instead of
+            the chat boxes of instant messaging.
+          </p>
+          <p>
+            As a parent who started daycare during Covid, I feel that there is
+            an unaddressed pain point of communication amongst parents. Due to
+            health measures, parents have not had the chance to interact with
+            each other at school functions, therefore there is an absence of
+            parent-to-parent relationships and a missing sense of community.
+            Parents do not have a channel to reach out to each other to set up
+            playdates/events outside of school.
+          </p>
+          <h3 class='text-lg'>
+            <strong>Assumptions:</strong>
+          </h3>
+          <ol class='list-decimal list-inside pl-6'>
+            <li>
+              <p>
+                Parents want to create closer friendships with other parents
+                from daycare.
+              </p>
+            </li>
+            <li>
+              <p>
+                Parents want their children to have closer friendships with
+                fellow daycare kids.
+              </p>
+            </li>
+            <li>
+              <p>Parents want to increase communication with other parents</p>
+            </li>
+            <li>
+              <p>Parents want a peer support system with other parents</p>
+            </li>
+            <li>
+              <p>Parents trust other parents with a shared daycare as peers</p>
+            </li>
+          </ol>
+          <h3 class='text-lg'>
+            <strong>Hypothesis:</strong>
+          </h3>
+          <ol class='list-decimal list-inside pl-6'>
+            <li>
+              <p>
+                Kindertales could increase user engagement by improving their
+                communications platform to allow parents to interact and
+                communicate amongst themselves.
+              </p>
+            </li>
+            <li>
+              <p>
+                Kindertales could increase parent-to-parent relationships and
+                help in forming a stronger school community within the daycare.
+                Furthermore, this could lead to strong word-of-mouth marketing
+                from current parents who are enjoying the daycare and
+                surrounding community of parents.
+              </p>
+            </li>
+          </ol>
+          <h3 class='text-lg'>
+            <strong>Timeline:</strong>
+          </h3>
+          <p>I aim to spend 15 hours in total on this project:</p>
+          <ul class='list-disc list-inside pl-6'>
+            <li>
+              <p>2 hours researching competition and user needs online</p>
+            </li>
+            <li>
+              <p>
+                1 hour of conducting user needs research (3 sets of parents)
+              </p>
+            </li>
+            <li>
+              <p>
+                1 hour of validation with daycare principal about parent
+                communications and any pain points she may have with the product
+              </p>
+            </li>
+            <li>
+              <p>3 hours devising a solution</p>
+            </li>
+            <li>
+              <p>3 hours wireframing</p>
+            </li>
+            <li>
+              <p>3 hours on the conclusion and additional writing</p>
+            </li>
+            <li>
+              <p>
+                2 hours cold emailing product team of Kindertales to show them
+                my project and ask for real feedback. If no response, connect
+                with their competitors.
+              </p>
+            </li>
+          </ul>
+          <h2 class='text-xl'>Competitive Research</h2>
+          <p>
+            I based my competitive research on a CNBC video called “
+            <a
+              class='cursor-pointer transition duration-100 ease-in-out text-actionAccent-600 hover:text-actionAccentHover-500'
+              target='_blank'
+              rel='noopener noreferrer nofollow ugc'
+              to='https://www.youtube.com/watch?v=8Li67NZ7Tw8'
+              href='https://www.youtube.com/watch?v=8Li67NZ7Tw8'
+            >
+              Preschool Apps — The Latest Early Education Trend
+            </a>
+            ” published on Oct 5, 2018. It was based on three companies:
+            Tadpoles, Kinderlime and Brightwheel. I wanted to review where these
+            apps are today, the funding that they have received and the
+            communication methods they provided.
+          </p>
+          <figure>
+            <div
+              class='flex items-center mt-5 ignore-typography justify-center bg-surface-100 -ml-4 -mr-4 sm:!-ml-6 sm:!-mr-6'
+              data-index='1'
+            >
+              <img
+                src='https://tribe-s3-production.imgix.net/6GwIcEMxofkFrzp8ZlXJb?w=1000&amp;auto=compress,format&amp;dl'
+                class='cursor-pointer max-h-120'
+                alt=''
+              />
+            </div>
+          </figure>
+          <h2 class='text-xl'>
+            <strong>User Research</strong>
+          </h2>
+          <p>
+            <strong>Question</strong>: Would you use Kindertales to
+            communication with other parents?
+          </p>
+          <ol class='list-decimal list-inside pl-6'>
+            <li>
+              <p>
+                "Possibility would use it to communication with other parents in
+                case we wanted to set up a play date."
+              </p>
+            </li>
+            <li>
+              <p>
+                <strong>"</strong>We have a WhatsApp group but <u>better</u> if
+                it was in Kindertales. It would be good if announcements and
+                monthly newsletter would be in Kindertales. Or like Annual
+                Calendar. Pretty much a one-stop shop. Why not even purchase
+                uniforms?"
+              </p>
+            </li>
+          </ol>
+          <p>
+            <strong>Question</strong>: Would you use a Parent-to-Parent
+            messaging feature if it's available?
+          </p>
+          <p>Positive:</p>
+          <ol class='list-decimal list-inside pl-6'>
+            <li>
+              <p>
+                “I would absolutely love this! I’ve wanted to meet the other
+                parents in my son’s classroom, becomes friends have playdates
+                etc…but I am SO socially awkward.
+                <u>I would definitely take advantage of something like this.</u>
+                ”
+              </p>
+            </li>
+            <li>
+              <p>
+                “Great idea! For what it’s worth, our daycare has a Parent
+                Liaison who set up WhatsApp groups for each classroom and the
+                parents can just join via a link. So that’s a suggestion if you
+                just want a solution right now.
+                <u>
+                  But if there was something already within the app that the
+                  daycare uses, that could be a great tool
+                </u>
+                .”
+              </p>
+            </li>
+          </ol>
+          <p>Negative:</p>
+          <ol class='list-decimal list-inside pl-6'>
+            <li>
+              <p>
+                “No, I don’t need another messaging platform. I want to keep
+                communication types segregated to cut down on noise.
+                <u>
+                  I could see this resulting in more frequent engagement from
+                  parents briefly (before they move to another more convenient
+                  messaging app once relationships are established).
+                </u>
+                Is temporary parent engagement desirable?”
+              </p>
+            </li>
+            <li>
+              <p>
+                At our daycare they ask if you would be okay to be added to a
+                list that is distributed to all the parents of the class
+                <u>so it's kind of already there</u>.
+              </p>
+            </li>
+          </ol>
+          <h2 class='text-lg'>
+            <strong>Initial Research Summary</strong>
+          </h2>
+          <p>
+            Through the competitive and user research, I discovered the
+            following:
+          </p>
+          <ol class='list-decimal list-inside pl-6'>
+            <li>
+              <p>
+                None of the competition had parent-to-parent communication
+                feature
+              </p>
+            </li>
+            <li>
+              <p>
+                Some daycares have established procedures in place to create
+                parent-to-parent communication groups using an existing
+                communications platform. (i.e. WhatsApp group, Facebook group)
+              </p>
+            </li>
+            <li>
+              <p>
+                If communications group are not yet established, parents would
+                use the in-app parent-to-parent communications feature
+                temporarily, before they move to a more convenient messaging app
+                once relationships are established
+              </p>
+            </li>
+          </ol>
+          <h2 class='text-xl'>
+            <strong>Pivot</strong>
+          </h2>
+          <p>
+            At this point, I wanted to pivot and focus on the other set of users
+            for the Kindertales app, teachers. I created a post on the Early
+            Childhood Educators subreddit (r/ECEProfessionals) and received
+            4,000+ views. There were three pain points that were highlighted and
+            had the most upvotes:
+          </p>
+          <ol class='list-decimal list-inside pl-6'>
+            <li>
+              <p>
+                Boundaries - Parents contacting teachers all hours of the night
+                and weekend
+              </p>
+            </li>
+            <li>
+              <p>
+                Internal Communications - Inefficient communications from
+                room-to-room, teacher-to-teacher (telephone, apps that other
+                teachers don't check frequently).
+              </p>
+            </li>
+            <li>
+              <p>
+                Multiple Entries - Teachers spend too much time with data entry
+                per student
+              </p>
+            </li>
+          </ol>
+          <h2 class='text-xl'>
+            <strong>User Persona</strong>
+          </h2>
+          <figure>
+            <div
+              class='flex items-center mt-5 ignore-typography justify-center bg-surface-100 -ml-4 -mr-4 sm:!-ml-6 sm:!-mr-6'
+              data-index='2'
+            >
+              <img
+                src='https://tribe-s3-production.imgix.net/OMA0aD6L8B4dB0Ga9Og9o?w=1000&amp;auto=compress,format&amp;dl'
+                class='cursor-pointer max-h-120'
+                alt=''
+              />
+            </div>
+          </figure>
+          <h2 class='text-xl'>
+            <strong>Opportunity Map</strong>
+          </h2>
+          <figure>
+            <div
+              class='flex items-center mt-5 ignore-typography justify-center bg-surface-100 -ml-4 -mr-4 sm:!-ml-6 sm:!-mr-6'
+              data-index='3'
+            >
+              <img
+                src='https://tribe-s3-production.imgix.net/m2lxdkAvAwNwv9K08EVuR?w=1000&amp;auto=compress,format&amp;dl'
+                class='cursor-pointer max-h-120'
+                alt=''
+              />
+            </div>
+          </figure>
+          <h2 class='text-xl'>
+            <strong>Solution</strong>
+          </h2>
+          <h3 class='text-lg'>
+            <strong>Potential Solutions</strong>
+          </h3>
+          <ol class='list-decimal list-inside pl-6'>
+            <li>
+              <p>
+                <strong>Mass Entry</strong>
+              </p>
+              <p>
+                Allows teachers to input one activity and tag multiple children
+                at the same time.
+              </p>
+            </li>
+            <li>
+              <p>
+                <strong>Voice Activated Input</strong>
+              </p>
+              <p>Allows the use of voice to entry daily activities</p>
+            </li>
+            <li>
+              <p>
+                <strong>1-Click Entry</strong>
+              </p>
+              <p>
+                Provide frequently used activities as a 1-click shortcut instead
+                of the standard input method of 5-clicks.
+              </p>
+            </li>
+            <li>
+              <p>
+                <strong>Automated Entries</strong>
+              </p>
+              <p>
+                Classroom calendars will be set before each day. Entries such as
+                meal times and activities will be automatically posted at
+                scheduled time.
+              </p>
+            </li>
+            <li>
+              <p>
+                <strong>Suggestive Pop-Ups/Autocomplete</strong>
+              </p>
+              <p>
+                Suggestive actions will be automatically completed based on
+                previous activity.
+              </p>
+            </li>
+          </ol>
+          <h3 class='text-lg'>
+            <strong>Feature Prioritization</strong>
+          </h3>
+          <figure>
+            <div
+              class='flex items-center mt-5 ignore-typography justify-center bg-surface-100 -ml-4 -mr-4 sm:!-ml-6 sm:!-mr-6'
+              data-index='4'
+            >
+              <img
+                src='https://tribe-s3-production.imgix.net/JcFPirK2Yz4odeH0cFxcV?w=1000&amp;auto=compress,format&amp;dl'
+                class='cursor-pointer max-h-120'
+                alt=''
+              />
+            </div>
+          </figure>
+          <p>
+            Development efforts for features with automation and voice
+            activation were marked with "High Effort", leaving the 1-Click
+            Shortcuts and Mass Entry features with a High Value and Low Effort
+            ranking.
+          </p>
+          <h3 class='text-lg'>
+            <strong>Value Proposition</strong>
+          </h3>
+          <p>
+            Kindertale’s Frequently Used Shortcuts will reduce administration
+            time for teachers by decreasing screen time for activity entry and
+            help teachers stay present with children in their care.
+          </p>
+          <h2 class='text-xl'>
+            <strong>Design</strong>
+          </h2>
+          <h3 class='text-lg'>
+            <strong>Product Requirements</strong>
+          </h3>
+          <ol class='list-decimal list-inside pl-6'>
+            <li>
+              <p>
+                Users will be defaulted with a system generated list of
+                frequently used actions on shortcut bar
+              </p>
+            </li>
+            <li>
+              <p>
+                Users can select icons on a shortcut bar to input frequently
+                used actions
+              </p>
+            </li>
+            <li>
+              <p>
+                Users can customize their shortcut bar by adding their favourite
+                actions
+              </p>
+            </li>
+          </ol>
+          <h3 class='text-lg'>
+            <strong>Visual Mockup</strong>
+          </h3>
+          <p>
+            Currently, teachers have to select the + button at the bottom right
+            of the screen, then "Daily Activities" before they can select the
+            activity icons such as Food, Drink and Diapers.
+          </p>
+          <p>
+            The Visual Mockup displays the activity icons on beneath the current
+            bar of Health, Messages and Reports. This order of the activities
+            bar will be based on the frequently used algorithm. Users can then
+            customize the order in the Settings page.
+          </p>
+          <figure>
+            <div
+              class='flex items-center mt-5 ignore-typography justify-center bg-surface-100 -ml-4 -mr-4 sm:!-ml-6 sm:!-mr-6'
+              data-index='5'
+            >
+              <img
+                src='https://tribe-s3-production.imgix.net/U0NBDVMw0b7F3UtQz2iLH?w=1000&amp;auto=compress,format&amp;dl'
+                class='cursor-pointer max-h-120'
+                alt=''
+              />
+            </div>
+          </figure>
+          <h2 class='text-xl'>Conclusion</h2>
+          <h3 class='text-lg'>Risks and Mitigation</h3>
+          <ul class='list-disc list-inside pl-6'>
+            <li>
+              <p>
+                Clutter. There is an existing shortcut bar at the top of the
+                screen in grey with buttons to Health, Messages and Reports.
+                Introducing an icons based activities shortcut will increase the
+                clutter and possibly create selection errors by the user.
+              </p>
+            </li>
+            <li>
+              <p>
+                Mitigation: Work with UX designer to understand how to increase
+                the space between the two shortcut bars. Potentially switching
+                the "Classroom" header with the icons shortcut bar to separate
+                the two selection points.
+              </p>
+            </li>
+          </ul>
+          <h3 class='text-lg'>
+            <strong>What I would have done if I had more time</strong>
+          </h3>
+          <ul class='list-disc list-inside pl-6'>
+            <li>
+              <p>
+                Develop a Research Plan - I raced towards asking fellow parent
+                users of the app about their initial thoughts of my feature and
+                asked a lot of yes/no and leading questions. I should have
+                slowed down the discovery part of this project and create a
+                detailed research plan.
+              </p>
+            </li>
+            <li>
+              <p>
+                Interview the Buyer instead of the Users - Kindertales has two
+                sets of users, parents and teachers, but the buyer of this
+                application is the school administrator. I did not have enough
+                time to understand their business pains. Addressing the buyer's
+                business pains are sometimes the most important as they hold the
+                keys to the wallet.
+              </p>
+            </li>
+            <li>
+              <p>
+                Create a Hi-Fidelilty Prototype - I did not have the time to
+                learn how to create a prototype in Figma. I look forward to
+                developing this skill in Phase 2 and 3 of the fellowship.
+              </p>
+            </li>
+          </ul>
+          <h3 class='text-lg'>Lessons Learned</h3>
+          <ol class='list-decimal list-inside pl-6'>
+            <li>
+              <p>
+                Discovery - Product managers spend more time on discovery than
+                solutioning/design. Learn how to ask questions without my
+                personal biases. Will continue to study the "
+                <a
+                  class='cursor-pointer transition duration-100 ease-in-out text-actionAccent-600 hover:text-actionAccentHover-500'
+                  target='_blank'
+                  rel='noopener noreferrer nofollow ugc'
+                  to='https://www.youtube.com/watch?v=KpxPMkJr3xg'
+                  href='https://www.youtube.com/watch?v=KpxPMkJr3xg'
+                >
+                  Explore the Opportunity Space
+                </a>
+                " video to brush up on these skills.
+              </p>
+            </li>
+            <li>
+              <p>
+                Buyer vs User - Understanding the Buyer and User Personas. My
+                mentor's feedback was that there may not be a need from the
+                Buyer for the feature that I was proposing. Reducing the admin
+                tasks of the User / Teacher may not be one of the reasons the
+                Buyer / Administrator may buy the product. Therefore, always
+                think back to who the buyer is and how this will affect their
+                decision to buy.
+              </p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default ImprovingKindertales;
