@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.67f1c553.css",
-    "main.js": "/static/js/main.7047fe10.js",
+    "main.css": "/static/css/main.0a478889.css",
+    "main.js": "/static/js/main.f4ba64fb.js",
     "static/media/kimia.png": "/static/media/kimia.2187ecff18dd69765ddf.png",
     "static/media/landseer.png": "/static/media/landseer.ef62423195842f0c93fd.png",
     "static/media/sarah.png": "/static/media/sarah.70702abc343d538f4cba.png",
@@ -17,6 +17,7 @@
     "static/media/khushi.png": "/static/media/khushi.76e9c7bb8516b58e518b.png",
     "static/media/improving_letterboxd.jpeg": "/static/media/improving_letterboxd.4104b2fe54307de5d85d.jpeg",
     "static/media/youtube.jpeg": "/static/media/youtube.61648c159037ab2b7c3a.jpeg",
+    "static/media/improving_kindertales.jpeg": "/static/media/improving_kindertales.f02e63a503a47de57276.jpeg",
     "static/media/martin.jpg": "/static/media/martin.e8bd6632083fc7df0161.jpg",
     "static/media/introducing_nike_run.jpeg": "/static/media/introducing_nike_run.aed03419ed6e03e0881b.jpeg",
     "static/media/evan.jpeg": "/static/media/evan.e02763ea76c4f0fc8df9.jpeg",
@@ -48,6 +49,7 @@
     "static/media/william.jpeg": "/static/media/william.46058a5821ae3a329535.jpeg",
     "static/media/improving_linkedin_jobs.jpeg": "/static/media/improving_linkedin_jobs.07aba7d9116f95cdfa44.jpeg",
     "static/media/oceanna.jpeg": "/static/media/oceanna.304207b05a50ea9a4c86.jpeg",
+    "static/media/wilson.jpeg": "/static/media/wilson.790ee84304323e07a93a.jpeg",
     "static/media/asana.png": "/static/media/asana.a08caab53d91bd4fa280.png",
     "static/media/flexibility_googlemaps.png": "/static/media/flexibility_googlemaps.cb54b123affc4e718937.png",
     "static/media/improving_duolingo.jpeg": "/static/media/improving_duolingo.e2b5d789ca4ef1a61b18.jpeg",
@@ -62,11 +64,11 @@
     "static/media/fa-application.svg": "/static/media/fa-application.5f34eca4cde5098f0274811f7cc17950.svg",
     "index.html": "/index.html",
     "static/media/down-arrow.svg": "/static/media/down-arrow.15a7ebe946c30b53f259a398df53335e.svg",
-    "main.67f1c553.css.map": "/static/css/main.67f1c553.css.map",
-    "main.7047fe10.js.map": "/static/js/main.7047fe10.js.map"
+    "main.0a478889.css.map": "/static/css/main.0a478889.css.map",
+    "main.f4ba64fb.js.map": "/static/js/main.f4ba64fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.67f1c553.css",
-    "static/js/main.7047fe10.js"
+    "static/css/main.0a478889.css",
+    "static/js/main.f4ba64fb.js"
   ]
 }
