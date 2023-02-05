@@ -12,7 +12,7 @@ import Sarah from '../../assets/team_pictures/sarah.png';
 import Rachit from '../../assets/team_pictures/rachit.png';
 import Rithvik from '../../assets/team_pictures/rithvik.png';
 import Grace from '../../assets/team_pictures/grace.jpeg';
-import Gunyup from '../../assets/team_pictures/gunyup.jpeg';
+import Gunyup from '../../assets/team_pictures/gunyup.png';
 
 function Team() {
   return (
