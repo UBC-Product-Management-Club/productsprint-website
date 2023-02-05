@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.773b648f.css",
-    "main.js": "/static/js/main.bce94f14.js",
-    "static/media/kimia.png": "/static/media/kimia.2187ecff18dd69765ddf.png",
+    "main.js": "/static/js/main.763ce3d5.js",
+    "static/media/gunyup.png": "/static/media/gunyup.45f3f9a67876de7c15fb.png",
     "static/media/landseer.png": "/static/media/landseer.ef62423195842f0c93fd.png",
     "static/media/sarah.png": "/static/media/sarah.70702abc343d538f4cba.png",
     "static/media/fahim.png": "/static/media/fahim.aa7d68f18244080a3a3e.png",
@@ -33,6 +33,7 @@
     "static/media/sophia.jpeg": "/static/media/sophia.f5e4a75b1c029c7871e3.jpeg",
     "static/media/about_img.png": "/static/media/about_img.b7bad6ca6cee69b8f765.png",
     "static/media/michael.jpeg": "/static/media/michael.45fd0c8320577d7507e3.jpeg",
+    "static/media/grace.jpeg": "/static/media/grace.12caa598c17bdabe5c74.jpeg",
     "static/media/dapper.png": "/static/media/dapper.2cbcbaee97be8619f826.png",
     "static/media/indira.jpeg": "/static/media/indira.50c9e7c4afc1e0e4aee0.jpeg",
     "static/media/yash.JPG": "/static/media/yash.d0a378e45d6df5aa4268.JPG",
@@ -65,10 +66,10 @@
     "index.html": "/index.html",
     "static/media/down-arrow.svg": "/static/media/down-arrow.15a7ebe946c30b53f259a398df53335e.svg",
     "main.773b648f.css.map": "/static/css/main.773b648f.css.map",
-    "main.bce94f14.js.map": "/static/js/main.bce94f14.js.map"
+    "main.763ce3d5.js.map": "/static/js/main.763ce3d5.js.map"
   },
   "entrypoints": [
     "static/css/main.773b648f.css",
-    "static/js/main.bce94f14.js"
+    "static/js/main.763ce3d5.js"
   ]
 }
