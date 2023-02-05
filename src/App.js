@@ -56,6 +56,7 @@ import ImprovingDuolingo from './components/fellowship/projects/ImprovingDuoling
 import ImprovingOneNote from './components/fellowship/projects/ImprovingOnenote';
 import FlexibilityGoogleMaps from './components/fellowship/projects/FlexibilityGoogleMaps';
 import ImprovingKindertales from './components/fellowship/projects/ImprovingKindertales';
+import RewardProgramTicketMaster from './components/fellowship/projects/RewardProgramTicketMaster';
 
 function App() {
   const phase_2 = {
@@ -167,6 +168,14 @@ function App() {
     text: 'For this project, I was a product manager for Kindertales, a childcare management app. To arrive at my solution, I conducted user research and interviews, identified pain points, and used product management-specific frameworks to narrow down a viable opportunity.',
     image: ImprovingKindertalesImg,
     link: '/improving-kindertales',
+  };
+
+  const reward_program_ticketmaster = {
+    isFinished: true,
+    title: 'Reward Program @ Ticket Master',
+    text: 'Ticketmaster has a great potential to disrupt the rewards program market with all the available resources and the renowned brand they are. Read the following post to learn more about it.',
+    image: TicketMasterImg,
+    link: '/reward-program-ticketmaster',
   };
   return (
     <>
@@ -380,10 +389,14 @@ function App() {
                 name='Armando Rocha'
                 title='Fellow'
                 bio_text={
-                  "Product Manager with past experience in financial products and athletic apparel. I'm passionate about talking and listening to customers, executing plans, and making things happen. "
+                  "Product Manager with experience in financial products and athletic apparel. I'm passionate about talking and listening to customers, executing plans, and, well... just making things happen."
                 }
                 linkedin='https://www.linkedin.com/in/armandorochac/'
-                projects={[flexibility_with_google_maps, phase_2, phase_3]}
+                projects={[
+                  flexibility_with_google_maps,
+                  reward_program_ticketmaster,
+                  phase_3,
+                ]}
               />
             }
           />
@@ -433,6 +446,10 @@ function App() {
           <Route
             path='/improving-kindertales'
             element={<ImprovingKindertales />}
+          />
+          <Route
+            path='/reward-program-ticketmaster'
+            element={<RewardProgramTicketMaster />}
           />
         </Routes>
       </ScrollToTop>
