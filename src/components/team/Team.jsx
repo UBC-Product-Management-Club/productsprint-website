@@ -6,12 +6,13 @@ import Kevin from '../../assets/team_pictures/kevin.png';
 import Landseer from '../../assets/team_pictures/landseer.png';
 import Varun from '../../assets/team_pictures/varun.png';
 import Yash from '../../assets/team_pictures/yash.JPG';
-import Kimia from '../../assets/team_pictures/kimia.png';
 import Fahim from '../../assets/team_pictures/fahim.png';
 import Khushi from '../../assets/team_pictures/khushi.png';
 import Sarah from '../../assets/team_pictures/sarah.png';
 import Rachit from '../../assets/team_pictures/rachit.png';
 import Rithvik from '../../assets/team_pictures/rithvik.png';
+import Grace from '../../assets/team_pictures/grace.jpeg';
+import Gunyup from '../../assets/team_pictures/gunyup.jpeg';
 
 function Team() {
   return (
@@ -27,32 +28,27 @@ function Team() {
           <ProfileCard
             img={Kevin}
             name='Kevin Tan'
-            title='Infrastructure'
+            title='Technology and Finance'
           ></ProfileCard>
           <ProfileCard
             img={Landseer}
             name='Landseer Enga'
-            title='Learning &amp; Recruit Prep'
+            title='Learning Design'
           ></ProfileCard>
           <ProfileCard
             img={Varun}
             name='Varun Puri'
-            title='Industry Connections'
+            title='Partnerships'
           ></ProfileCard>
           <ProfileCard
             img={Yash}
             name='Yashkumar Shiroya'
-            title='External Relations'
-          ></ProfileCard>
-          <ProfileCard
-            img={Kimia}
-            name='Kimia Naghavi'
-            title='Membership'
+            title='Event Design'
           ></ProfileCard>
           <ProfileCard
             img={Fahim}
             name='Fahim Gbon'
-            title='Learning Tools'
+            title='Internships'
           ></ProfileCard>
           <ProfileCard
             img={Khushi}
@@ -62,7 +58,17 @@ function Team() {
           <ProfileCard
             img={Sarah}
             name='Sarah Cheng'
-            title='Events'
+            title='Content Writing'
+          ></ProfileCard>
+          <ProfileCard
+            img={Gunyup}
+            name='Gunyup Chun'
+            title='Community'
+          ></ProfileCard>
+          <ProfileCard
+            img={Grace}
+            name='Grace Guan'
+            title='Member Experience'
           ></ProfileCard>
         </div>
 
