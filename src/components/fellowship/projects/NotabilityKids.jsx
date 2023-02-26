@@ -12,7 +12,7 @@ function NotabilityKids() {
               <img
                 src={Oceanna}
                 alt='
-              Filler
+              Oceanna Nguyen
               '
               />
               <div className='meta_p'>

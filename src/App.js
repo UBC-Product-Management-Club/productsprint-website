@@ -26,6 +26,7 @@ import Michael from './assets/fellowship_members/michael.jpeg';
 import Ved from './assets/fellowship_members/ved.jpeg';
 import Armando from './assets/fellowship_members/armando.png';
 import Wilson from './assets/fellowship_members/wilson.jpeg';
+import Vidisha from './assets/fellowship_members/vidisha.png';
 
 // Projects Pic
 import AppleMapsImg from './assets/projects/improving_apple_maps.jpeg';
@@ -42,6 +43,7 @@ import ImprovingOneNoteImg from './assets/projects/improving_onenote.png';
 import FlexibilityGoogleMapsImg from './assets/projects/flexibility_googlemaps.png';
 import ImprovingKindertalesImg from './assets/projects/improving_kindertales.jpeg';
 import NotabilityKidsImg from './assets/projects/notability_kids.jpeg';
+import FacebookLiteImg from './assets/projects/facebook_lite.jpeg';
 
 // Projects Page
 import DrivingExperienceAppleMaps from './components/fellowship/projects/DrivingExperienceAppleMaps';
@@ -59,6 +61,7 @@ import FlexibilityGoogleMaps from './components/fellowship/projects/FlexibilityG
 import ImprovingKindertales from './components/fellowship/projects/ImprovingKindertales';
 import RewardProgramTicketMaster from './components/fellowship/projects/RewardProgramTicketMaster';
 import NotabilityKids from './components/fellowship/projects/NotabilityKids';
+import FacebookLite from './components/fellowship/projects/FacebookLite';
 
 function App() {
   const phase_2 = {
@@ -186,6 +189,14 @@ function App() {
     text: 'For this phase, I targeted a more niche section of students to focus on early childhood education.',
     image: NotabilityKidsImg,
     link: '/notability-kids',
+  };
+
+  const facebook_lite = {
+    isFinished: true,
+    title: 'Improving the User Experience in Facebook Lite',
+    text: ' For this project, I was a product manager for Facebook Lite, Meta’s lightweight version of the Facebook app. To arrive at my solution, I conducted user research and interviews, identified pain points, and used product management-specific frameworks to narrow down a viable opportunity.',
+    image: FacebookLiteImg,
+    link: '/improving-the-user-experience-in-facebook-lite',
   };
   return (
     <>
@@ -425,6 +436,21 @@ function App() {
               />
             }
           />
+          <Route
+            path='/vidisha-khaitan'
+            element={
+              <Projects
+                img={Vidisha}
+                name='Vidisha Khaitan'
+                title='Fellow'
+                bio_text={
+                  'Aspiring Product Manager with a keen eye for UX and consumer behavior. Previously worked in content and strategy roles across Marketing, Entertainment, Advertising, and Journalism with clients like Samsung, General Motors, and Hyatt. Channeling expertise in analytics, communications, and storytelling into customer discovery and product stories.'
+                }
+                linkedin='https://www.linkedin.com/in/vidishakhaitan95/'
+                projects={[facebook_lite, phase_2, phase_3]}
+              />
+            }
+          />
           {/* Projects */}
           <Route
             path='/improving-the-driving-experience-in-apple-maps'
@@ -462,6 +488,10 @@ function App() {
             element={<RewardProgramTicketMaster />}
           />
           <Route path='/notability-kids' element={<NotabilityKids />} />
+          <Route
+            path='/improving-the-user-experience-in-facebook-lite'
+            element={<FacebookLite />}
+          />
         </Routes>
       </ScrollToTop>
       <Footer />
