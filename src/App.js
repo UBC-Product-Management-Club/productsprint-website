@@ -44,6 +44,7 @@ import FlexibilityGoogleMapsImg from './assets/projects/flexibility_googlemaps.p
 import ImprovingKindertalesImg from './assets/projects/improving_kindertales.jpeg';
 import NotabilityKidsImg from './assets/projects/notability_kids.jpeg';
 import FacebookLiteImg from './assets/projects/facebook_lite.jpeg';
+import NotionForPMImg from './assets/projects/notion_for_pm.jpeg';
 
 // Projects Page
 import DrivingExperienceAppleMaps from './components/fellowship/projects/DrivingExperienceAppleMaps';
@@ -62,6 +63,7 @@ import ImprovingKindertales from './components/fellowship/projects/ImprovingKind
 import RewardProgramTicketMaster from './components/fellowship/projects/RewardProgramTicketMaster';
 import NotabilityKids from './components/fellowship/projects/NotabilityKids';
 import FacebookLite from './components/fellowship/projects/FacebookLite';
+import NotionForPM from './components/fellowship/projects/NotionForPM';
 
 function App() {
   const phase_2 = {
@@ -198,6 +200,14 @@ function App() {
     image: FacebookLiteImg,
     link: '/improving-the-user-experience-in-facebook-lite',
   };
+
+  const notion_for_pm = {
+    isFinished: true,
+    title: 'Notion For PM',
+    text: 'For this project, I decided to further explore Notion from a different angle. Assigned with the task of disrupting a product into another market space, I decided to redesign Notion with a focus on users who are PMs or working in an agile environment. I conducted further research and competitive analysis to identify the best features to be added to this iteration.',
+    image: NotionForPMImg,
+    link: '/notion-for-pm',
+  };
   return (
     <>
       <Header />
@@ -266,7 +276,7 @@ function App() {
                 title='Fellow'
                 bio_text="Aspiring product manager with past experiences in software development and UX design, working as a UX Designer at a university faculty and a Software Engineer Intern at a YC startup over the summer. I'm passionate about combining my interests to work on building meaningful products that aim to benefit users' lives."
                 linkedin='https://www.linkedin.com/in/indirasowy/'
-                projects={[notion, phase_2, phase_3]}
+                projects={[notion, notion_for_pm, phase_3]}
               />
             }
           />
@@ -492,6 +502,7 @@ function App() {
             path='/improving-the-user-experience-in-facebook-lite'
             element={<FacebookLite />}
           />
+          <Route path='/notion-for-pm' element={<NotionForPM />} />
         </Routes>
       </ScrollToTop>
       <Footer />
