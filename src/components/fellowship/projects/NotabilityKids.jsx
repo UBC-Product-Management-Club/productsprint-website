@@ -17,29 +17,25 @@ function NotabilityKids() {
               />
               <div className='meta_p'>
                 <p className='meta_name'>Oceanna Nguyen</p>
-                <p className='meta_date'>January 27, 2022</p>
+                <p className='meta_date'>Feb 4, 2023</p>
               </div>
             </div>
           </div>
-          <h1 className='text-lg'>
-            <strong>Notability Kids</strong>
-          </h1>
-          <div className='project_meta_intro'>{/* Project Name */}</div>
 
           <p></p>
         </div>
 
         <div className='project_container'>
           <article class='text-base text-basicSurface-700'>
-            <h2 class='text-xl'>
+            <h1 className='text-lg'>
               <strong>Notability Kids</strong>
-            </h2>
-            <p>
+            </h1>
+            <div className='project_meta_intro'>
+              {' '}
               For this phase, I targeted a more niche section of students to
               focus on early childhood education.
-            </p>
-            <p></p>
-            <hr />
+            </div>
+
             <h2 class='text-lg'>
               <strong>Understanding Notability</strong>
             </h2>
@@ -191,21 +187,24 @@ function NotabilityKids() {
             <ul class='list-disc list-inside pl-6'>
               <li>
                 <p>
-                  Due to
-                  <a
-                    class='cursor-pointer transition duration-100 ease-in-out text-actionAccent-600 hover:text-actionAccentHover-500'
-                    target='_blank'
-                    rel='noopener noreferrer nofollow ugc'
-                    href='https://www.apple.com/ca/education/docs/ipad-in-education-results.pdf'
-                  >
-                    Apple's worldwide results with iPad in Education
-                  </a>
+                  Due to &nbsp;
+                  <u>
+                    <a
+                      class='cursor-pointer transition duration-100 ease-in-out text-actionAccent-600 hover:text-actionAccentHover-500'
+                      target='_blank'
+                      rel='noopener noreferrer nofollow ugc'
+                      href='https://www.apple.com/ca/education/docs/ipad-in-education-results.pdf'
+                    >
+                      Apple's worldwide results with iPad in Education
+                    </a>
+                  </u>
                   , the highly positive results will entice users, educators,
                   and parents to be on board with digitalization.
                 </p>
                 <p>
                   "The use of iPad has transformed the way the students learn
                   and in the most recent year, their academic achievement has
+                  &nbsp;
                   <strong>
                     improved by 44.9 percent in reading and over 55 percent in
                     math and science

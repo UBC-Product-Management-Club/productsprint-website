@@ -41,6 +41,7 @@ import ImprovingDuolingoImg from './assets/projects/improving_duolingo.jpeg';
 import ImprovingOneNoteImg from './assets/projects/improving_onenote.png';
 import FlexibilityGoogleMapsImg from './assets/projects/flexibility_googlemaps.png';
 import ImprovingKindertalesImg from './assets/projects/improving_kindertales.jpeg';
+import NotabilityKidsImg from './assets/projects/notability_kids.jpeg';
 
 // Projects Page
 import DrivingExperienceAppleMaps from './components/fellowship/projects/DrivingExperienceAppleMaps';
@@ -57,6 +58,7 @@ import ImprovingOneNote from './components/fellowship/projects/ImprovingOnenote'
 import FlexibilityGoogleMaps from './components/fellowship/projects/FlexibilityGoogleMaps';
 import ImprovingKindertales from './components/fellowship/projects/ImprovingKindertales';
 import RewardProgramTicketMaster from './components/fellowship/projects/RewardProgramTicketMaster';
+import NotabilityKids from './components/fellowship/projects/NotabilityKids';
 
 function App() {
   const phase_2 = {
@@ -182,7 +184,7 @@ function App() {
     isFinished: true,
     title: 'Notability Kids',
     text: 'For this phase, I targeted a more niche section of students to focus on early childhood education.',
-    image: TicketMasterImg,
+    image: NotabilityKidsImg,
     link: '/notability-kids',
   };
   return (
@@ -459,6 +461,7 @@ function App() {
             path='/reward-program-ticketmaster'
             element={<RewardProgramTicketMaster />}
           />
+          <Route path='/notability-kids' element={<NotabilityKids />} />
         </Routes>
       </ScrollToTop>
       <Footer />
