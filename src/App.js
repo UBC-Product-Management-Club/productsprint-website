@@ -177,6 +177,14 @@ function App() {
     image: TicketMasterImg,
     link: '/reward-program-ticketmaster',
   };
+
+  const notability_kids = {
+    isFinished: true,
+    title: 'Notability Kids',
+    text: 'For this phase, I targeted a more niche section of students to focus on early childhood education.',
+    image: TicketMasterImg,
+    link: '/notability-kids',
+  };
   return (
     <>
       <Header />
@@ -301,7 +309,7 @@ function App() {
                   'Customer driven aspiring product manager passionate about getting to the root of problems. Experience working in a hyper growth SaaS startup with 6+ years of customer experience. Currently learning about project management frameworks to start my own passion project!'
                 }
                 linkedin='https://www.linkedin.com/in/oceanna-nguyen/'
-                projects={[notability, phase_2, phase_3]}
+                projects={[notability, notability_kids, phase_3]}
               />
             }
           />
