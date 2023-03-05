@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.773b648f.css",
-    "main.js": "/static/js/main.763ce3d5.js",
+    "main.css": "/static/css/main.b5b8988c.css",
+    "main.js": "/static/js/main.d8b6c656.js",
+    "static/media/vidisha.png": "/static/media/vidisha.cdb075e2eaf3984dd7a5.png",
     "static/media/gunyup.png": "/static/media/gunyup.45f3f9a67876de7c15fb.png",
     "static/media/landseer.png": "/static/media/landseer.ef62423195842f0c93fd.png",
     "static/media/sarah.png": "/static/media/sarah.70702abc343d538f4cba.png",
@@ -17,6 +18,9 @@
     "static/media/khushi.png": "/static/media/khushi.76e9c7bb8516b58e518b.png",
     "static/media/improving_letterboxd.jpeg": "/static/media/improving_letterboxd.4104b2fe54307de5d85d.jpeg",
     "static/media/youtube.jpeg": "/static/media/youtube.61648c159037ab2b7c3a.jpeg",
+    "static/media/facebook_lite.jpeg": "/static/media/facebook_lite.8927b73c3f7f965f690a.jpeg",
+    "static/media/notability_kids.jpeg": "/static/media/notability_kids.ee0e6c8a8ec45bf78e0d.jpeg",
+    "static/media/notion_for_pm.jpeg": "/static/media/notion_for_pm.5b633c7ac79439e7e063.jpeg",
     "static/media/improving_kindertales.jpeg": "/static/media/improving_kindertales.f02e63a503a47de57276.jpeg",
     "static/media/martin.jpg": "/static/media/martin.e8bd6632083fc7df0161.jpg",
     "static/media/introducing_nike_run.jpeg": "/static/media/introducing_nike_run.aed03419ed6e03e0881b.jpeg",
@@ -65,11 +69,11 @@
     "static/media/fa-application.svg": "/static/media/fa-application.5f34eca4cde5098f0274811f7cc17950.svg",
     "index.html": "/index.html",
     "static/media/down-arrow.svg": "/static/media/down-arrow.15a7ebe946c30b53f259a398df53335e.svg",
-    "main.773b648f.css.map": "/static/css/main.773b648f.css.map",
-    "main.763ce3d5.js.map": "/static/js/main.763ce3d5.js.map"
+    "main.b5b8988c.css.map": "/static/css/main.b5b8988c.css.map",
+    "main.d8b6c656.js.map": "/static/js/main.d8b6c656.js.map"
   },
   "entrypoints": [
-    "static/css/main.773b648f.css",
-    "static/js/main.763ce3d5.js"
+    "static/css/main.b5b8988c.css",
+    "static/js/main.d8b6c656.js"
   ]
 }
