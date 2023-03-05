@@ -22,7 +22,7 @@ function FacebookLite() {
             </div>
           </div>
           <h1 className='text-lg'>
-            <strong>Improving the User Experince in Facebook Lite</strong>
+            <strong>Improving the User Experience in Facebook Lite</strong>
           </h1>
           <div className='project_meta_intro'>
             {' '}
