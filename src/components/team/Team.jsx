@@ -1,96 +1,55 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import ".//team.css";
 import ProfileCard from "../shared/team/ProfileCard";
-import Scott from "../../assets/team_pictures/scott.png";
-import Kevin from "../../assets/team_pictures/kevin.png";
-import Landseer from "../../assets/team_pictures/landseer.png";
-import Varun from "../../assets/team_pictures/varun.png";
-import Yash from "../../assets/team_pictures/yash.JPG";
-import Fahim from "../../assets/team_pictures/fahim.png";
-import Khushi from "../../assets/team_pictures/khushi.png";
-import Sarah from "../../assets/team_pictures/sarah.png";
+import { client } from "../utils/apiClient";
 import Rachit from "../../assets/team_pictures/rachit.png";
 import Rithvik from "../../assets/team_pictures/rithvik.png";
-import Grace from "../../assets/team_pictures/grace.jpeg";
-import Gunyup from "../../assets/team_pictures/gunyup.png";
+
+async function getExecs() {
+  try {
+    const response = await client.get('/executive')
+    return JSON.parse(response.data.slice(0,-4))
+  } catch(err) {
+    console.error(err)
+    return
+  }
+}
 
 function Team() {
+  const [executives, setExecutives] = useState([])
+
+  useEffect(() => {
+    (async () => {
+      const res = await getExecs()
+      setExecutives(res)
+    })()
+  }, [])
+
   return (
     <div>
       <div className="container">
         <p className="team_title">Our Team</p>
         <div className="card_display_container">
-          {/* Harcode */}
-          <ProfileCard
-            img={Scott}
-            name="Scott Langille"
-            title="President"
-          ></ProfileCard>
-          {/* Harcode */}
-          <ProfileCard
-            img={Kevin}
-            name="Kevin Tan"
-            title="Technology and Finance"
-          ></ProfileCard>
-          {/* Harcode */}
-          <ProfileCard
-            img={Landseer}
-            name="Landseer Enga"
-            title="Learning Design"
-          ></ProfileCard>
-          {/* Harcode */}
-          <ProfileCard
-            img={Varun}
-            name="Varun Puri"
-            title="Partnerships"
-          ></ProfileCard>
-          {/* Harcode */}
-          <ProfileCard
-            img={Yash}
-            name="Yashkumar Shiroya"
-            title="Event Design"
-          ></ProfileCard>
-          {/* Harcode */}
-          <ProfileCard
-            img={Fahim}
-            name="Fahim Gbon"
-            title="Internships"
-          ></ProfileCard>
-          {/* Harcode */}
-          <ProfileCard
-            img={Khushi}
-            name="Khushi Dhand"
-            title="Design &amp; Marketing"
-          ></ProfileCard>
-          {/* Harcode */}
-          <ProfileCard
-            img={Sarah}
-            name="Sarah Cheng"
-            title="Content Writing"
-          ></ProfileCard>
-          {/* Harcode */}
-          <ProfileCard
-            img={Gunyup}
-            name="Gunyup Chun"
-            title="Community"
-          ></ProfileCard>
-          {/* Harcode */}
-          <ProfileCard
-            img={Grace}
-            name="Grace Guan"
-            title="Member Experience"
-          ></ProfileCard>
+          {
+            executives.map((exec, _) => {
+              return (
+                <ProfileCard
+                  img={exec.img}
+                  name={exec.name}
+                  title={exec.title}
+                ></ProfileCard>
+              )
+            })
+          }
         </div>
 
         <p className="team_title">Our Founders</p>
         <div className="card_display_container">
-          {/* Harcode */}
           <ProfileCard
             img={Rachit}
             name="Rachit Malik"
             title="PM @ Microsoft"
           ></ProfileCard>
-          {/* Harcode */}
           <ProfileCard
             img={Rithvik}
             name="Rithvik Alluri"
