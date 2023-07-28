@@ -2,8 +2,6 @@ import React, { useEffect, useState } from "react";
 import ".//team.css";
 import ProfileCard from "../shared/team/ProfileCard";
 import { client } from "../utils/apiClient";
-import Rachit from "../../assets/team_pictures/rachit.png";
-import Rithvik from "../../assets/team_pictures/rithvik.png";
 import TransparentButton from "../shared/buttons/TransparentButton";
 
 async function getExecs() {
@@ -18,12 +16,22 @@ async function getExecs() {
 
 function Team() {
   const [executives, setExecutives] = useState([])
-  const [currDp, setCurrDp] = useState("Finance")
+  const [currDp, setCurrDp] = useState("Leads") // Default value 
   const departments = ["Leads", "Partnerships", "Finance", "Marketing", "Tech", "Events", "Advisor", "Others"]
+
+  const camelize = (s) => s.substring(0,1).toUpperCase() + s.substring(1).toLowerCase()
+  const processExec = (ex) => {
+    ex.department = camelize(ex.department)
+    if (!departments.includes(ex.department)) {
+      let newDp = departments.filter((d) => d.includes(ex.department) | ex.department.includes(d))
+      ex.department = newDp.length > 0 ? newDp[0] : ex.department
+    }
+  }
 
   useEffect(() => {
     (async () => {
       const res = await getExecs()
+      res.map(processExec)
       setExecutives(res)
     })()
   }, [])
@@ -40,9 +48,9 @@ function Team() {
                 {d}
             </TransparentButton>)}
         </div>
-        {/* <div className="card_display_container">
+        <div className="card_display_container">
           {
-            executives.map((exec, _) => {
+            executives.filter((exec) => (exec.department == currDp) || (currDp == "Others" && !departments.includes(exec.department))).map((exec, _) => {
               return (
                 <ProfileCard
                   img={exec.img}
@@ -53,20 +61,6 @@ function Team() {
             })
           }
         </div>
-
-        <p className="team_title">Our Founders</p>
-        <div className="card_display_container">
-          <ProfileCard
-            img={Rachit}
-            name="Rachit Malik"
-            title="PM @ Microsoft"
-          ></ProfileCard>
-          <ProfileCard
-            img={Rithvik}
-            name="Rithvik Alluri"
-            title="SWE @ Microsoft"
-          ></ProfileCard>
-        </div> */}
       </div>
     </div>
   );
