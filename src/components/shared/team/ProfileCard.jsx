@@ -4,13 +4,14 @@ import './/profileCard.css';
 function ProfileCard({ img, name, title }) {
   return (
     <>
-      <div className='card_container'>
-        <div className='card_information_container'>
-          <div>
-            <img className='profile_img' src={img} alt='name' />
-          </div>
-          <div className='name_title'>{name}</div>
-          <div className='exec_title'>{title}</div>
+      <div className= 'flex w-[23.8rem] h-[13.0rem] bg-[rgb(43,57,80)] rounded-[1.25rem] px-[0.8rem] py-[1.5rem] gap-[1.25rem]'>
+        <div className='w-[9.8rem] h-[10.1rem] rounded-[5.7rem] overflow-hidden'>
+          <img className='object-fill w-full h-full' src={img}></img>
+        </div>
+        <div className='h-[10.1rem] bg-transparent flex flex-col gap-[2.3rem]'>
+          <h3 className='text-h3 font-header bg-transparent'>{name}</h3>
+          <p className='font-content bg-transparent text-[0.81rem]'>Title: {title}</p>
+          <p className='font-content bg-transparent text-[0.81rem]'>Email: </p>
         </div>
       </div>
     </>
