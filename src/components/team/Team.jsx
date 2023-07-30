@@ -58,10 +58,10 @@ function Team() {
 
   return (
     <div>
-      <div className="flex flex-col items-center gap-[2.9rem]">
+      <div className="flex flex-col items-center gap-y-[2.9rem]">
         <h1 className="font-header text-h1 text-white">Our Team</h1>
         <h3 className="font-header text-h2">Meet the team behind your experience!</h3>
-        <div className="flex gap-[1.26rem]">
+        <div className="flex gap-[1.26rem] mt-[1.3rem]">
           {departments.map((d) => 
             <TransparentButton disabled={d.toLowerCase() == currDp.toLowerCase()} 
               onClick={() => dpButtonHanler(d)}>
