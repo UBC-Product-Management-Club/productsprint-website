@@ -9,11 +9,14 @@ function Program() {
   return (
     <div className='container'>
       <div className='program_container'>
-        <div>
-          <p className='title'>WHAT WE OFFER</p>
+        <div className='justify-center flex-col text-center'>
+          <h3 className='title'>WHAT WE OFFER</h3>
+          <h1 className='text-[45px] font-[600] item-center'>Level Up Your Skills as a PM</h1>
+          <p className='text-[1.5rem] font-[600]'>At UBC PMC, we're more than just an organization – we're a community committed to nurturing the next generation of product management talent. 
+</p>
         </div>
 
-        <div className='information_container'>
+        {/* <div className='information_container'>
           <img
             className='membership_photo'
             id='resized_membership'
@@ -65,7 +68,7 @@ function Program() {
               </Link>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
