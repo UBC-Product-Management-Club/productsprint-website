@@ -1,9 +1,9 @@
 import React from 'react';
-import PrimaryButton from '../shared/buttons/PrimaryButton';
 import './/program.css';
 import ProductSprint from '../../assets/productSprint.png';
 import Fellowship from '../../assets/fellowship.png';
 import { Link } from 'react-router-dom';
+import PrimaryButton from '../shared/buttons/PrimaryButton';
 
 function Program() {
   return (
@@ -11,64 +11,75 @@ function Program() {
       <div className='program_container'>
         <div className='justify-center flex-col text-center'>
           <h3 className='title'>WHAT WE OFFER</h3>
-          <h1 className='text-[45px] font-[600] item-center'>Level Up Your Skills as a PM</h1>
-          <p className='text-[1.5rem] font-[600]'>At UBC PMC, we're more than just an organization – we're a community committed to nurturing the next generation of product management talent. 
-</p>
+          <h1 className='text-[45px] font-[600] item-center'>
+            Level Up Your Skills as a PM
+          </h1>
+          <p className='mt-[3.19rem]'>
+            At UBC PMC, we're more than just an organization – we're a community
+            committed to nurturing the next generation of product management
+            talent.{' '}
+          </p>
         </div>
+        <div className='mt-[4.44rem]'>
+          {/* Events */}
+          <div className='information_container'>
+            <img
+              className='membership_photo'
+              id='resized_membership'
+              src={ProductSprint}
+              alt='membership'
+            />
+            <div className='text_container'>
+              <p className='subtitle'>Events</p>
+              <p className='program_text'>
+                Direct Learning: Enhance your product management skills with us.
+                <br></br>
+                <br></br>
+                We offer an environment conducive to understanding the role of a
+                product manager, covering all aspects, from conceptualization to
+                product delivery.
+              </p>
+              <div className='button_container'>
+                <a href='https://tally.so/r/mODJXk'>
+                  <PrimaryButton className='primary'>
+                    Become a Member
+                  </PrimaryButton>
+                </a>
+              </div>
+            </div>
 
-        {/* <div className='information_container'>
-          <img
-            className='membership_photo'
-            id='resized_membership'
-            src={ProductSprint}
-            alt='membership'
-          />
-          <div className='text_container'>
-            <p className='subtitle'>MEMBERSHIP</p>
-            <p className='program_text'>
-              Be part of our community, in-person or online. Members gain access
-              to events, programs, newsletters, and our online community.
-              <br></br>
-              <br></br>
-              This fall, you can look forward to bi-weekly chats with dozens of
-              product managers, our fellowship program, and interview
-              preparation opportunities.
-            </p>
-            <div className='button_container'>
-              <a href='https://tally.so/r/mODJXk'>
-                <PrimaryButton className='primary'>
-                  Become a Member
-                </PrimaryButton>
-              </a>
+            <img
+              className='membership_photo'
+              id='normal_screen_membership'
+              src={ProductSprint}
+              alt='membership'
+            />
+          </div>
+          {/* Network */}
+          <div className='information_container'>
+            <img
+              className='fellowship_photo'
+              src={Fellowship}
+              alt='fellowship'
+            />
+            <div className='text_container'>
+              <p className='subtitle'>Network</p>
+              <p className='program_text'>
+                Industry Connections: Expand your professional network by
+                connecting with seasoned professionals in the industry.
+                <br></br>
+                <br></br>
+                Learn from their experiences, gain insights, and benefit from
+                their wisdom.
+              </p>
+              <div className='button_container'>
+                <Link to='fellowship'>
+                  <PrimaryButton className='primary'>Learn more</PrimaryButton>
+                </Link>
+              </div>
             </div>
           </div>
-
-          <img
-            className='membership_photo'
-            id='normal_screen_membership'
-            src={ProductSprint}
-            alt='membership'
-          />
         </div>
-
-        <div className='information_container'>
-          <img className='fellowship_photo' src={Fellowship} alt='fellowship' />
-          <div className='text_container'>
-            <p className='subtitle'>FELLOWSHIP</p>
-            <p className='program_text'>
-              Whether you are new to product management or you want to step up
-              your game, the projects you work on over the course of the
-              semester will teach you the core PM skills while preparing you for
-              internships. As a bonus, you'll get insight into the industry
-              during regular mentorship with product managers!
-            </p>
-            <div className='button_container'>
-              <Link to='fellowship'>
-                <PrimaryButton className='primary'>Learn more</PrimaryButton>
-              </Link>
-            </div>
-          </div>
-        </div> */}
       </div>
     </div>
   );
