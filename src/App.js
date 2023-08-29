@@ -226,7 +226,7 @@ function App() {
   };
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <ScrollToTop>
         <Routes>
           <Route
