@@ -1,7 +1,7 @@
 import React from 'react';
 
-function SecondaryButton({ children }) {
-  return <button className='btn secondary'>{children}</button>;
+function SecondaryButton({ children, className = '' }) {
+  return <button className={`btn secondary ${className}`}>{children}</button>;
 }
 
 export default SecondaryButton;
