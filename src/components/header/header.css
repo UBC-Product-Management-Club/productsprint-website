@@ -1,4 +1,4 @@
-.logo_container {
+/* .logo_container {
   margin-right: auto;
   cursor: pointer;
 }
@@ -74,9 +74,6 @@
   border-radius: 8px;
   gap: 2vh;
   text-align: left;
-  /* border-color: #eee;
-  border-width: 1px;
-  border-style: solid; */
   box-shadow: 0px 1px 12px #ffffff35;
 }
 
@@ -135,7 +132,6 @@
   .navbar_links {
     display: flex;
     flex-direction: column;
-    /* overflow-y: scroll; */
     list-style: none;
     position: absolute;
     top: 0;
@@ -158,8 +154,6 @@
     overflow-y: hidden;
     overflow-x: hidden;
     position: fixed;
-    /* overflow: hidden;
-    touch-action: none; */
   }
 
   .burger {
@@ -205,4 +199,4 @@
   .dropdown:hover .dropdown_content {
     display: none;
   }
-}
+} */
