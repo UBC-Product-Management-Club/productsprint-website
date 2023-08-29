@@ -49,7 +49,7 @@ function Header() {
             {/* <li onClick={(e) => setIsActive(false)}>
               <Link to='/about'>ABOUT</Link>
             </li> */}
-            <li className='hamburger_content'>
+            {/* <li className='hamburger_content'>
               <div className='menu_dropdown_content'>
                 <ProgramsDropDown />
                 <div className='burger_content'>
@@ -69,7 +69,7 @@ function Header() {
                   </a>
                 </div>
               </div>
-            </li>
+            </li> */}
             <li onClick={(e) => setIsActive(false)}>
               <a href='https://tally.so/r/mODJXk'>
                 <PrimaryButton className='header_btn'>JOIN US</PrimaryButton>
