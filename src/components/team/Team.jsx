@@ -64,9 +64,9 @@ function Team() {
 
   return (
     <div>
-      <div className="flex flex-col items-center gap-y-[2.9rem]">
+      <div className="flex flex-col items-center justify-center gap-y-[2.9rem]">
         <h1 className="font-header text-h1 text-white">Our Team</h1>
-        <h3 className="font-header text-h2">Meet the team behind your experience!</h3>
+        <h3 className="px-[2.5rem] font-header text-h2 break-words">Meet the team behind your experience!</h3>
 
         <div className={"md:relative md:bg-transparent md:rounded-none\
           flex flex-col bg-[#2B3950]/[.87] z-1 w-[calc(100%-3.3rem)] mx[3.3rem] rounded-[1.45rem] " +
@@ -78,8 +78,7 @@ function Team() {
                 <span className="w-[0.82rem] h-[0.82rem] bg-white rounded-full"></span>
           </div>
           <div className="relative w-full">
-            <div className={"md:flex md:flex-row md:justify-center md:items-center md:gap-[1.26rem]\
-            md:mt-[1.3rem] md:bg-transparent md:rounded-none\
+            <div className={"md:flex md:flex-row md:gap-[1.26rem] md:bg-transparent md:rounded-none\
             bg-[#2B3950]/[.87] z-1 w-full absolute flex flex-col justify-center items-center gap-[1.05rem] rounded-b-[1.45rem] " +
             (!isExpanded ? "hidden" : "")}>
             {departments.map((d) => 
@@ -91,7 +90,7 @@ function Team() {
           </div>
         </div>
 
-        <div className=" flex flex-row content-start py-[2.5rem] items-center justify-center w-full">
+        <div className=" flex flex-row content-start md:py-[2.5rem] items-center justify-center w-full h-fit">
           <MdOutlineArrowBackIos className="w-[2rem] h-[3.6rem] shrink-0 hover:cursor-pointer bg-transparent" onClick={() => arrowHandler(-1)}/>
           <div className="w-fit h-fit mx-[5%] grid gap-x-[1.5rem] gap-y-[2.5rem] place-items-center grid-cols-1 grid-rows-3
           min-[950px]:grid-cols-2 min-[950px]:grid-rows-3
