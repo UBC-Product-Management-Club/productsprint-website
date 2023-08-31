@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { useMediaQuery } from "react-responsive";
 import ".//team.css";
 import ProfileCard from "../shared/team/ProfileCard";
@@ -27,8 +27,9 @@ function Team() {
   const [ maxDisplayItem, setMaxDisplayItem ] = useState(window.innerWidth >= 950 ? 6 : 3)
 
   /* Mobile */
-  const isMobile = useMediaQuery({ maxWidth: 949}, undefined, () => { (isMobile ? setMaxDisplayItem(3) : setMaxDisplayItem(6)); setCurrIdx(0)})
+  const isMobile = useMediaQuery({ maxWidth: 949}, undefined, () => { (isMobile ? setMaxDisplayItem(3) : setMaxDisplayItem(6)); setCurrIdx(0); setIsExpanded(false)})
   const [isExpanded, setIsExpanded] = useState(false)
+  const dpClickRef = useRef(null)
 
   const camelize = (s) => s.substring(0,1).toUpperCase() + s.substring(1).toLowerCase()
   const processExec = (ex) => {
@@ -62,6 +63,17 @@ function Team() {
     setCurrExecs(executives.filter((exec) => (exec.department == currDp) || (currDp == "Others" && !departments.includes(exec.department))))
   }, [currDp, executives])
 
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (dpClickRef.current && !dpClickRef.current.contains(event.target)) {
+        setIsExpanded(false)
+      }
+    }
+
+    document.addEventListener("mousedown", handleClickOutside)
+    return () => { document.removeEventListener("mousedown", handleClickOutside) } // cleanup
+  }, [dpClickRef])
+
   return (
     <div>
       <div className="flex flex-col items-center justify-center gap-y-[2.9rem]">
@@ -70,7 +82,7 @@ function Team() {
 
         <div className={"md:relative md:bg-transparent md:rounded-none\
           flex flex-col bg-[#2B3950]/[.87] z-1 w-[calc(100%-3.3rem)] mx[3.3rem] rounded-[1.45rem] " +
-          (isExpanded ? "rounded-b-none" : "")}>
+          (isExpanded ? "rounded-b-none" : "")} ref={dpClickRef}>
           <div className="bg-transparent flex justify-center items-center py-[0.45rem] cursor-pointer
             md:hidden" onClick={() => setIsExpanded(!isExpanded)}>
                 <BsFillPersonLinesFill className="bg-transparent w-[2.5rem] h-[2.5rem]"/>
