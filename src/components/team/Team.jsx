@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { useMediaQuery } from "react-responsive";
 import ".//team.css";
 import ProfileCard from "../shared/team/ProfileCard";
 import { client } from "../utils/apiClient";
@@ -23,9 +24,10 @@ function Team() {
   const [currExecs, setCurrExecs] = useState([])
 
   const departments = ["Leads", "Partnerships", "Finance", "Marketing", "Tech", "Events", "Advisor", "Others"]
-  const maxDisplayItem = 6
+  const [ maxDisplayItem, setMaxDisplayItem ] = useState(window.innerWidth >= 950 ? 6 : 3)
 
   /* Mobile */
+  const isMobile = useMediaQuery({ maxWidth: 949}, undefined, () => { (isMobile ? setMaxDisplayItem(3) : setMaxDisplayItem(6)); setCurrIdx(0)})
   const [isExpanded, setIsExpanded] = useState(false)
 
   const camelize = (s) => s.substring(0,1).toUpperCase() + s.substring(1).toLowerCase()
@@ -89,9 +91,11 @@ function Team() {
           </div>
         </div>
 
-        <div className="w-[68.6rem] h-[49.6rem] flex flex-row content-start px-[1.6rem] py-[2.5rem] items-center">
-          <MdOutlineArrowBackIos className="w-[2rem] h-[3.6rem] shrink-0 hover:cursor-pointer" onClick={() => arrowHandler(-1)}/>
-            <div className="w-full h-full flex flex-wrap gap-x-[5rem] gap-y-[2.5rem] content-start ml-[4.2rem]">
+        <div className=" flex flex-row content-start py-[2.5rem] items-center justify-center w-full">
+          <MdOutlineArrowBackIos className="w-[2rem] h-[3.6rem] shrink-0 hover:cursor-pointer bg-transparent" onClick={() => arrowHandler(-1)}/>
+          <div className="w-fit h-fit mx-[5%] grid gap-x-[1.5rem] gap-y-[2.5rem] place-items-center grid-cols-1 grid-rows-3
+          min-[950px]:grid-cols-2 min-[950px]:grid-rows-3
+          lg:gap-x-[5rem]">
             {
               currExecs.slice(currIdx * maxDisplayItem, (currIdx + 1) * maxDisplayItem).map((exec, _) => {
                 return (
@@ -104,7 +108,7 @@ function Team() {
               })
             }
           </div>
-         <MdOutlineArrowForwardIos className="w-[2rem] h-[3.6rem] shrink-0 hover:cursor-pointer" onClick={() => arrowHandler(1)}/>
+         <MdOutlineArrowForwardIos className="w-[2rem] h-[3.6rem] shrink-0 hover:cursor-pointer bg-transparent" onClick={() => arrowHandler(1)}/>
         </div>
       </div>
     </div>
