@@ -535,7 +535,7 @@ function App() {
           <Route path='/notion-for-pm' element={<NotionForPM />} />
         </Routes>
       </ScrollToTop>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
