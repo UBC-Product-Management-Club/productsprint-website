@@ -89,10 +89,11 @@ function Team() {
         </div>
       </div>
 
-      <div className="w-full h-[8.93rem] bg-[#2B3950] flex items-center justify-center mb-[5.9rem]">
+      <div className="w-full h-[8.93rem] bg-[#2B3950] flex items-center justify-center mb-[calc(5.9rem*0.5)] md:mb-[5.9rem]">
           <h2 className="text-[2.5rem] font-bold text-center bg-transparent">Want to get involved?</h2>
       </div>
-        <div className="flex flex-wrap gap-x-[6.1rem] gap-y-[7.31rem] justify-center">
+        <div className="flex flex-wrap justify-center px-[1rem] gap-y-[calc(7.31rem*0.1)] md:gap-y-[calc(7.31rem*0.2)]
+          min-[1174px]:gap-x-[6.1rem] min-[1174px]:gap-y-[7.31rem]">
           <Involvement 
             iconMaker={(props) => 
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6" {...props}>
