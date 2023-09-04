@@ -1,21 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.b5b8988c.css",
-    "main.js": "/static/js/main.b17ba9ec.js",
+    "main.css": "/static/css/main.b7bac7e0.css",
+    "main.js": "/static/js/main.4d45a863.js",
     "static/media/vidisha.png": "/static/media/vidisha.cdb075e2eaf3984dd7a5.png",
-    "static/media/gunyup.png": "/static/media/gunyup.45f3f9a67876de7c15fb.png",
-    "static/media/landseer.png": "/static/media/landseer.ef62423195842f0c93fd.png",
-    "static/media/sarah.png": "/static/media/sarah.70702abc343d538f4cba.png",
-    "static/media/fahim.png": "/static/media/fahim.aa7d68f18244080a3a3e.png",
     "static/media/fellowship.png": "/static/media/fellowship.8c23dba11e12d4915888.png",
     "static/media/armando.png": "/static/media/armando.eee3f2e0eb5a45c016e5.png",
-    "static/media/scott.png": "/static/media/scott.a36cc9fa467396cdbfc4.png",
-    "static/media/rithvik.png": "/static/media/rithvik.febc286625a4e781b26d.png",
-    "static/media/rachit.png": "/static/media/rachit.0714ba5c4e2a5fbdf348.png",
-    "static/media/kevin.png": "/static/media/kevin.be81dbce8a90433ddded.png",
     "static/media/productSprint.png": "/static/media/productSprint.1eb9a132164038b7fc74.png",
-    "static/media/varun.png": "/static/media/varun.5e9b12a021e6a5f6dad8.png",
-    "static/media/khushi.png": "/static/media/khushi.76e9c7bb8516b58e518b.png",
     "static/media/improving_letterboxd.jpeg": "/static/media/improving_letterboxd.4104b2fe54307de5d85d.jpeg",
     "static/media/youtube.jpeg": "/static/media/youtube.61648c159037ab2b7c3a.jpeg",
     "static/media/facebook_lite.jpeg": "/static/media/facebook_lite.8927b73c3f7f965f690a.jpeg",
@@ -37,10 +27,8 @@
     "static/media/sophia.jpeg": "/static/media/sophia.f5e4a75b1c029c7871e3.jpeg",
     "static/media/about_img.png": "/static/media/about_img.b7bad6ca6cee69b8f765.png",
     "static/media/michael.jpeg": "/static/media/michael.45fd0c8320577d7507e3.jpeg",
-    "static/media/grace.jpeg": "/static/media/grace.12caa598c17bdabe5c74.jpeg",
     "static/media/dapper.png": "/static/media/dapper.2cbcbaee97be8619f826.png",
     "static/media/indira.jpeg": "/static/media/indira.50c9e7c4afc1e0e4aee0.jpeg",
-    "static/media/yash.JPG": "/static/media/yash.d0a378e45d6df5aa4268.JPG",
     "static/media/google.png": "/static/media/google.f2462ad7cb2afb1db58d.png",
     "static/media/ved.jpeg": "/static/media/ved.79243d2bbda7a1439f26.jpeg",
     "static/media/salesforce.png": "/static/media/salesforce.461e482ea32796323b68.png",
@@ -69,11 +57,11 @@
     "static/media/fa-application.svg": "/static/media/fa-application.5f34eca4cde5098f0274811f7cc17950.svg",
     "index.html": "/index.html",
     "static/media/down-arrow.svg": "/static/media/down-arrow.15a7ebe946c30b53f259a398df53335e.svg",
-    "main.b5b8988c.css.map": "/static/css/main.b5b8988c.css.map",
-    "main.b17ba9ec.js.map": "/static/js/main.b17ba9ec.js.map"
+    "main.b7bac7e0.css.map": "/static/css/main.b7bac7e0.css.map",
+    "main.4d45a863.js.map": "/static/js/main.4d45a863.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5b8988c.css",
-    "static/js/main.b17ba9ec.js"
+    "static/css/main.b7bac7e0.css",
+    "static/js/main.4d45a863.js"
   ]
 }
