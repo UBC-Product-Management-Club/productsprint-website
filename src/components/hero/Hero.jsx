@@ -8,8 +8,12 @@ function Hero() {
   return (
     <div className="mx-[2.19rem] xl:flex-wrap xl:flex xl:justify-center xl:items-center">
       <div className="hero_text max-w-[19.5rem] md:max-w-full">
-        <h1 className="text-[2.75rem] font-[600]">Explore product</h1>
-        <h1 className="text-[2.75rem] font-[600]">management with us.</h1>
+        <h1 className="text-[2.75rem] font-[600] xl:text-[2.6rem]">
+          Explore Product
+        </h1>
+        <h1 className="text-[2.75rem] font-[600] xl:text-[2.6rem]">
+          Management with us.
+        </h1>
         <div className="mt-[3.75rem] space-y-[10rem]">
           <a href="https://tally.so/r/mODJXk">
             <PrimaryButton className="primary">Join the club</PrimaryButton>
@@ -21,9 +25,13 @@ function Hero() {
           </a>
         </div>
       </div>
-      <img className="hidden xl:block xl:w-[40rem]" src={HeroImg} alt="hero" />
+      <img
+        className="hidden xl:block xl:w-[30rem] xl:ml-[2rem]"
+        src={HeroImg}
+        alt="hero"
+      />
 
-      <div className="mt-[4.19rem] xl:ml-4rem xl:mr-[60rem]">
+      <div className="mt-[4.19rem] xl:ml-4rem xl:mr-[50rem]">
         <p className="font-[400] color-[#FFF]">Scroll to learn more</p>
         <img
           className="w-[2.5625rem] mt-[1.06rem]"
