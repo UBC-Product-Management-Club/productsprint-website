@@ -62,21 +62,20 @@ function Header() {
             }`}
           >
             <li onClick={() => setIsActive(false)} className='text-center'>
-              <Link to='/' className='block py-2'>
+              <Link to='/' className='block py-2 text-[1.5rem]'>
                 HOME
               </Link>
             </li>
             <li onClick={() => setIsActive(false)} className='text-center'>
-              <Link to='/execs' className='block py-2'>
+              <Link to='/execs' className='block py-2 text-[1.5rem]'>
                 TEAM
               </Link>
             </li>
-            <li
-              onClick={() => setIsActive(false)}
-              className={`${isActive ? 'mt-[1.5rem]' : ''}`}
-            >
+            <li onClick={() => setIsActive(false)} className='text-center'>
               <a href=''>
-                <PrimaryButton className='header_btn'>JOIN US</PrimaryButton>
+                <PrimaryButton className='header_btn mt-[1rem]'>
+                  JOIN US
+                </PrimaryButton>
               </a>
             </li>
           </ul>
