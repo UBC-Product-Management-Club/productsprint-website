@@ -24,9 +24,12 @@ function Header() {
     <header>
       <div className='m-[2.19rem] justify-between flex'>
         <div onClick={() => setIsActive(false)}>
-          <Link to='/'>
+          <Link to='/' className='lg:flex lg:justify-center lg:items-center'>
             <img src={Logo} alt='pmc-logo' className='w-[2.5rem]' />
-            <p className='hidden'> UBC PRODUCT MANAGEMENT CLUB</p>
+            <p className='hidden lg:block lg:ml-[0.75rem]'>
+              {' '}
+              UBC PRODUCT MANAGEMENT CLUB
+            </p>
           </Link>
         </div>
         <nav
@@ -34,51 +37,81 @@ function Header() {
             isActive ? 'h-screen overflow-hidden' : ''
           }`}
         >
+          {/* Burger menu for small screens */}
           <div
-            className={`ml-auto ${
-              isActive
-                ? 'absolute top-[2.19rem] right-[2.19rem] text-center'
-                : ''
-            }`}
+            className={`flex items-center ${
+              isActive ? 'h-screen overflow-hidden' : ''
+            } md:hidden`}
           >
-            <button
-              className={`mr-2 ${isActive ? '' : 'burger'}`}
-              onClick={() => {
-                setIsActive(!isActive);
-              }}
+            <div
+              className={`ml-auto ${
+                isActive
+                  ? 'absolute top-[2.19rem] right-[2.19rem] text-center'
+                  : ''
+              }`}
             >
-              {isActive ? (
-                <MdClose className='text-white w-10 h-10' />
-              ) : (
-                <FiMenu className='text-gray-400 w-10 h-10' />
-              )}
-            </button>
+              <button
+                className={`mr-2 ${isActive ? '' : 'burger'}`}
+                onClick={() => {
+                  setIsActive(!isActive);
+                }}
+              >
+                {isActive ? (
+                  <MdClose className='text-white w-10 h-10' />
+                ) : (
+                  <FiMenu className='text-gray-400 w-10 h-10' />
+                )}
+              </button>
+            </div>
+            <ul
+              className={`${
+                isActive
+                  ? 'absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'
+                  : 'hidden'
+              }`}
+            >
+              <li onClick={() => setIsActive(false)} className='text-center'>
+                <Link to='/' className='block py-2 text-[1.5rem]'>
+                  HOME
+                </Link>
+              </li>
+              <li onClick={() => setIsActive(false)} className='text-center'>
+                <Link to='/execs' className='block py-2 text-[1.5rem]'>
+                  TEAM
+                </Link>
+              </li>
+              <li onClick={() => setIsActive(false)} className='text-center'>
+                <a href=''>
+                  <PrimaryButton className='header_btn mt-[1rem]'>
+                    JOIN US
+                  </PrimaryButton>
+                </a>
+              </li>
+            </ul>
           </div>
-          <ul
-            className={`${
-              isActive
-                ? 'absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'
-                : 'hidden'
-            }`}
-          >
-            <li onClick={() => setIsActive(false)} className='text-center'>
-              <Link to='/' className='block py-2 text-[1.5rem]'>
-                HOME
-              </Link>
-            </li>
-            <li onClick={() => setIsActive(false)} className='text-center'>
-              <Link to='/execs' className='block py-2 text-[1.5rem]'>
-                TEAM
-              </Link>
-            </li>
-            <li onClick={() => setIsActive(false)} className='text-center'>
-              <a href=''>
-                <PrimaryButton className='header_btn mt-[1rem]'>
-                  JOIN US
-                </PrimaryButton>
-              </a>
-            </li>
-          </ul>
+
+          {/* Regular navbar for larger screens */}
+          <div>
+            <ul
+              className={`hidden md:flex md:items-center md:justify-center md:gap-[2rem]`}
+            >
+              <li className='text-center'>
+                <Link to='/' className='block py-2'>
+                  HOME
+                </Link>
+              </li>
+              <li className='text-center'>
+                <Link to='/execs' className='block py-2'>
+                  TEAM
+                </Link>
+              </li>
+              <li className='text-center'>
+                <a href=''>
+                  <PrimaryButton className='header_btn'>JOIN US</PrimaryButton>
+                </a>
+              </li>
+            </ul>
+          </div>
         </nav>
       </div>
     </header>
