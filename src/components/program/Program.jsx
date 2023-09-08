@@ -9,10 +9,10 @@ function Program() {
   return (
     <div className='mx-0 xl:flex xl:justify-center xl:items-center xl:flex-col xl:text-center'>
       <p className='title mt-[6.25rem] mx-[2.19rem]'>WHAT WE OFFER</p>
-      <h1 className='text-[45px] font-[600] item-center mt-[2.5rem] mx-[2.19rem]'>
+      <h1 className='text-[2.25rem] font-[600] item-center mt-[2.5rem] mx-[2.19rem] md:mt-0'>
         Level Up Your Skills as a PM
       </h1>
-      <p className='mt-[1.75rem] xl:w-[60rem] mx-[2.19rem]'>
+      <p className='mt-[2.5rem] xl:w-[60rem] mx-[2.19rem]'>
         At UBC PMC, we're more than just an organization – we're a community
         committed to nurturing the next generation of product management talent.{' '}
       </p>
@@ -25,7 +25,7 @@ function Program() {
           className='rounded-[2rem] xl:h-[25rem]'
         />
         <div className='mt-[3rem] xl:flex-col xl:text-left xl:mt-0 xl:ml-[4rem]'>
-          <p className='text-[2.25rem] font-[600]'>EVENTS</p>
+          <p className='text-[2.25rem] font-[600]'>Events</p>
           <p className='mt-[1.75rem]'>
             Direct Learning: Enhance your product management skills with us.
             <br></br>
@@ -49,7 +49,7 @@ function Program() {
           className='rounded-[2rem] xl:h-[25rem] xl:order-2 xl:ml-[4rem]'
         />
         <div className='mt-[3rem] xl:flex-col xl:text-left xl:mt-0 xl:order-1'>
-          <p className='text-[2.25rem] font-[600]'>NETWORK</p>
+          <p className='text-[2.25rem] font-[600]'>Network</p>
           <p className='mt-[1.75rem]'>
             Industry Connections: Expand your professional network by connecting
             with seasoned professionals in the industry.
