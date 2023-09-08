@@ -7,15 +7,17 @@ import Presentation from '../../assets/what_we_offer/presentation.png';
 
 function WhiteBoardingSessions() {
   return (
-    <div className='w-[50rem] justify-center flex-col text-center md:w-[94rem]'>
-      <h1 className='pl-[5rem] md:pl-0 text-[45px] font-[600] item-center '>
+    <div className='mt-[3rem] mx-0 justify-center flex-col text-center relative'>
+      <h1 className='text-[45px] font-[600] text-center'>
         WEEKLY WHITEBOARDING SESSIONS
       </h1>
-      <img className='mt-[2.69rem] w-[100rem]' src={Whiteboard} alt='' />
-      {/* @todo change to not have static 5rem */}
-      <div className='pl-[5rem] flex justify-center items-center mt-[3rem]'>
-        <div className='w-[40.875rem] md:w-[80.875rem] border-[10px] border-solid border-gray-700 rounded-[2.5rem] p-10 flex flex-wrap items-center justify-center gap-[2rem]'>
-          {/* First row */}
+      <img
+        className='left-0 right-0 mx-auto max-w-full'
+        src={Whiteboard}
+        alt=''
+      />
+      <div className='flex justify-center items-center mt-[3rem]'>
+        {/* <div className='w-[40.875rem] md:w-[80.875rem] border-[10px] border-solid border-gray-700 rounded-[2.5rem] p-10 flex flex-wrap items-center justify-center gap-[2rem]'>
           <div className='w-[100%] rounded-xl p-4 md:w-[48%] flex items-center'>
             <img
               src={Learning}
@@ -43,7 +45,6 @@ function WhiteBoardingSessions() {
             </div>
           </div>
 
-          {/* Second row */}
           <div className='w-[100%] rounded-xl p-4 md:w-[48%] flex items-center'>
             <img
               src={Activities}
@@ -74,7 +75,7 @@ function WhiteBoardingSessions() {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
