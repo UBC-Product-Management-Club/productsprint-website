@@ -36,31 +36,3 @@ p {
   font-size: 1.125rem;
   font-style: normal;
 }
-
-/* .subtitle {
-  font-size: 30px;
-  font-weight: 600;
-  padding-bottom: 20px;
-}
-
-.container {
-  min-height: 40vh;
-  padding: 40px 100px;
-  padding-right: 0px;
-}
-
-@media screen and (max-width: 1060px) {
-  .container {
-    padding: 30px 40px;
-  }
-}
-
-@media screen and (max-width: 640px) {
-  .title {
-    text-align: left;
-  }
-
-  .container {
-    padding: 30px 40px;
-  }
-} */

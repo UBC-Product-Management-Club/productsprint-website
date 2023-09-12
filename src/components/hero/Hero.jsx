@@ -18,8 +18,8 @@ function Hero() {
           <a href='https://tally.so/r/mODJXk'>
             <PrimaryButton className='primary'>Join the club</PrimaryButton>
           </a>
-          <a href='https://tally.so/r/wobY8e'>
-            <SecondaryButton className='mt-[1.94rem] md:ml-[0.75rem]'>
+          <a href='https://tally.so/r/wobY8e' className='md:ml-[0.75rem]'>
+            <SecondaryButton className='mt-[1.94rem]'>
               Volunteer as a PM
             </SecondaryButton>
           </a>
