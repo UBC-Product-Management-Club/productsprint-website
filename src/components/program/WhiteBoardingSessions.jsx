@@ -4,10 +4,11 @@ import Learning from '../../assets/what_we_offer/enhancement.png';
 import Play from '../../assets/what_we_offer/learning.png';
 import Activities from '../../assets/what_we_offer/activities.png';
 import Presentation from '../../assets/what_we_offer/presentation.png';
+import PrimaryButton from '../shared/buttons/PrimaryButton';
 
 function WhiteBoardingSessions() {
   return (
-    <div className='mt-[3rem] mx-0 flex-col xl:justify-center xl:text-center'>
+    <div className='my-[3rem] mx-0 flex-col xl:justify-center xl:text-center relative'>
       <h1 className='text-[2.25rem] font-[600] mx-[2.19rem]'>
         Weekly Whiteboarding Sessions
       </h1>
@@ -77,6 +78,11 @@ function WhiteBoardingSessions() {
               </p>
             </div>
           </div>
+          <a href='https://docs.ubcpm.club/'>
+            <PrimaryButton className='primary absolute bottom-[-1rem] text-center left-1/2 transform -translate-x-1/2'>
+              View Our New Program!
+            </PrimaryButton>
+          </a>
         </div>
       </div>
     </div>
