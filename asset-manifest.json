@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b7bac7e0.css",
-    "main.js": "/static/js/main.4d45a863.js",
+    "main.css": "/static/css/main.be0379b0.css",
+    "main.js": "/static/js/main.73bbb2f1.js",
     "static/media/vidisha.png": "/static/media/vidisha.cdb075e2eaf3984dd7a5.png",
     "static/media/fellowship.png": "/static/media/fellowship.8c23dba11e12d4915888.png",
     "static/media/armando.png": "/static/media/armando.eee3f2e0eb5a45c016e5.png",
@@ -50,18 +50,18 @@
     "static/media/unity.png": "/static/media/unity.59c3233dd1cfad6fd5d5.png",
     "static/media/intuit.png": "/static/media/intuit.495024fcc06502d81a3c.png",
     "static/media/ey.png": "/static/media/ey.54e5562281d4784550ac.png",
-    "static/media/fa-users.svg": "/static/media/fa-users.be8b6069a7c85801d028dcc00c58cad2.svg",
-    "static/media/fa-lightbulb.svg": "/static/media/fa-lightbulb.106532aee9ebc2fcf8acbe72e12fea80.svg",
-    "static/media/fa-magic.svg": "/static/media/fa-magic.ba74c0ff8b287629cbfcc75c4cb53b70.svg",
-    "static/media/fa-wrench.svg": "/static/media/fa-wrench.629bae658bd37e5a887ec6ac2bf152c5.svg",
-    "static/media/fa-application.svg": "/static/media/fa-application.5f34eca4cde5098f0274811f7cc17950.svg",
+    "static/media/fa-users.svg": "/static/media/fa-users.e9535fb620ab32098a0d95b39a0d3848.svg",
+    "static/media/fa-lightbulb.svg": "/static/media/fa-lightbulb.2226088e35625993faba802463344ebf.svg",
+    "static/media/fa-magic.svg": "/static/media/fa-magic.ea2cc878582dd2c669cae2f249f4facd.svg",
+    "static/media/fa-wrench.svg": "/static/media/fa-wrench.bb35fa6611a5faf67114a98baeb2418b.svg",
+    "static/media/fa-application.svg": "/static/media/fa-application.a04098c4804179fa4472dc49c063c3bf.svg",
     "index.html": "/index.html",
-    "static/media/down-arrow.svg": "/static/media/down-arrow.15a7ebe946c30b53f259a398df53335e.svg",
-    "main.b7bac7e0.css.map": "/static/css/main.b7bac7e0.css.map",
-    "main.4d45a863.js.map": "/static/js/main.4d45a863.js.map"
+    "static/media/down-arrow.svg": "/static/media/down-arrow.4cdb0b3113a65b44df1558d2b57a1d2b.svg",
+    "main.be0379b0.css.map": "/static/css/main.be0379b0.css.map",
+    "main.73bbb2f1.js.map": "/static/js/main.73bbb2f1.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7bac7e0.css",
-    "static/js/main.4d45a863.js"
+    "static/css/main.be0379b0.css",
+    "static/js/main.73bbb2f1.js"
   ]
 }
