@@ -39,9 +39,3 @@
   transition: all 0.3s ease 0s;
   box-shadow: 0 0 10px #fd5f68;
 }
-
-@media screen and (max-width: 500px) {
-  .header_btn {
-    margin-top: 40px;
-  }
-}
