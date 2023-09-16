@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
+import { useMediaQuery } from "react-responsive";
 import ".//team.css";
 import ProfileCard from "../shared/team/ProfileCard";
 import { client } from "../utils/apiClient";
@@ -24,7 +25,12 @@ function Team() {
   const [currExecs, setCurrExecs] = useState([])
 
   const departments = ["Leads", "Partnerships", "Finance", "Marketing", "Tech", "Events", "Advisor", "Others"]
-  const maxDisplayItem = 6
+  const [ maxDisplayItem, setMaxDisplayItem ] = useState(window.innerWidth >= 950 ? 6 : 3)
+
+  /* Mobile */
+  const isMobile = useMediaQuery({ maxWidth: 949}, undefined, () => { (isMobile ? setMaxDisplayItem(3) : setMaxDisplayItem(6)); setCurrIdx(0); setIsExpanded(false)})
+  const [isExpanded, setIsExpanded] = useState(false)
+  const dpClickRef = useRef(null)
 
   const camelize = (s) => s.substring(0,1).toUpperCase() + s.substring(1).toLowerCase()
   const processExec = (ex) => {
@@ -58,21 +64,50 @@ function Team() {
     setCurrExecs(executives.filter((exec) => (exec.department == currDp) || (currDp == "Others" && !departments.includes(exec.department))))
   }, [currDp, executives])
 
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (dpClickRef.current && !dpClickRef.current.contains(event.target)) {
+        setIsExpanded(false)
+      }
+    }
+
+    document.addEventListener("mousedown", handleClickOutside)
+    return () => { document.removeEventListener("mousedown", handleClickOutside) } // cleanup
+  }, [dpClickRef])
+
   return (
     <div>
-      <div className="flex flex-col items-center gap-y-[2.9rem]">
+      <div className="flex flex-col items-center justify-center gap-y-[2.9rem]">
         <h1 className="font-header text-h1 text-white">Our Team</h1>
-        <h3 className="font-header text-h2">Meet the team behind your experience!</h3>
-        <div className="flex gap-[1.26rem] mt-[1.3rem]">
-          {departments.map((d) => 
-            <TransparentButton disabled={d.toLowerCase() == currDp.toLowerCase()} 
-              onClick={() => dpButtonHanler(d)}>
-                {d}
-            </TransparentButton>)}
+        <h3 className="px-[2.5rem] font-header text-h2 break-words">Meet the team behind your experience!</h3>
+
+        <div className={"md:relative md:bg-transparent md:rounded-none\
+          flex flex-col bg-[#2B3950]/[.87] z-1 w-[calc(100%-3.3rem)] mx[3.3rem] rounded-[1.45rem] " +
+          (isExpanded ? "rounded-b-none" : "")} ref={dpClickRef}>
+          <div className="bg-transparent flex justify-center items-center py-[0.45rem] cursor-pointer
+            md:hidden" onClick={() => setIsExpanded(!isExpanded)}>
+                <BsFillPersonLinesFill className="bg-transparent w-[2.5rem] h-[2.5rem]"/>
+                <span className="bg-transparent w-[11.84rem] text-center">Choose Team</span>
+                <span className="w-[0.82rem] h-[0.82rem] bg-white rounded-full"></span>
+          </div>
+          <div className="relative w-full">
+            <div className={"md:flex md:flex-row md:gap-[1.26rem] md:bg-transparent md:rounded-none\
+            bg-[#2B3950]/[.87] z-1 w-full absolute flex flex-col justify-center items-center gap-[1.05rem] rounded-b-[1.45rem] " +
+            (!isExpanded ? "hidden" : "")}>
+            {departments.map((d) => 
+              <TransparentButton disabled={d.toLowerCase() == currDp.toLowerCase()} 
+                onClick={() => dpButtonHanler(d)}>
+                  {d}
+              </TransparentButton>)}
+            </div>
+          </div>
         </div>
-        <div className="w-[68.6rem] h-[49.6rem] flex flex-row content-start px-[1.6rem] py-[2.5rem] items-center">
-          <MdOutlineArrowBackIos className="w-[2rem] h-[3.6rem] shrink-0 hover:cursor-pointer" onClick={() => arrowHandler(-1)}/>
-            <div className="w-full h-full flex flex-wrap gap-x-[5rem] gap-y-[2.5rem] content-start ml-[4.2rem]">
+
+        <div className=" flex flex-row content-start md:py-[2.5rem] items-center justify-center w-full h-fit">
+          <MdOutlineArrowBackIos className="w-[2rem] h-[3.6rem] shrink-0 hover:cursor-pointer bg-transparent" onClick={() => arrowHandler(-1)}/>
+          <div className="w-fit h-fit mx-[5%] grid gap-x-[1.5rem] gap-y-[2.5rem] place-items-center grid-cols-1 grid-rows-3
+          min-[950px]:grid-cols-2 min-[950px]:grid-rows-3
+          lg:gap-x-[5rem]">
             {
               currExecs.slice(currIdx * maxDisplayItem, (currIdx + 1) * maxDisplayItem).map((exec, _) => {
                 return (
@@ -85,7 +120,7 @@ function Team() {
               })
             }
           </div>
-         <MdOutlineArrowForwardIos className="w-[2rem] h-[3.6rem] shrink-0 hover:cursor-pointer" onClick={() => arrowHandler(1)}/>
+         <MdOutlineArrowForwardIos className="w-[2rem] h-[3.6rem] shrink-0 hover:cursor-pointer bg-transparent" onClick={() => arrowHandler(1)}/>
         </div>
       </div>
 
