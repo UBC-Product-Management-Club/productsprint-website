@@ -5,7 +5,7 @@ import Header from './components/header/Header';
 import Hero from './components/hero/Hero';
 import About from './components/about/About';
 import Program from './components/program/Program';
-import Highlights from './components/highlights/Highlights';
+import Highlights from './archive/highlights/Highlights';
 import Footer from './components/footer/Footer';
 import Fellowship from './components/fellowship/Fellowship';
 import Team from './components/team/Team';

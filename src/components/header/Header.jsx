@@ -94,12 +94,18 @@ function Header() {
               className={`hidden md:flex md:items-center md:justify-center md:gap-[2rem]`}
             >
               <li className='text-center'>
-                <Link to='/' className='block py-2'>
+                <Link
+                  to='/'
+                  className='block py-2 hover:text-[#fd2a36] transition-all duration-300 ease-in-out'
+                >
                   HOME
                 </Link>
               </li>
               <li className='text-center'>
-                <Link to='/execs' className='block py-2'>
+                <Link
+                  to='/execs'
+                  className='block py-2 hover:text-[#fd2a36] transition-all duration-300 ease-in-out'
+                >
                   TEAM
                 </Link>
               </li>
