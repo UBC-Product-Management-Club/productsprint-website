@@ -86,7 +86,7 @@ function Team() {
           (isExpanded ? "rounded-b-none" : "")} ref={dpClickRef}>
           <div className="bg-transparent flex justify-center items-center py-[0.45rem] cursor-pointer
             md:hidden" onClick={() => setIsExpanded(!isExpanded)}>
-                <BsFillPersonLinesFill className="bg-transparent w-[2.5rem] h-[2.5rem]"/>
+                <BsFillPeopleFill className="bg-transparent w-[2.5rem] h-[2.5rem]"/>
                 <span className="bg-transparent w-[11.84rem] text-center">Choose Team</span>
                 <span className="w-[0.82rem] h-[0.82rem] bg-white rounded-full"></span>
           </div>
