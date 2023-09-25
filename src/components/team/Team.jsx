@@ -139,7 +139,7 @@ function Team() {
             tagline="Become a mentor"
             description="As a mentor, you have the unique opportunity to shape the future leaders of product management and leave a lasting legacy."
             buttonText="Find out More"
-            buttonLink="https://tally.so/r/mODJXk"/>
+            buttonLink="https://tally.so/r/3qD2MG"/>
 
           <Involvement 
             iconMaker={(props) => 
@@ -151,7 +151,7 @@ function Team() {
             tagline="Become a sponsor"
             description="Support our club and its mission to train the next generation of product managers. Explore exclusive benefits and partnership opportunities tailored for our sponsors."
             buttonText="Learn More"
-            buttonLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ"/>
+            buttonLink="https://tally.so/r/3qD2MG"/>
 
           <Involvement 
             iconMaker={(props) => 
@@ -173,8 +173,8 @@ function Team() {
             } 
             tagline="Join our team"
             description="Looking for a platform to showcase your skills and passion? Join our dedicated team and be at the forefront of product management at UBC."
-            buttonText="Join Here"
-            buttonLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ"/>
+            buttonText="Stay Tuned"
+            enabled={false}/>
         </div>
     </div>
   );
