@@ -79,7 +79,7 @@ function Header() {
                 </Link>
               </li>
               <li onClick={() => setIsActive(false)} className='text-center'>
-                <a href='https://tally.so/r/mODJXk'>
+                <a href='https://tally.so/r/mODJXk' target="_blank">
                   <PrimaryButton className='header_btn mt-[1rem]'>
                     JOIN US
                   </PrimaryButton>
@@ -110,7 +110,7 @@ function Header() {
                 </Link>
               </li>
               <li className='text-center'>
-                <a href=''>
+                <a href='https://tally.so/r/mODJXk' target="_blank">
                   <PrimaryButton className='header_btn'>JOIN US</PrimaryButton>
                 </a>
               </li>

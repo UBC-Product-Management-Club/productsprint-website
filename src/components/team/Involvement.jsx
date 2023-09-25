@@ -15,7 +15,7 @@ function Involvement({iconMaker, tagline, description, buttonText, buttonLink, e
                     <div className="w-full flex mt-[0.88rem] mb-[3.94rem] gap-x-[2rem]">
                         <p className="w-fit h-full md:text-[1.25rem] text-[calc(1.25rem*0.8)] font-light">{description}</p>
                     </div>
-                    <a href={buttonLink} className={`bg-transparent`}>
+                    <a href={buttonLink} className={`bg-transparent`} target="_blank">
                         <PrimaryButton className={`relative bottom-[2.4rem] ${enabled ? 'primary' : 'pointer-events-none secondary'}`}>{buttonText}</PrimaryButton>
                     </a>
                 </div>

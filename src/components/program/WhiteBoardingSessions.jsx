@@ -78,7 +78,7 @@ function WhiteBoardingSessions() {
               </p>
             </div>
           </div>
-          <a href='https://docs.ubcpm.club/'>
+          <a href='https://docs.ubcpm.club/' target="_blank">
             <PrimaryButton className='primary absolute bottom-[-1rem] text-center left-1/2 transform -translate-x-1/2'>
               View Our New Program!
             </PrimaryButton>
