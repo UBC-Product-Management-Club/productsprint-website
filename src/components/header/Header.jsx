@@ -79,7 +79,7 @@ function Header() {
                 </Link>
               </li>
               <li onClick={() => setIsActive(false)} className='text-center'>
-                <a href=''>
+                <a href='https://tally.so/r/mODJXk'>
                   <PrimaryButton className='header_btn mt-[1rem]'>
                     JOIN US
                   </PrimaryButton>

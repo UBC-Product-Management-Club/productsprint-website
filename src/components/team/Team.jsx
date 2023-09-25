@@ -139,7 +139,7 @@ function Team() {
             tagline="Become a mentor"
             description="As a mentor, you have the unique opportunity to shape the future leaders of product management and leave a lasting legacy."
             buttonText="Find out More"
-            buttonLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ"/>
+            buttonLink="https://tally.so/r/mODJXk"/>
 
           <Involvement 
             iconMaker={(props) => 
