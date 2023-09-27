@@ -2,21 +2,22 @@ import React, { useEffect, useRef, useState } from "react";
 import { useMediaQuery } from "react-responsive";
 import ".//team.css";
 import ProfileCard from "../shared/team/ProfileCard";
-import { client } from "../utils/apiClient";
+// import { client } from "../utils/apiClient";
+import executive from '../../data/executive.json';
 import TransparentButton from "../shared/buttons/TransparentButton";
 import { MdOutlineArrowForwardIos, MdOutlineArrowBackIos} from "react-icons/md";
 import { BsFillPeopleFill } from "react-icons/bs"
 import Involvement from "./Involvement";
 
-async function getExecs() {
-  try {
-    const response = await client.get('/executive')
-    return JSON.parse(response.data.slice(0,-4))
-  } catch(err) {
-    console.error(err)
-    return
-  }
-}
+// async function getExecs() {
+//   try {
+//     const response = await client.get('/executive')
+//     return JSON.parse(response.data.slice(0,-4))
+//   } catch(err) {
+//     console.error(err)
+//     return
+//   }
+// }
 
 function Team() {
   const [executives, setExecutives] = useState([])
@@ -39,6 +40,7 @@ function Team() {
       let newDp = departments.filter((d) => d.includes(ex.department) | ex.department.includes(d))
       ex.department = newDp.length > 0 ? newDp[0] : ex.department
     }
+    return ex
   }
   const arrowHandler = (inc) => {
     if (inc > 0) {
@@ -53,11 +55,13 @@ function Team() {
   }
 
   useEffect(() => {
-    (async () => {
-      const res = await getExecs()
-      res.map(processExec)
-      setExecutives(res)
-    })()
+    // (async () => {
+    //   const res = await getExecs()
+    //   res.map(processExec)
+    //   setExecutives(res)
+    // })()
+    const res = executive.map(processExec)
+    setExecutives(res);
   }, [])
 
   useEffect(() => {
