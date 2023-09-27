@@ -43,12 +43,12 @@ function Footer() {
             </a>
           </li>
         </ul>
-        <div className="mt-[2rem] flex justify-center items-center">
+        {/* <div className="mt-[2rem] flex justify-center items-center">
           <a className="" target="_blank" href="team@ubcpm.club">
             <MdEmail className="hidden w-[3rem] h-[3rem]" />
             team@ubcpm.club
           </a>
-        </div>
+        </div> */}
       </div>
     </footer>
   );
