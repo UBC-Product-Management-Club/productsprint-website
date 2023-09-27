@@ -13,7 +13,7 @@ function About() {
           <br />
           <br />
         </p>
-        <a className='text-[#80BDFF]' href=''>
+        <a className='text-[#80BDFF]' href='/#/execs'>
           Meet the team →
         </a>
       </div>
