@@ -25,7 +25,7 @@ function Team() {
   const [currIdx, setCurrIdx] = useState(0)
   const [currExecs, setCurrExecs] = useState([])
 
-  const departments = ["Leads", "Partnerships", "Finance", "Marketing", "Tech", "Events", "Advisor", "Others"]
+  const departments = ["Leads", "Partnerships", "Finance", "Marketing", "Tech", "Events", "Community", "Advisor"]
   const [ maxDisplayItem, setMaxDisplayItem ] = useState(window.innerWidth >= 950 ? 6 : 3)
 
   /* Mobile */
