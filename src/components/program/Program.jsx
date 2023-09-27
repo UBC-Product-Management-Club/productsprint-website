@@ -34,7 +34,7 @@ function Program() {
             product manager, covering all aspects, from conceptualization to
             product delivery.
           </p>
-          <a href='https://tally.so/r/mODJXk' target="_blank">
+          <a href='https://tally.so/r/mVQ4Gj' target="_blank">
             <PrimaryButton className='primary mt-[1.75rem]'>
               Become a Member
             </PrimaryButton>

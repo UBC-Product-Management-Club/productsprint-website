@@ -15,7 +15,7 @@ function Hero() {
           Management with us.
         </h1>
         <div className='mt-[3.75rem] space-y-[10rem]'>
-          <a href='https://tally.so/r/mODJXk' target="_blank">
+          <a href='https://tally.so/r/mVQ4Gj' target="_blank">
             <PrimaryButton className='primary'>Join the club</PrimaryButton>
           </a>
           <a href='https://tally.so/r/3qD2MG' target="_blank" className='md:ml-[0.75rem]'>
