@@ -18,12 +18,6 @@
       "department": "finance"
    },
    {
-      "img": "https://storage.googleapis.com/pmc-server-img/team_pictures/khushi.jpeg",
-      "name": "Khushi Dhand",
-      "title": "VP Marketing",
-      "department": "marketing"
-   },
-   {
       "img": "https://storage.googleapis.com/pmc-server-img/team_pictures/kevin.png",
       "name": "Kevin Tan",
       "title": "VP Tech",
@@ -96,12 +90,6 @@
     "department": "advisor"
   },
   {
-    "img": "https://storage.googleapis.com/pmc-server-img/team_pictures/khushi.jpeg",
-    "name": "Khushi Dhand",
-    "title": "VP Marketing",
-    "department": "lead"
-  },
-  {
     "img": "https://storage.googleapis.com/pmc-server-img/team_pictures/gordon.jpeg",
     "name": "Gordon Cheung",
     "title": "Lead Developer",
@@ -132,11 +120,17 @@
     "department": "marketing"
   },
   {
-   "img": "https://storage.googleapis.com/pmc-server-img/team_pictures/veronica.jpeg",
+   "img": "https://storage.googleapis.com/pmc-server-img/team_pictures/veronica.jpg",
    "name": "Veronica Zoleta",
-   "title": "Marketing and Design Director",
+   "title": "VP Marketing",
    "department": "marketing"
    },
+   {
+    "img": "https://storage.googleapis.com/pmc-server-img/team_pictures/veronica.jpg",
+    "name": "Veronica Zoleta",
+    "title": "VP Marketing",
+    "department": "lead"
+    },
    {
       "img": "https://storage.googleapis.com/pmc-server-img/team_pictures/moira.png",
       "name": "Moira Renata",
