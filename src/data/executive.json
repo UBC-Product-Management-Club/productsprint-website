@@ -1,34 +1,40 @@
 [
-   {
-      "img": "https://storage.googleapis.com/pmc-server-img/team_pictures/fahim.png",
-      "name": "Fahim Gbon",
-      "title": "President",
-      "department": "lead"
-   },
-   {
-      "img": "https://storage.googleapis.com/pmc-server-img/team_pictures/adam.jpeg",
-      "name": "Adam Hardy",
-      "title": "VP Partnerships",
-      "department": "partnerships"
-   },
-   {
-      "img": "https://storage.googleapis.com/pmc-server-img/team_pictures/akhil.jpeg",
-      "name": "Akhil Gulati",
-      "title": "VP Finance",
-      "department": "finance"
-   },
-   {
-      "img": "https://storage.googleapis.com/pmc-server-img/team_pictures/kevin.png",
-      "name": "Kevin Tan",
-      "title": "VP Tech",
-      "department": "technology"
-   },
-   {
-      "img": "https://storage.googleapis.com/pmc-server-img/team_pictures/gunyup.png",
-      "name": "Gunyup Chun",
-      "title": "VP Community",
-      "department": "community"
-   },
+  {
+    "img": "https://storage.googleapis.com/pmc-server-img/team_pictures/fahim.png",
+    "name": "Fahim Gbon",
+    "title": "President",
+    "department": "lead"
+  },
+  {
+    "img": "https://storage.googleapis.com/pmc-server-img/team_pictures/adam.jpeg",
+    "name": "Adam Hardy",
+    "title": "VP Partnerships",
+    "department": "partnerships"
+  },
+  {
+    "img": "https://storage.googleapis.com/pmc-server-img/team_pictures/akhil.jpeg",
+    "name": "Akhil Gulati",
+    "title": "VP Finance",
+    "department": "finance"
+  },
+  {
+    "img": "https://storage.googleapis.com/pmc-server-img/team_pictures/kevin.png",
+    "name": "Kevin Tan",
+    "title": "VP Tech",
+    "department": "technology"
+  },
+  {
+    "img": "https://storage.googleapis.com/pmc-server-img/team_pictures/gunyup.png",
+    "name": "Gunyup Chun",
+    "title": "VP Community",
+    "department": "community"
+  },
+  {
+  "img": "https://storage.googleapis.com/pmc-server-img/team_pictures/veronica.jpg",
+  "name": "Veronica Zoleta",
+  "title": "VP Marketing",
+  "department": "marketing"
+  },
   {
     "img": "https://storage.googleapis.com/pmc-server-img/team_pictures/varun.png",
     "name": "Varun Puri",
@@ -120,21 +126,15 @@
     "department": "marketing"
   },
   {
-   "img": "https://storage.googleapis.com/pmc-server-img/team_pictures/veronica.jpg",
-   "name": "Veronica Zoleta",
-   "title": "VP Marketing",
-   "department": "marketing"
-   },
-   {
     "img": "https://storage.googleapis.com/pmc-server-img/team_pictures/veronica.jpg",
     "name": "Veronica Zoleta",
     "title": "VP Marketing",
     "department": "lead"
-    },
-   {
-      "img": "https://storage.googleapis.com/pmc-server-img/team_pictures/moira.png",
-      "name": "Moira Renata",
-      "title": "Events Director",
-      "department": "events"
-      }
+  },
+  {
+    "img": "https://storage.googleapis.com/pmc-server-img/team_pictures/moira.png",
+    "name": "Moira Renata",
+    "title": "Events Director",
+    "department": "events"
+  }
 ]
