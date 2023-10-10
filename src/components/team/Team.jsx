@@ -166,7 +166,7 @@ function Team() {
             tagline="Membership"
             description="Experience the complete spectrum of product management. Unlock premium resources, networking events, and hands-on project opportunities. "
             buttonText="Gain Experience"
-            buttonLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ"/>
+            buttonLink="https://tally.so/r/mVQ4Gj"/>
 
 
           <Involvement 
