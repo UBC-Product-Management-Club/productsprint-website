@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta http-equiv="refresh" content="0; url=https://ubcpmc.com" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -14,14 +15,16 @@
     <title>UBC Product Management Club</title>
     <script
       async
-      src="https://www.googletagmanager.com/gtag/js?id=G-14P2BF94FZ">
-    </script>
+      src="https://www.googletagmanager.com/gtag/js?id=G-14P2BF94FZ"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-14P2BF94FZ', {
-        page_path: window.location.pathname
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-14P2BF94FZ", {
+        page_path: window.location.pathname,
       });
     </script>
   </head>
