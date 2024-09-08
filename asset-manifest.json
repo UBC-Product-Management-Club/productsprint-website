@@ -1,29 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.54fc17a0.css",
-    "main.js": "/static/js/main.21815b2e.js",
-    "static/media/whiteboard.png": "/static/media/whiteboard.39bc64536b53a6352131.png",
-    "static/media/fellowship.png": "/static/media/fellowship.8c23dba11e12d4915888.png",
-    "static/media/productSprint.png": "/static/media/productSprint.1eb9a132164038b7fc74.png",
-    "static/media/hero.png": "/static/media/hero.2920062d339ff54535be.png",
-    "static/media/about_img.png": "/static/media/about_img.b7bad6ca6cee69b8f765.png",
-    "static/media/dapper.png": "/static/media/dapper.2cbcbaee97be8619f826.png",
-    "static/media/salesforce.png": "/static/media/salesforce.461e482ea32796323b68.png",
-    "static/media/productboard.png": "/static/media/productboard.7d9fe83291070509ac29.png",
-    "static/media/grammarly.png": "/static/media/grammarly.3d06bfeac618783d1bcb.png",
-    "static/media/shopify.png": "/static/media/shopify.45103f9af8e911d02664.png",
-    "static/media/google.png": "/static/media/google.f2462ad7cb2afb1db58d.png",
-    "static/media/hootsuite.png": "/static/media/hootsuite.96fab1620fbac29e204a.png",
-    "static/media/amazon.png": "/static/media/amazon.b24dd8caa1f91f582bcb.png",
-    "static/media/microsoft.png": "/static/media/microsoft.ada82924a39f16fbbc3e.png",
-    "static/media/intuit.png": "/static/media/intuit.495024fcc06502d81a3c.png",
-    "static/media/ey.png": "/static/media/ey.54e5562281d4784550ac.png",
+    "main.css": "/static/css/main.106802b6.css",
+    "main.js": "/static/js/main.a2afddd2.js",
     "index.html": "/index.html",
-    "main.54fc17a0.css.map": "/static/css/main.54fc17a0.css.map",
-    "main.21815b2e.js.map": "/static/js/main.21815b2e.js.map"
+    "main.106802b6.css.map": "/static/css/main.106802b6.css.map",
+    "main.a2afddd2.js.map": "/static/js/main.a2afddd2.js.map"
   },
   "entrypoints": [
-    "static/css/main.54fc17a0.css",
-    "static/js/main.21815b2e.js"
+    "static/css/main.106802b6.css",
+    "static/js/main.a2afddd2.js"
   ]
 }
